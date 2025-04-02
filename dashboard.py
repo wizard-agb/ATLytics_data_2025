@@ -35,6 +35,11 @@ st.title("Employment & Industry Dashboard")
 
 # Employment Status by Quarter
 st.subheader("Employment Status by Quarter")
+st.markdown("""
+- This bar chart shows the distribution of employment status across different quarters.
+- Employment status is categorized as either 'Employed' or 'Not Employed'.
+- There is a clear ~15% downward trend in employment status over the 4 quarters.
+""")
 fig = px.bar(
     quarterly_employment, 
     x="quarter", 
@@ -49,6 +54,9 @@ st.plotly_chart(fig, use_container_width=True)
 
 # Employment Status Pie Chart
 st.subheader("Employment Status Distribution")
+st.markdown("""
+- This pie chart visualizes the distribution of employment status (Employed vs Not Employed) in the 4th quarter after the program exit.
+""")
 pie_chart = quarterly_employment.groupby("employment_status")["count"].sum().reset_index()
 pie_chart["employment_status"] = pie_chart["employment_status"].map({0: "Not Employed", 1: "Employed"})
 fig = px.pie(
@@ -62,6 +70,10 @@ st.plotly_chart(fig, use_container_width=False)
 
 # Top & Bottom 20 Industries by Wage Change
 st.subheader("Industries by Wage Change")
+st.markdown("""
+- The following two charts visualize industries by wage change, showing both the top 20 and bottom 20 industries.
+- Wage change was calculated as the difference between the average wages before and after the program exit.
+""")
 df_top = wage_change.groupby("industry_code")["wage_change"].mean().nlargest(20).reset_index()
 df_bottom = wage_change.groupby("industry_code")["wage_change"].mean().nsmallest(20).reset_index()
 
@@ -77,6 +89,10 @@ st.plotly_chart(fig, use_container_width=True)
 
 # Industry Counts
 st.subheader("Industry Code Counts")
+st.markdown("""
+- This bar chart displays the top 20 industries based on the number of occurrences in the dataset.
+- This is an inclusive count that includes individuals who could have switched jobs.
+""")
 fig = px.bar(
     industry_counts.head(20),
     x='industry_code',
@@ -90,6 +106,10 @@ st.plotly_chart(fig, use_container_width=True)
 
 # Retained Employment by Industry
 st.subheader("Retained Employment by Industry")
+st.markdown("""
+- This chart shows the industries with the highest number of retained employment after the program.
+- It provides insights into which industries have retained the most workers over time.
+""")
 fig = px.bar(
     retained_industry_codes.head(30), 
     x="industry_code", 
@@ -100,7 +120,11 @@ fig = px.bar(
 fig.update_layout(showlegend=False)
 st.plotly_chart(fig, use_container_width=True)
 
-st.subheader("Least Retatined Employment by Industry")
+# Least Retained Employment by Industry
+st.subheader("Least Retained Employment by Industry")
+st.markdown("""
+- This chart shows the industries with the highest number of employees that were employed and then were not employed.
+""")
 fig = px.bar(
     dropped_industry_codes.head(30), 
     x="industry_code", 
@@ -121,4 +145,3 @@ st.dataframe(wage_change.head())
 
 st.write("### Employment Percentage Change")
 st.dataframe(employment_pct_change.head())
-
