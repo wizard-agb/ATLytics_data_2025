@@ -100,6 +100,17 @@ fig = px.bar(
 fig.update_layout(showlegend=False)
 st.plotly_chart(fig, use_container_width=True)
 
+st.subheader("Least Retatined Employment by Industry")
+fig = px.bar(
+    dropped_industry_codes.head(30), 
+    x="industry_code", 
+    y="count_of_dropped_employment", 
+    text="count_of_dropped_employment",
+    title="Dropped Employment by Industry"
+)
+fig.update_layout(showlegend=False)
+st.plotly_chart(fig, use_container_width=True)
+
 # Data Tables
 st.subheader("Data Tables")
 st.write("### Quarterly Employment")
