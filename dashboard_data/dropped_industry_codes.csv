@@ -1,0 +1,843 @@
+,latest_industry_code_of_employment_after_exit_quarter,retention_with_the_same_employer_in_the_2nd_quarter_and_the_4th_quarter_wioa,count
+1530,Temporary Help Services,0,9751
+777,Limited-Service Restaurants ,0,2674
+1284,Professional Employer Organizations,0,2553
+588,Full-Service Restaurants ,0,2378
+614,General Warehousing and Storage ,0,1939
+610,General Medical and Surgical Hospitals ,0,1743
+462,Elementary and Secondary Schools ,0,1472
+404,Department Stores ,0,1458
+668,Hotels (except Casino Hotels) and Motels ,0,1167
+48,All Other General Merchandise Retailers ,0,1115
+1522,Telemarketing Bureaus and Other Contact Centers ,0,1112
+1492,Supermarkets and Other Grocery Retailers (except Convenience Retailers) ,0,1110
+980,Offices of Physicians (except Mental Health Specialists) ,0,1084
+484,"Executive and Legislative Offices, Combined ",0,956
+468,Employment Placement Agencies ,0,893
+1407,Security Guards and Patrol Services ,0,841
+875,Motion Picture and Video Production ,0,804
+719,Insurance Agencies and Brokerages ,0,789
+598,Gasoline Stations with Convenience Stores ,0,736
+300,Computer Systems Design Services ,0,734
+357,Couriers and Express Delivery Services,0,723
+606,"General Freight Trucking, Long-Distance, Truckload ",0,721
+662,Home Health Care Services,0,709
+343,"Corporate, Subsidiary, and Regional Managing Offices ",0,669
+249,Child Care Services ,0,611
+737,Janitorial Services ,0,606
+948,Nursing Care Facilities (Skilled Nursing Facilities) ,0,583
+1617,Wholesale Trade Agents and Brokers ,0,580
+379,Custom Computer Programming Services ,0,575
+1416,Services for the Elderly and Persons with Disabilities ,0,573
+472,Engineering Services,0,546
+950,Office Administrative Services,0,520
+1071,Other Individual and Family Services ,0,518
+19,Administrative Management and General Management Consulting Services ,0,483
+559,Food Service Contractors,0,482
+604,"General Freight Trucking, Long-Distance, Less Than Truckload ",0,481
+273,"Colleges, Universities, and Professional Schools ",0,477
+308,"Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",0,468
+261,Clothing and Clothing Accessories Retailers ,0,458
+1254,Poultry Processing ,0,455
+573,Freight Transportation Arrangement ,0,442
+658,Home Centers ,0,429
+1231,"Plumbing, Heating, and Air-Conditioning Contractors ",0,401
+279,Commercial Banking ,0,383
+1395,Scheduled Passenger Air Transportation ,0,383
+450,Electrical Contractors and Other Wiring Installation Contractors,0,378
+918,New Car Dealers ,0,335
+755,Landscaping Services,0,332
+494,Facilities Support Services,0,321
+602,"General Freight Trucking, Local ",0,303
+968,Offices of Dentists ,0,302
+970,Offices of Lawyers,0,290
+289,Commercial and Institutional Building Construction ,0,283
+1356,Residential Property Managers ,0,279
+151,Assisted Living Facilities for the Elderly ,0,266
+167,Automotive Parts and Accessories Retailers ,0,263
+1516,Tax Preparation Services ,0,252
+1603,Vocational Rehabilitation Services ,0,251
+458,Electronics and Appliance Retailers ,0,247
+773,Lessors of Residential Buildings and Dwellings ,0,246
+1174,Payroll Services ,0,238
+1442,Software Publishers,0,238
+1197,Pharmacies and Drug Retailers ,0,237
+106,All Other Support Services,0,230
+1007,Other Airport Operations ,0,227
+808,Marketing Consulting Services ,0,224
+608,General Line Grocery Merchant Wholesalers ,0,210
+1625,Wired Telecommunications Carriers ,0,210
+1348,"Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology) ",0,197
+1262,Power and Communication Line and Related Structures Construction ,0,194
+255,Claims Adjusting ,0,193
+516,"Fiber, Yarn, and Thread Mills ",0,193
+1436,Snack and Nonalcoholic Beverage Bars ,0,189
+416,Direct Property and Casualty Insurance Carriers ,0,181
+1142,Outpatient Mental Health and Substance Abuse Centers ,0,168
+1465,"Specialized Freight (except Used Goods) Trucking, Long-Distance ",0,168
+1067,Other Grocery and Related Products Merchant Wholesalers ,0,164
+999,Other Accounting Services ,0,163
+1607,Warehouse Clubs and Supercenters ,0,163
+673,Human Resources Consulting Services ,0,162
+594,Furniture Retailers ,0,157
+271,Collection Agencies,0,156
+1431,Site Preparation Contractors,0,153
+624,Golf Courses and Country Clubs,0,149
+1324,Refrigerated Warehousing and Storage,0,149
+130,Animal (except Poultry) Slaughtering ,0,147
+986,Offices of Real Estate Agents and Brokers,0,146
+94,"All Other Professional, Scientific, and Technical Services",0,145
+1166,Parking Lots and Garages ,0,143
+654,"Highway, Street, and Bridge Construction ",0,141
+1593,Used Car Dealers ,0,140
+173,Battery Manufacturing ,0,134
+410,Direct Health and Medical Insurance Carriers ,0,131
+695,Industrial Machinery and Equipment Merchant Wholesalers ,0,130
+836,Medical Laboratories ,0,129
+1063,Other General Government Support ,0,127
+1199,Pharmacy Benefit Management and Other Third Party Administration of Insurance and Pension Funds ,0,126
+412,Direct Life Insurance Carriers ,0,125
+237,Caterers,0,124
+1580,"Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing ",0,124
+529,Fitness and Recreational Sports Centers ,0,123
+1472,Sporting Goods Retailers ,0,122
+108,All Other Telecommunications ,0,121
+1033,Other Computer Related Services,0,120
+482,Executive Search Services ,0,119
+978,"Offices of Physical, Occupational and Speech Therapists, and Audiologists ",0,119
+92,All Other Plastics Product Manufacturing ,0,118
+287,Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance ,0,118
+1090,Other Motor Vehicle Parts Manufacturing,0,118
+1256,Poultry and Poultry Product Merchant Wholesalers ,0,118
+283,Commercial Printing (except Screen and Books) ,0,112
+1282,"Process, Physical Distribution, and Logistics Consulting Services ",0,112
+1312,Real Estate Credit ,0,111
+1524,Telephone Answering Services ,0,111
+784,Local Messengers and Local Delivery,0,109
+1449,Solid Waste Collection ,0,108
+329,Continuing Care Retirement Communities ,0,107
+689,Industrial Building Construction ,0,107
+964,Offices of Certified Public Accountants ,0,106
+1109,Other Residential Care Facilities ,0,106
+839,"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers ",0,105
+893,Motor Vehicle Supplies and New Parts Merchant Wholesalers ,0,104
+30,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing ,0,103
+1572,Travel Agencies,0,102
+306,Computer and Computer Peripheral Equipment and Software Merchant Wholesalers ,0,100
+102,All Other Specialty Trade Contractors,0,99
+277,Commercial Bakeries ,0,99
+1181,Perishable Prepared Food Manufacturing ,0,99
+1358,Residential Remodelers ,0,99
+1463,"Specialized Freight (except Used Goods) Trucking, Local ",0,99
+122,Ambulance Services ,0,98
+444,Educational Support Services,0,97
+600,General Automotive Repair ,0,97
+1015,Other Building Equipment Contractors ,0,97
+367,Credit Unions ,0,96
+230,Carpet and Rug Mills,0,94
+486,Exterminating and Pest Control Services,0,94
+1172,Passenger Car Rental ,0,94
+1121,Other Social Advocacy Organizations ,0,93
+188,Blood and Organ Banks ,0,92
+253,Civic and Social Organizations ,0,89
+743,Junior Colleges ,0,89
+924,New Single-Family Housing Construction (except For-Sale Builders) ,0,89
+1354,Residential Mental Health and Substance Abuse Facilities ,0,89
+1601,Veterinary Services ,0,88
+616,"Gift, Novelty, and Souvenir Retailers ",0,87
+1544,Tire Dealers ,0,87
+1595,Used Household and Office Goods Moving,0,86
+14,Administration of Public Health Programs ,0,85
+183,"Beer, Wine, and Liquor Retailers ",0,85
+228,Car Washes ,0,84
+349,"Cosmetics, Beauty Supplies, and Perfume Retailers ",0,84
+11,"Administration of Human Resource Programs (except Education, Public Health, and Veterans' Affairs Programs) ",0,83
+1387,Sawmills ,0,83
+769,Lessors of Nonresidential Buildings (except Miniwarehouses) ,0,82
+1409,Security Systems Services (except Locksmiths) ,0,82
+157,Automobile and Light Duty Motor Vehicle Manufacturing ,0,81
+346,Correctional Institutions ,0,81
+432,Drinking Places (Alcoholic Beverages) ,0,81
+52,All Other Home Furnishings Retailers ,0,80
+60,All Other Miscellaneous Ambulatory Health Care Services ,0,80
+222,"Cafeterias, Grill Buffets, and Buffets ",0,79
+251,Child and Youth Services ,0,79
+1597,Used Merchandise Retailers ,0,79
+88,All Other Outpatient Care Centers ,0,78
+175,Beauty Salons ,0,78
+765,Lessors of Miniwarehouses and Self-Storage Units ,0,78
+1061,Other Gasoline Stations ,0,78
+333,Convention and Trade Show Organizers,0,77
+519,"Financial Transactions Processing, Reserve, and Clearinghouse Activities ",0,77
+792,"Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers ",0,77
+1019,Other Building Material Dealers ,0,77
+456,Electronic and Precision Equipment Repair and Maintenance ,0,76
+1613,Water and Sewer Line and Related Structures Construction ,0,76
+1378,Sales Financing ,0,75
+21,Advertising Agencies,0,74
+317,Construction Machinery Manufacturing,0,74
+877,Motor Vehicle Body Manufacturing ,0,74
+36,All Other Amusement and Recreation Industries ,0,72
+885,Motor Vehicle Metal Stamping,0,72
+1115,Other Services to Buildings and Dwellings ,0,72
+298,Computer Facilities Management Services ,0,71
+1440,Soft Drink Manufacturing ,0,70
+1578,Truck Trailer Manufacturing ,0,70
+448,"Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers ",0,69
+810,Marketing Research and Public Opinion Polling,0,69
+1136,Other Warehousing and Storage,0,69
+1247,Postharvest Crop Activities (except Cotton Ginning) ,0,69
+1294,Psychiatric and Substance Abuse Hospitals ,0,69
+34,Aircraft Manufacturing ,0,68
+506,Farm and Garden Machinery and Equipment Merchant Wholesalers ,0,68
+854,Metal Window and Door Manufacturing ,0,68
+1128,Other Support Activities for Air Transportation,0,68
+747,Kidney Dialysis Centers ,0,67
+794,Machine Shops,0,67
+863,Mixed Mode Transit Systems ,0,67
+995,Optical Goods Retailers ,0,67
+1077,Other Management Consulting Services ,0,67
+259,Clothing and Clothing Accessories Merchant Wholesalers,0,66
+159,Automobile and Other Motor Vehicle Merchant Wholesalers ,0,65
+1423,Shoe Retailers ,0,65
+78,All Other Miscellaneous Retailers ,0,64
+90,All Other Personal Services ,0,64
+687,Indoor and Outdoor Display Advertising,0,64
+1627,Wireless Telecommunications Carriers (except Satellite),0,64
+935,Nonresidential Property Managers ,0,63
+1069,Other Heavy and Civil Engineering Construction ,0,63
+1102,Other Personal Care Services ,0,63
+1113,Other Services Related to Advertising ,0,63
+1130,Other Support Activities for Road Transportation ,0,63
+161,"Automotive Body, Paint, and Interior Repair and Maintenance ",0,62
+321,Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers ,0,62
+1322,Recyclable Material Merchant Wholesalers ,0,62
+1366,Roofing Contractors ,0,62
+114,All Other Travel Arrangement and Reservation Services ,0,61
+710,Industrial and Personal Service Paper Merchant Wholesalers ,0,61
+1185,Pet Care (except Veterinary) Services ,0,61
+1278,Private Households,0,61
+112,All Other Transportation Equipment Manufacturing ,0,60
+656,"Hobby, Toy, and Game Retailers ",0,60
+1017,Other Building Finishing Contractors,0,60
+822,Meat Processed from Carcasses ,0,59
+1621,Wine and Distilled Alcoholic Beverage Merchant Wholesalers ,0,59
+642,Hardware Retailers ,0,58
+1420,Sheet Metal Work Manufacturing ,0,58
+962,Offices of All Other Miscellaneous Health Practitioners ,0,57
+1310,Ready-Mix Concrete Manufacturing,0,57
+1328,Regulation and Administration of Transportation Programs ,0,57
+327,Consumer Lending ,0,56
+660,Home Furnishing Merchant Wholesalers ,0,56
+1258,Poured Concrete Foundation and Structure Contractors ,0,56
+675,Human Rights Organizations ,0,55
+56,All Other Insurance Related Activities ,0,54
+522,Finish Carpentry Contractors,0,54
+575,Fresh Fruit and Vegetable Merchant Wholesalers ,0,54
+218,Bus and Other Motor Vehicle Transit Systems ,0,53
+869,Mortgage and Nonmortgage Loan Brokers ,0,53
+889,Motor Vehicle Seating and Interior Trim Manufacturing,0,53
+1158,Painting and Wall Covering Contractors,0,53
+440,Drycleaning and Laundry Services (except Coin-Operated) ,0,52
+1160,Paper Bag and Coated and Treated Paper Manufacturing,0,52
+325,Consumer Electronics and Appliances Rental,0,51
+531,Flat Glass Manufacturing ,0,51
+571,Freestanding Ambulatory Surgical and Emergency Centers ,0,51
+1132,Other Technical and Trade Schools ,0,50
+1148,Packaging and Labeling Services,0,50
+1629,Wood Container and Pallet Manufacturing,0,50
+723,"International, Secondary Market, and All Other Nondepository Credit Intermediation ",0,49
+729,Investment Banking and Securities Intermediation ,0,49
+798,Major Household Appliance Manufacturing ,0,49
+850,Metal Service Centers and Other Metal Merchant Wholesalers ,0,49
+1144,Packaged Frozen Food Merchant Wholesalers ,0,49
+1502,Support Activities for Rail Transportation,0,49
+447,Electric Power Distribution ,0,48
+834,"Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers",0,48
+110,All Other Transit and Ground Passenger Transportation ,0,47
+347,Corrugated and Solid Fiber Box Manufacturing ,0,47
+976,Offices of Other Holding Companies ,0,47
+190,Boat Building ,0,46
+212,Broadwoven Fabric Mills,0,46
+434,Drugs and Druggists' Sundries Merchant Wholesalers ,0,46
+1025,Other Commercial Equipment Merchant Wholesalers ,0,46
+1459,Special Needs Transportation ,0,46
+1631,Wood Kitchen Cabinet and Countertop Manufacturing,0,46
+165,Automotive Oil Change and Lubrication Shops ,0,45
+134,Apparel Knitting Mills,0,44
+553,Folding Paperboard Box Manufacturing ,0,44
+644,Hardwood Veneer and Plywood Manufacturing ,0,44
+1120,Other Snack Food Manufacturing ,0,44
+1346,Research and Development in Biotechnology (except Nanobiotechnology),0,44
+1352,Residential Intellectual and Developmental Disability Facilities ,0,44
+32,Aircraft Engine and Engine Parts Manufacturing ,0,43
+1057,"Other Foundation, Structure, and Building Exterior Contractors ",0,43
+1112,Other Scientific and Technical Consulting Services,0,43
+1134,Other Vegetable (except Potato) and Melon Farming ,0,43
+1237,Political Organizations ,0,43
+128,Amusement and Theme Parks ,0,42
+1051,Other Farm Product Raw Material Merchant Wholesalers ,0,42
+1298,Public Relations Agencies,0,42
+27,Air Traffic Control,0,41
+538,Floor Covering Retailers ,0,41
+1035,Other Concrete Product Manufacturing ,0,41
+1187,Pet and Pet Supplies Retailers ,0,41
+1243,Portfolio Management and Investment Advice ,0,41
+1467,Specialty (except Psychiatric and Substance Abuse) Hospitals ,0,41
+586,Fuel Dealers ,0,40
+664,Home Health Equipment Rental ,0,40
+1504,Surgical Appliance and Supplies Manufacturing ,0,40
+442,Drywall and Insulation Contractors ,0,39
+782,Linen Supply ,0,39
+901,"Motorcycle, ATV, and All Other Motor Vehicle Dealers ",0,39
+1023,Other Chemical and Allied Products Merchant Wholesalers ,0,39
+406,Diagnostic Imaging Centers ,0,38
+641,Hardware Merchant Wholesalers ,0,38
+967,Offices of Chiropractors ,0,38
+1152,Paint and Coating Manufacturing,0,38
+1637,Wood Window and Door Manufacturing ,0,38
+960,Office Supplies and Stationery Retailers ,0,37
+974,Offices of Optometrists,0,37
+1229,Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers ,0,37
+1239,Polystyrene Foam Product Manufacturing,0,37
+1490,Structural Steel and Precast Concrete Contractors ,0,37
+466,Emergency and Other Relief Services ,0,36
+739,Jewelry Retailers ,0,36
+946,"Nursery, Garden Center, and Farm Supply Retailers ",0,36
+826,Meat and Meat Product Merchant Wholesalers ,0,35
+1001,Other Activities Related to Credit Intermediation ,0,35
+1088,Other Miscellaneous Nondurable Goods Merchant Wholesalers ,0,35
+1485,Stationery and Office Supplies Merchant Wholesalers ,0,35
+1599,Vending Machine Operators ,0,35
+342,"Copper Rolling, Drawing, Extruding, and Alloying",0,34
+388,Cut and Sew Apparel Manufacturing (except Contractors) ,0,34
+1534,Testing Laboratories and Services,0,34
+1556,"Tobacco, Electronic Cigarette, and Other Smoking Supplies Retailers ",0,34
+1574,Travel Trailer and Camper Manufacturing ,0,34
+220,Business Associations ,0,33
+703,Industrial Supplies Merchant Wholesalers,0,33
+1117,"Other Similar Organizations (except Business, Professional, Labor, and Political Organizations) ",0,33
+1195,Pharmaceutical Preparation Manufacturing ,0,33
+1364,Roasted Nuts and Peanut Butter Manufacturing ,0,33
+1381,Sanitary Paper Product Manufacturing ,0,33
+257,Clay Building Material and Refractories Manufacturing ,0,32
+478,Exam Preparation and Tutoring ,0,32
+1045,Other Electronic Parts and Equipment Merchant Wholesalers ,0,32
+1207,"Photography Studios, Portrait ",0,32
+1213,Plastics Bottle Manufacturing,0,32
+204,Bowling Centers,0,31
+331,Convenience Retailers ,0,31
+96,All Other Publishers ,0,30
+210,"Brick, Stone, and Related Construction Material Merchant Wholesalers ",0,30
+363,Credit Bureaus,0,30
+592,Furniture Merchant Wholesalers ,0,30
+806,Marine Cargo Handling,0,30
+891,Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing,0,30
+922,New Multifamily Housing Construction (except For-Sale Builders) ,0,30
+1027,Other Commercial and Industrial Machinery and Equipment Rental and Leasing ,0,30
+1429,Sign Manufacturing,0,30
+373,Curtain and Linen Mills,0,29
+693,Industrial Launderers ,0,29
+705,"Industrial Truck, Tractor, Trailer, and Stacker Machinery Manufacturing ",0,29
+982,"Offices of Physicians, Mental Health Specialists ",0,29
+1021,Other Business Service Centers (including Copy Shops) ,0,29
+1546,Tire Manufacturing (except Retreading) ,0,29
+1616,Web Search Portals and All Other Information Services,0,29
+9,Administration of Housing Programs ,0,28
+74,All Other Miscellaneous Manufacturing ,0,28
+727,Investigation and Personal Background Check Services ,0,28
+895,Motor Vehicle Towing,0,28
+972,Offices of Mental Health Practitioners (except Physicians) ,0,28
+1047,Other Engine Equipment Manufacturing ,0,28
+1290,"Promoters of Performing Arts, Sports, and Similar Events with Facilities ",0,28
+42,All Other Business Support Services ,0,27
+58,All Other Legal Services ,0,27
+142,Architectural Services,0,27
+492,Fabricated Structural Metal Manufacturing ,0,27
+648,Hazardous Waste Treatment and Disposal ,0,27
+763,Legislative Bodies ,0,27
+812,Masonry Contractors ,0,27
+816,Mattress Manufacturing,0,27
+944,Nursery and Tree Production ,0,27
+1003,Other Activities Related to Real Estate ,0,27
+1264,"Power, Distribution, and Specialty Transformer Manufacturing ",0,27
+1269,Prefabricated Metal Building and Component Manufacturing ,0,27
+1532,Temporary Shelters ,0,27
+1611,Water Supply and Irrigation Systems ,0,27
+751,Land Subdivision ,0,26
+879,Motor Vehicle Brake System Manufacturing,0,26
+912,National Security ,0,26
+1086,Other Miscellaneous Durable Goods Merchant Wholesalers ,0,26
+1326,Refrigeration Equipment and Supplies Merchant Wholesalers ,0,26
+1427,Siding Contractors ,0,26
+1605,Voluntary Health Organizations ,0,26
+44,All Other Consumer Goods Rental ,0,25
+355,Cotton Ginning ,0,25
+636,HMO Medical Centers ,0,25
+871,Motion Picture Theaters (except Drive-Ins) ,0,25
+1041,"Other Direct Insurance (except Life, Health, and Medical) Carriers ",0,25
+1098,Other Paperboard Container Manufacturing ,0,25
+1221,Plastics Pipe and Pipe Fitting Manufacturing ,0,25
+1480,Sports and Recreation Instruction ,0,25
+4,Administration of Conservation Programs ,0,24
+269,Coin-Operated Laundries and Drycleaners ,0,24
+313,Confectionery Merchant Wholesalers ,0,24
+545,"Flower, Nursery Stock, and Florists' Supplies Merchant Wholesalers ",0,24
+721,Interior Design Services,0,24
+788,Logging ,0,24
+1084,Other Millwork (including Flooring) ,0,24
+55,All Other Industrial Machinery Manufacturing ,0,23
+302,Computer Terminal and Other Computer Peripheral Equipment Manufacturing ,0,23
+883,Motor Vehicle Gasoline Engine and Engine Parts Manufacturing,0,23
+1005,Other Aircraft Parts and Auxiliary Equipment Manufacturing ,0,23
+1215,Plastics Material and Resin Manufacturing ,0,23
+1425,"Showcase, Partition, Shelving, and Locker Manufacturing ",0,23
+1478,Sports Teams and Clubs ,0,23
+1609,Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers ,0,23
+98,All Other Rubber Product Manufacturing ,0,22
+143,Armored Car Services ,0,22
+209,Breweries,0,22
+436,"Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour ",0,22
+504,Farm Supplies Merchant Wholesalers ,0,22
+539,Flooring Contractors,0,22
+731,Iron Foundries ,0,22
+779,Limousine Service,0,22
+1162,Paper Mills ,0,22
+1538,Textile and Fabric Finishing Mills ,0,22
+1540,Theater Companies and Dinner Theaters ,0,22
+1568,Translation and Interpretation Services,0,22
+70,All Other Miscellaneous Food Manufacturing ,0,21
+104,All Other Support Activities for Transportation ,0,21
+285,Commercial Screen Printing ,0,21
+424,Document Preparation Services,0,21
+476,Environmental Consulting Services,0,21
+580,Frozen Specialty Food Manufacturing ,0,21
+582,Fruit and Vegetable Canning ,0,21
+685,"Independent Artists, Writers, and Performers ",0,21
+745,"Kaolin, Clay, and Ceramic and Refractory Minerals Mining ",0,21
+1031,Other Community Housing Services ,0,21
+1189,Petroleum Bulk Stations and Terminals ,0,21
+1280,Private Mail Centers ,0,21
+1318,Recreational Vehicle Dealers ,0,21
+1339,Remediation Services ,0,21
+1360,Retail Bakeries ,0,21
+1584,"Trusts, Estates, and Agency Accounts ",0,21
+100,All Other Specialty Food Retailers ,0,20
+717,"Instruments and Related Products Manufacturing for Measuring, Displaying, and Controlling Industrial Process Variables ",0,20
+814,Materials Recovery Facilities ,0,20
+842,Metal Can Manufacturing ,0,20
+857,Mineral Wool Manufacturing ,0,20
+897,Motor Vehicle Transmission and Power Train Parts Manufacturing,0,20
+920,New Housing For-Sale Builders ,0,20
+927,Newspaper Publishers ,0,20
+952,Office Equipment Merchant Wholesalers ,0,20
+1165,Paperboard Mills ,0,20
+1397,School and Employee Bus Transportation,0,20
+1414,Service Establishment Equipment and Supplies Merchant Wholesalers ,0,20
+1550,Tire and Tube Merchant Wholesalers ,0,20
+1,Adhesive Manufacturing,0,19
+16,Administration of Urban Planning and Community and Rural Development ,0,19
+82,All Other Miscellaneous Textile Product Mills ,0,19
+498,Farm Labor Contractors and Crew Leaders ,0,19
+514,Fiber Optic Cable Manufacturing ,0,19
+590,Funeral Homes and Funeral Services ,0,19
+802,Manufactured Home (Mobile Home) Manufacturing ,0,19
+915,Natural Gas Distribution ,0,19
+1506,Surgical and Medical Instrument Manufacturing ,0,19
+1586,Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing ,0,19
+671,"Household Appliances, Electric Housewares, and Consumer Electronics Merchant Wholesalers ",0,18
+845,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers ",0,18
+1194,Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals) ,0,18
+1233,Police Protection ,0,18
+1235,Polish and Other Sanitation Good Manufacturing ,0,18
+1271,Prefabricated Wood Building Manufacturing ,0,18
+1476,Sporting and Recreational Goods and Supplies Merchant Wholesalers ,0,18
+1528,Television Broadcasting Stations,0,18
+1558,Toilet Preparation Manufacturing,0,18
+6,Administration of Education Programs ,0,17
+62,All Other Miscellaneous Chemical Product and Preparation Manufacturing ,0,17
+126,Amusement Arcades,0,17
+304,Computer Training ,0,17
+427,Dog and Cat Food Manufacturing ,0,17
+535,Flight Training ,0,17
+555,Food (Health) Supplement Retailers ,0,17
+612,General Rental Centers,0,17
+628,Graphic Design Services,0,17
+759,Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing ,0,17
+852,Metal Tank (Heavy Gauge) Manufacturing,0,17
+1009,"Other Aluminum Rolling, Drawing, and Extruding ",0,17
+1138,Other Waste Collection ,0,17
+1211,Plastics Bag and Pouch Manufacturing ,0,17
+1292,"Promoters of Performing Arts, Sports, and Similar Events without Facilities ",0,17
+1297,Public Finance Activities ,0,17
+84,All Other Miscellaneous Waste Management Services ,0,16
+460,"Electroplating, Plating, Polishing, Anodizing, and Coloring ",0,16
+544,Florists ,0,16
+622,Glass and Glazing Contractors ,0,16
+775,Libraries and Archives ,0,16
+865,Mobile Food Services,0,16
+1011,Other Animal Food Manufacturing ,0,16
+1337,Religious Organizations ,0,16
+1471,Spice and Extract Manufacturing ,0,16
+1590,Upholstered Household Furniture Manufacturing ,0,16
+68,All Other Miscellaneous Fabricated Metal Product Manufacturing ,0,15
+125,Ammunition (except Small Arms) Manufacturing ,0,15
+163,Automotive Glass Replacement Shops ,0,15
+181,Beer and Ale Merchant Wholesalers ,0,15
+470,Engineered Wood Member Manufacturing ,0,15
+991,Oil and Gas Pipeline and Related Structures Construction ,0,15
+1108,Other Professional Equipment and Supplies Merchant Wholesalers ,0,15
+1273,Printed Circuit Assembly (Electronic Assembly) Manufacturing ,0,15
+1368,"Roofing, Siding, and Insulation Material Merchant Wholesalers ",0,15
+17,Administration of Veterans' Affairs ,0,14
+86,All Other Miscellaneous Wood Product Manufacturing ,0,14
+186,Biological Product (except Diagnostic) Manufacturing ,0,14
+340,Cookie and Cracker Manufacturing ,0,14
+584,Fruit and Vegetable Retailers ,0,14
+941,Nonwoven Fabric Mills,0,14
+984,Offices of Podiatrists ,0,14
+1223,Plastics Plumbing Fixture Manufacturing ,0,14
+1260,Power Boiler and Heat Exchanger Manufacturing,0,14
+1554,Tobacco Product and Electronic Cigarette Merchant Wholesalers ,0,14
+25,"Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures",0,13
+185,Berry (except Strawberry) Farming ,0,13
+232,Carpet and Upholstery Cleaning Services,0,13
+323,"Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing ",0,13
+366,Credit Card Issuing ,0,13
+384,Cut Stone and Stone Product Manufacturing ,0,13
+420,Directory and Mailing List Publishers ,0,13
+577,"Frozen Cakes, Pies, and Other Pastries Manufacturing ",0,13
+749,Labor Unions and Similar Labor Organizations ,0,13
+905,Musical Groups and Artists ,0,13
+1170,Passenger Car Leasing ,0,13
+1332,"Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors ",0,13
+1399,Seafood Product Preparation and Packaging,0,13
+1461,Specialized Automotive Repair ,0,13
+1639,Zoos and Botanical Gardens ,0,13
+51,All Other Health and Personal Care Retailers ,0,12
+146,Artificial and Synthetic Fibers and Filaments Manufacturing,0,12
+202,Bottled Water Manufacturing ,0,12
+243,Charter Bus Industry,0,12
+267,Coffee and Tea Manufacturing ,0,12
+500,Farm Machinery and Equipment Manufacturing ,0,12
+707,Industrial Valve Manufacturing ,0,12
+840,Medicinal and Botanical Manufacturing ,0,12
+942,Nuclear Electric Power Generation ,0,12
+1014,Other Basic Inorganic Chemical Manufacturing ,0,12
+1037,Other Construction Material Merchant Wholesalers ,0,12
+1059,Other Gambling Industries ,0,12
+1267,Precision Turned Product Manufacturing ,0,12
+1287,Professional Organizations ,0,12
+1438,Soap and Other Detergent Manufacturing ,0,12
+117,All Other Traveler Accommodation ,0,11
+375,Custom Architectural Woodwork and Millwork Manufacturing ,0,11
+480,Executive Offices ,0,11
+497,Family Planning Centers ,0,11
+502,Farm Product Warehousing and Storage,0,11
+596,"Gasket, Packing, and Sealing Device Manufacturing ",0,11
+618,Glass Container Manufacturing ,0,11
+638,Hardware Manufacturing,0,11
+650,Health and Welfare Funds ,0,11
+653,Heavy Duty Truck Manufacturing,0,11
+1179,Periodical Publishers ,0,11
+1377,Rubber and Plastics Hoses and Belting Manufacturing,0,11
+1499,Support Activities for Oil and Gas Operations ,0,11
+1511,Switchgear and Switchboard Apparatus Manufacturing ,0,11
+1520,Telecommunications Resellers,0,11
+1564,Tour Operators,0,11
+38,All Other Automotive Repair and Maintenance ,0,10
+171,Barber Shops ,0,10
+216,Building Inspection Services,0,10
+234,Casino Hotels,0,10
+239,Cement Manufacturing,0,10
+296,Community Food Services ,0,10
+396,Dairy Product (except Dried or Canned) Merchant Wholesalers ,0,10
+509,"Fastener, Button, Needle, and Pin Manufacturing ",0,10
+520,Fine Arts Schools ,0,10
+534,Flavoring Syrup and Concentrate Manufacturing,0,10
+634,Gypsum Product Manufacturing,0,10
+819,"Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing ",0,10
+936,Nonscheduled Chartered Passenger Air Transportation ,0,10
+1065,Other Grantmaking and Giving Services ,0,10
+1092,Other Noncitrus Fruit Farming ,0,10
+1106,Other Pressed and Blown Glass and Glassware Manufacturing ,0,10
+1176,Peanut Farming ,0,10
+1205,"Photographic Film, Paper, Plate, Chemical, and Copy Toner Manufacturing ",0,10
+1351,Research and Development in the Social Sciences and Humanities ,0,10
+1375,Rubber Product Manufacturing for Mechanical Use ,0,10
+1389,"Scenic and Sightseeing Transportation, Land",0,10
+1403,"Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum) ",0,10
+1497,Support Activities for Nonmetallic Minerals (except Fuels) Mining ,0,10
+1587,Unlaminated Plastics Profile Shape Manufacturing ,0,10
+137,Appliance Repair and Maintenance ,0,9
+170,Ball and Roller Bearing Manufacturing,0,9
+198,Book Retailers and News Dealers ,0,9
+224,Cane Sugar Manufacturing ,0,9
+291,Commercial and Service Industry Machinery Manufacturing ,0,9
+362,Courts ,0,9
+369,Crushed and Broken Granite Mining and Quarrying ,0,9
+455,Electronic Computer Manufacturing ,0,9
+510,Fats and Oils Refining and Blending ,0,9
+548,Fluid Power Cylinder and Actuator Manufacturing ,0,9
+561,Footwear Manufacturing ,0,9
+679,Ice Cream and Frozen Dessert Manufacturing,0,9
+828,Mechanical Power Transmission Equipment Manufacturing ,0,9
+861,Miscellaneous Intermediation ,0,9
+1039,Other Crushed and Broken Stone Mining and Quarrying ,0,9
+1104,Other Personal and Household Goods Repair and Maintenance ,0,9
+1184,Pesticide and Other Agricultural Chemical Manufacturing,0,9
+1289,Professional and Management Development Training ,0,9
+1302,RV (Recreational Vehicle) Parks and Campgrounds ,0,9
+1576,Tree Nut Farming ,0,9
+214,Broilers and Other Meat Type Chicken Production ,0,8
+235,Casinos (except Casino Hotels),0,8
+247,Chicken Egg Production ,0,8
+394,Dairy Cattle and Milk Production,0,8
+408,Diet and Weight Reducing Centers ,0,8
+734,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,0,8
+762,Legal Counsel and Prosecution ,0,8
+824,Meat Retailers ,0,8
+903,Museums ,0,8
+1055,Other Food Crops Grown Under Cover ,0,8
+1209,"Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers ",0,8
+1225,Plate Work Manufacturing ,0,8
+1252,Poultry Hatcheries,0,8
+1306,Radio Broadcasting Stations ,0,8
+1335,Reinsurance Carriers ,0,8
+1370,"Rooming and Boarding Houses, Dormitories, and Workers' Camps ",0,8
+1411,Semiconductor and Related Device Manufacturing ,0,8
+1474,Sporting and Athletic Goods Manufacturing,0,8
+1526,Teleproduction and Other Postproduction Services ,0,8
+1571,Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers ,0,8
+1591,Urethane and Other Foam Product (except Polystyrene) Manufacturing,0,8
+76,All Other Miscellaneous Nonmetallic Mineral Product Manufacturing ,0,7
+241,Cemeteries and Crematories ,0,7
+294,"Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing ",0,7
+315,Confectionery and Nut Retailers ,0,7
+359,Court Reporting and Stenotype Services ,0,7
+418,Direct Title Insurance Carriers ,0,7
+430,Drilling Oil and Gas Wells,0,7
+490,Fabricated Pipe and Pipe Fitting Manufacturing ,0,7
+558,Food Product Machinery Manufacturing ,0,7
+568,Fossil Fuel Electric Power Generation ,0,7
+620,Glass Product Manufacturing Made of Purchased Glass ,0,7
+626,Grantmaking Foundations ,0,7
+672,Household Furniture (except Wood and Upholstered) Manufacturing ,0,7
+681,Ice Manufacturing ,0,7
+741,"Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers ",0,7
+790,Luggage and Leather Goods Retailers ,0,7
+800,Manufactured (Mobile) Home Dealers ,0,7
+804,Marinas,0,7
+821,"Measuring, Dispensing, and Other Pumping Equipment Manufacturing ",0,7
+846,"Metal Crown, Closure, and Other Metal Stamping (except Automotive) ",0,7
+882,Motor Vehicle Electrical and Electronic Equipment Manufacturing,0,7
+909,Nail Salons ,0,7
+954,Office Furniture (except Wood) Manufacturing ,0,7
+956,Office Machinery and Equipment Rental and Leasing,0,7
+998,Ornamental and Architectural Metal Work Manufacturing ,0,7
+1079,Other Measuring and Controlling Device Manufacturing ,0,7
+1204,Photographic Equipment and Supplies Merchant Wholesalers ,0,7
+1227,Plumbing Fixture Fitting and Trim Manufacturing ,0,7
+1320,Recreational and Vacation Camps (except Campgrounds) ,0,7
+1331,Regulation of Agricultural Marketing and Commodities ,0,7
+1401,"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing ",0,7
+1435,"Small Arms, Ordnance, and Ordnance Accessories Manufacturing ",0,7
+1509,Surveying and Mapping (except Geophysical) Services,0,7
+1513,Synthetic Dye and Pigment Manufacturing,0,7
+1553,Title Abstract and Settlement Offices ,0,7
+1619,Window Treatment Retailers ,0,7
+1633,Wood Office Furniture Manufacturing ,0,7
+1635,Wood Preservation ,0,7
+23,Advertising Material Distribution Services,0,6
+47,All Other Converted Paper Product Manufacturing ,0,6
+153,"Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use ",0,6
+155,Automobile Driving Schools ,0,6
+201,"Book, Periodical, and Newspaper Merchant Wholesalers ",0,6
+207,Breakfast Cereal Manufacturing,0,6
+245,Cheese Manufacturing ,0,6
+275,"Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing ",0,6
+311,Confectionery Manufacturing from Purchased Chocolate ,0,6
+353,Cotton Farming,0,6
+383,"Cut Stock, Resawing Lumber, and Planing ",0,6
+403,Dental Laboratories ,0,6
+453,Electromedical and Electrotherapeutic Apparatus Manufacturing ,0,6
+714,Institutional Furniture Manufacturing ,0,6
+771,Lessors of Other Real Estate Property ,0,6
+928,Nonchocolate Confectionery Manufacturing,0,6
+958,Office Supplies (except Paper) Manufacturing,0,6
+1053,Other Financial Vehicles ,0,6
+1141,Outdoor Power Equipment Retailers ,0,6
+1157,"Paint, Varnish, and Supplies Merchant Wholesalers ",0,6
+1169,Parole Offices and Probation Offices ,0,6
+1218,Plastics Materials and Basic Forms and Shapes Merchant Wholesalers ,0,6
+1385,"Sawmill, Woodworking, and Paper Machinery Manufacturing ",0,6
+1412,Septic Tank and Related Services ,0,6
+1418,"Sewing, Needlework, and Piece Goods Retailers ",0,6
+1451,Solid Waste Landfill ,0,6
+1458,"Special Die and Tool, Die Set, Jig, and Fixture Manufacturing ",0,6
+1484,Stationery Product Manufacturing,0,6
+1536,Textile Bag and Canvas Mills ,0,6
+1560,Tortilla Manufacturing,0,6
+1583,"Trust, Fiduciary, and Custody Activities ",0,6
+80,All Other Miscellaneous Schools and Instruction ,0,5
+266,Coastal and Great Lakes Passenger Transportation ,0,5
+310,Concrete Block and Brick Manufacturing ,0,5
+319,Construction Sand and Gravel Mining ,0,5
+336,Convention and Visitors Bureaus ,0,5
+337,Conveyor and Conveying Equipment Manufacturing ,0,5
+372,Current-Carrying Wiring Device Manufacturing ,0,5
+377,Custom Compounding of Purchased Resins ,0,5
+488,Fabric Coating Mills,0,5
+526,Fish and Seafood Merchant Wholesalers ,0,5
+547,Fluid Milk Manufacturing ,0,5
+569,Framing Contractors ,0,5
+630,Ground or Treated Mineral and Earth Manufacturing ,0,5
+632,Guided Missile and Space Vehicle Manufacturing ,0,5
+646,Hazardous Waste Collection ,0,5
+677,Hunting and Trapping,0,5
+753,Landscape Architectural Services,0,5
+768,Lessors of Nonfinancial Intangible Assets (except Copyrighted Works),0,5
+860,Miscellaneous Financial Investment Activities ,0,5
+932,Nonferrous Forging ,0,5
+1073,Other Insurance Funds ,0,5
+1126,Other Spectator Sports ,0,5
+1146,Packaging Machinery Manufacturing ,0,5
+1151,Packing and Crating ,0,5
+1155,Paint and Wallpaper Retailers ,0,5
+1192,Petroleum Refineries,0,5
+1220,Plastics Packaging Film and Sheet (including Laminated) Manufacturing ,0,5
+1241,Port and Harbor Operations,0,5
+1245,Postal Service,0,5
+1250,"Pottery, Ceramics, and Plumbing Fixture Manufacturing ",0,5
+1501,Support Activities for Printing,0,5
+1562,Totalizing Fluid Meter and Counting Device Manufacturing ,0,5
+1566,Toy and Hobby Goods and Supplies Merchant Wholesalers ,0,5
+120,"Aluminum Sheet, Plate, and Foil Manufacturing ",0,4
+148,Asphalt Paving Mixture and Block Manufacturing ,0,4
+281,Commercial Photography ,0,4
+386,Cut and Sew Apparel Contractors ,0,4
+414,Direct Mail Advertising,0,4
+422,Distilleries ,0,4
+475,"Environment, Conservation and Wildlife Organizations ",0,4
+524,Fire Protection ,0,4
+528,Fish and Seafood Retailers ,0,4
+551,Fluid Power Pump and Motor Manufacturing ,0,4
+563,Footwear Merchant Wholesalers ,0,4
+666,Home and Garden Equipment Repair and Maintenance ,0,4
+691,Industrial Design Services,0,4
+701,Industrial Sand Mining ,0,4
+715,Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals ,0,4
+733,Iron and Steel Mills and Ferroalloy Manufacturing ,0,4
+786,Locksmiths ,0,4
+797,Machine Tool Manufacturing ,0,4
+867,Monetary Authorities-Central Bank,0,4
+887,Motor Vehicle Parts (Used) Merchant Wholesalers ,0,4
+899,Motor and Generator Manufacturing ,0,4
+917,Nature Parks and Other Similar Institutions,0,4
+988,Offices of Real Estate Appraisers ,0,4
+1081,Other Metal Container Manufacturing ,0,4
+1100,Other Performing Arts Companies ,0,4
+1275,Printing Ink Manufacturing,0,4
+1309,Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing,0,4
+1347,Research and Development in Nanotechnology ,0,4
+1362,Reupholstery and Furniture Repair,0,4
+1447,Solar Electric Power Generation ,0,4
+1496,Support Activities for Forestry,0,4
+1543,Tile and Terrazzo Contractors,0,4
+3,Administration of Air and Water Resource and Solid Waste Management Programs ,0,3
+64,All Other Miscellaneous Crop Farming ,0,3
+73,All Other Miscellaneous General Purpose Machinery Manufacturing ,0,3
+136,Apple Orchards ,0,3
+149,Asphalt Shingle and Coating Materials Manufacturing ,0,3
+179,Beef Cattle Ranching and Farming ,0,3
+192,Boat Dealers ,0,3
+194,"Bolt, Nut, Screw, Rivet, and Washer Manufacturing ",0,3
+197,Book Publishers ,0,3
+227,"Capacitor, Resistor, Coil, Transformer, and Other Inductor Manufacturing ",0,3
+352,Cosmetology and Barber Schools ,0,3
+464,Elevator and Moving Stairway Manufacturing ,0,3
+512,Fertilizer (Mixing Only) Manufacturing ,0,3
+541,Floriculture Production ,0,3
+565,Forest Nurseries and Gathering of Forest Products ,0,3
+633,Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing ,0,3
+684,In-Vitro Diagnostic Substance Manufacturing ,0,3
+726,Interurban and Rural Bus Transportation,0,3
+758,Language Schools ,0,3
+781,Line-Haul Railroads ,0,3
+833,Media Representatives,0,3
+849,Metal Heat Treating ,0,3
+856,"Military Armored Vehicle, Tank, and Tank Component Manufacturing ",0,3
+907,Musical Instrument and Supplies Retailers ,0,3
+911,Narrow Fabric Mills and Schiffli Machine Embroidery,0,3
+990,Oil and Gas Field Machinery and Equipment Manufacturing ,0,3
+1075,Other Leather and Allied Product Manufacturing ,0,3
+1083,Other Metal Valve and Pipe Fitting Manufacturing ,0,3
+1095,Other Nonhazardous Waste Treatment and Disposal ,0,3
+1123,Other Sound Recording Industries,0,3
+1201,Photofinishing Laboratories (except One-Hour) ,0,3
+1266,Power-Driven Handtool Manufacturing ,0,3
+1314,Reconstituted Wood Product Manufacturing ,0,3
+1316,Recreational Goods Rental ,0,3
+1336,Relay and Industrial Control Manufacturing ,0,3
+1341,Rendering and Meat Byproduct Processing ,0,3
+1344,Repossession Services ,0,3
+1373,"Rope, Cordage, Twine, Tire Cord, and Tire Fabric Mills ",0,3
+1391,"Scenic and Sightseeing Transportation, Water",0,3
+1422,Ship Building and Repairing ,0,3
+1433,Skiing Facilities,0,3
+1444,Softwood Veneer and Plywood Manufacturing ,0,3
+1446,"Soil Preparation, Planting, and Cultivating ",0,3
+1453,Sound Recording Studios,0,3
+1487,Steel Wire Drawing ,0,3
+1489,Strawberry Farming ,0,3
+1494,Support Activities for Animal Production,0,3
+118,Alumina Refining and Primary Aluminum Production ,0,2
+124,American Indian and Alaska Native Tribal Governments ,0,2
+133,Apiculture,0,2
+145,Art Dealers ,0,2
+390,Cutting Tool and Machine Tool Accessory Manufacturing ,0,2
+400,Deep Sea Passenger Transportation ,0,2
+579,"Frozen Fruit, Juice, and Vegetable Manufacturing ",0,2
+699,Industrial Process Furnace and Oven Manufacturing ,0,2
+711,Inland Water Freight Transportation ,0,2
+831,Media Buying Agencies,0,2
+874,Motion Picture and Video Distribution,0,2
+933,Nonferrous Metal Die-Casting Foundries ,0,2
+1029,Other Communication and Energy Wire Manufacturing ,0,2
+1044,Other Electronic Component Manufacturing ,0,2
+1096,Other Nonmetallic Mineral Mining and Quarrying ,0,2
+1249,Potato Farming ,0,2
+1277,Printing and Writing Paper Merchant Wholesalers ,0,2
+1301,Pulp Mills ,0,2
+1304,Racetracks ,0,2
+1382,Savings Institutions and Other Depository Credit Intermediation ,0,2
+1405,Securities and Commodity Exchanges,0,2
+1456,Soybean and Other Oilseed Processing ,0,2
+1469,"Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing ",0,2
+1482,Spring Manufacturing ,0,2
+1515,Synthetic Rubber Manufacturing ,0,2
+1518,Taxi and Ridesharing Services ,0,2
+29,Air and Gas Compressor Manufacturing ,0,1
+40,All Other Basic Organic Chemical Manufacturing ,0,1
+66,All Other Miscellaneous Electrical Equipment and Component Manufacturing ,0,1
+140,Apprenticeship Training ,0,1
+178,Bed-and-Breakfast Inns ,0,1
+264,Coal and Other Mineral and Ore Merchant Wholesalers ,0,1
+265,Coastal and Great Lakes Freight Transportation ,0,1
+392,"Cyclic Crude, Intermediate, and Gum and Wood Chemical Manufacturing ",0,1
+399,Deep Sea Freight Transportation ,0,1
+429,"Doll, Toy, and Game Manufacturing",0,1
+438,"Dry, Condensed, and Evaporated Dairy Product Manufacturing ",0,1
+698,Industrial Mold Manufacturing ,0,1
+712,Inland Water Passenger Transportation ,0,1
+736,Irradiation Apparatus Manufacturing ,0,1
+931,Noncurrent-Carrying Wiring Device Manufacturing ,0,1
+939,Nonupholstered Wood Household Furniture Manufacturing ,0,1
+994,Ophthalmic Goods Merchant Wholesalers ,0,1
+1050,Other Fabricated Wire Product Manufacturing ,0,1
+1124,Other Specialized Design Services,0,1
+1178,Pension Funds ,0,1
+1384,Saw Blade and Handtool Manufacturing ,0,1
+1393,Scheduled Freight Air Transportation ,0,1
+1549,Tire Retreading ,0,1
+1623,Wineries ,0,1
