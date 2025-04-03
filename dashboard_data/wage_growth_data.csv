@@ -1,8 +1,8 @@
-Program,Participant Count,DaysInProgram,Wage 1st Quarter Prior Start,Wage 1st Quarter Post Finish,WageGrowthPercent,% Wage Growth for each day spent in program,Dollar Wage Growth for each day spent in program
-Adult Education,59,119.5423729,5975.355932,6854.474576,14.71%,0.20%,$0.26 
-Dislocated,303,332.0726073,6491.993399,9816.610561,51.21%,0.25%,$5.97 
-Employment and Training Related to SNAP,16,583.625,6225,11237.625,80.52%,0.05%,$4.81 
-Incumbent Worker Training,3,260,10593.66667,9514,-10.19%,0.07%,$3.46 
-Rapid Response,48,418.7708333,8815.208333,8886.208333,0.81%,0.05%,$1.22 
-Veteran,566,157.8975265,9388.468198,10521.9841,12.07%,0.21%,$3.20 
-Vocational Rehabilitation,2,792.5,3196,21451,571.18%,0.66%,$50.12 
+,program,participant_count,days_in_program,wage_1st_quarter_prior_start,wage_1st_quarter_post_finish,wage_growth_percent,percent_wage_growth_for_each_day_spent_in_program,dollar_wage_growth_for_each_day_spent_in_program
+0,Adult Education,59,119.5423729,5975.355932,6854.474576,14.71,0.2,0.26
+1,Dislocated,303,332.0726073,6491.993399,9816.610561,51.21,0.25,5.97
+2,Employment and Training Related to SNAP,16,583.625,6225.0,11237.625,80.52,0.05,4.81
+3,Incumbent Worker Training,3,260.0,10593.66667,9514.0,-10.19,0.07,3.46
+4,Rapid Response,48,418.7708333,8815.208333,8886.208333,0.81,0.05,1.22
+5,Veteran,566,157.8975265,9388.468198,10521.9841,12.07,0.21,3.2
+6,Vocational Rehabilitation,2,792.5,3196.0,21451.0,571.18,0.66,50.12
