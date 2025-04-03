@@ -164,3 +164,6 @@ st.dataframe(wage_change.head())
 
 st.write("### Employment Percentage Change")
 st.dataframe(employment_pct_change.head())
+
+st.write("### Wage Change by Program")
+st.dataframe(wage_growth_data.head())
