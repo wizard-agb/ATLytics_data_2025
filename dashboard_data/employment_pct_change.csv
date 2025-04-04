@@ -1,849 +1,849 @@
-,industry_code,pct_change
-0,Temporary Help Services,124.7471459195073
-1,Hotels (except Casino Hotels) and Motels ,93.71394812269142
-2,Security Guards and Patrol Services ,88.55459400034334
-3,Elementary and Secondary Schools ,61.04219502674008
-4,Department Stores ,58.68672800509565
-5,Motion Picture and Video Production ,50.99811504916389
-6,Limited-Service Restaurants ,50.22498464416861
-7,General Warehousing and Storage ,42.155627351771514
-8,Scheduled Passenger Air Transportation ,41.79450051546406
-9,Child Care Services ,40.762275413630746
-10,All Other General Merchandise Retailers ,36.393569192439095
-11,Custom Computer Programming Services ,36.217692759478034
-12,Engineering Services,35.79423308683704
-13,Janitorial Services ,27.910923415250895
-14,Telemarketing Bureaus and Other Contact Centers ,27.60917298400631
-15,Tax Preparation Services ,27.142559131760034
-16,Supermarkets and Other Grocery Retailers (except Convenience Retailers) ,25.95287790952589
-17,Poultry Processing ,24.56040530683127
-18,New Car Dealers ,22.561018729296517
-19,Wired Telecommunications Carriers ,21.69500014402581
-20,Assisted Living Facilities for the Elderly ,20.25603442497094
-21,Gasoline Stations with Convenience Stores ,19.751384312041196
-22,Full-Service Restaurants ,19.576778245258932
-23,Landscaping Services,19.022220833919828
-24,Food Service Contractors,17.703538475413477
-25,Insurance Agencies and Brokerages ,17.30530391363495
-26,"Research and Development in the Physical, Engineering, and Life Sciences (e",15.163028747889452
-27,Administrative Management and General Management Consulting Services ,14.895506948629109
-28,Direct Property and Casualty Insurance Carriers ,14.788312454467707
-29,Human Resources Consulting Services ,14.579729981378026
-30,Couriers and Express Delivery Services,13.01406231662968
-31,Employment Placement Agencies ,12.536338261859266
-32,Services for the Elderly and Persons with Disabilities ,11.435055111509115
-33,Solid Waste Collection ,10.497731392035048
-34,Air-Conditioning and Warm Air Heating Equipment and Commercial and Industri,8.868630278896736
-35,Optical Goods Retailers ,8.480863854975953
-36,Lessors of Residential Buildings and Dwellings ,8.377819659703505
-37,Direct Health and Medical Insurance Carriers ,8.360870051986993
-38,Fitness and Recreational Sports Centers ,8.244919007724073
-39,Commercial Printing (except Screen and Books) ,8.11783494862476
-40,Professional Employer Organizations,7.99854875070176
-41,Nursing Care Facilities (Skilled Nursing Facilities) ,7.482613762040713
-42,Construction Machinery Manufacturing,7.229341541992144
-43,Caterers,7.217783891009806
-44,Ambulance Services ,7.1232141714541655
-45,All Other Support Services,7.030800411358449
-46,Computer Systems Design Services ,6.922042002015573
-47,Drinking Places (Alcoholic Beverages) ,6.895083319584227
-48,Home Centers ,6.83097373521583
-49,Other Management Consulting Services ,6.815402787621072
-50,"Highway, Street, and Bridge Construction ",6.756973782393303
-51,Shoe Retailers ,6.1414791695646125
-52,Other Individual and Family Services ,5.845335026630029
-53,"Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers ",5.6929107508652965
-54,Nonresidential Property Managers ,5.5832469699012535
-55,Outpatient Mental Health and Substance Abuse Centers ,5.511140173124942
-56,Freestanding Ambulatory Surgical and Emergency Centers ,5.417857533497402
-57,Wholesale Trade Agents and Brokers ,5.359104723720119
-58,Other Personal Care Services ,5.309123167584538
-59,Other Accounting Services ,5.185168187088896
-60,Other Airport Operations ,5.178044317768899
-61,Commercial Bakeries ,5.145132037656491
-62,Truck Trailer Manufacturing ,5.1357637487750045
-63,Drycleaning and Laundry Services (except Coin-Operated) ,5.049975973551686
-64,Used Car Dealers ,5.037895092365822
-65,Blood and Organ Banks ,4.880178965853123
-66,"Fiber, Yarn, and Thread Mills ",4.664107117314916
-67,Postharvest Crop Activities (except Cotton Ginning) ,4.537631851716359
-68,Car Washes ,4.509496144077049
-69,Junior Colleges ,4.504415301408994
-70,Private Households,4.406787901357166
-71,Executive Search Services ,4.388502683075214
-72,Tire Dealers ,4.289976109712952
-73,"Executive and Legislative Offices, Combined ",4.157139516193225
-74,Offices of Real Estate Agents and Brokers,4.129677541580773
-75,Construction and Mining (except Oil Well) Machinery and Equipment Merchant ,4.106835478068355
-76,Other Support Activities for Air Transportation,4.080926629684329
-77,Power and Communication Line and Related Structures Construction ,4.047470718259915
-78,Golf Courses and Country Clubs,3.9695822237002214
-79,Home Health Care Services,3.96182146799597
-80,Portfolio Management and Investment Advice ,3.8844982993197283
-81,Folding Paperboard Box Manufacturing ,3.8655237315875617
-82,Clothing and Clothing Accessories Retailers ,3.851515202650685
-83,Lessors of Nonresidential Buildings (except Miniwarehouses) ,3.8448816375539994
-84,Battery Manufacturing ,3.7764125077795163
-85,Research and Development in Biotechnology (except Nanobiotechnology),3.758608321377331
-86,All Other Miscellaneous Retailers ,3.7231828131218374
-87,Other Grocery and Related Products Merchant Wholesalers ,3.704370142912601
-88,Major Household Appliance Manufacturing ,3.629033084467867
-89,Sheet Metal Work Manufacturing ,3.584461929425858
-90,Other Electronic Parts and Equipment Merchant Wholesalers ,3.4683922573596924
-91,Emergency and Other Relief Services ,3.4585603199823916
-92,Software Publishers,3.4038346916866584
-93,Snack and Nonalcoholic Beverage Bars ,3.3969345790854972
-94,Industrial Machinery and Equipment Merchant Wholesalers ,3.2846649060551454
-95,"Corporate, Subsidiary, and Regional Managing Offices ",3.2503254035655567
-96,All Other Specialty Trade Contractors,3.2409941746443294
-97,"Media Streaming Distribution Services, Social Networks, and Other Media Net",3.22994931425164
-98,General Medical and Surgical Hospitals ,3.112802688994844
-99,Structural Steel and Precast Concrete Contractors ,3.086783719523347
-100,"Plumbing, Heating, and Air-Conditioning Contractors ",3.0827714385295755
-101,Other Millwork (including Flooring) ,3.071886446886447
-102,"Specialized Freight (except Used Goods) Trucking, Local ",3.052537114449753
-103,Linen Supply ,3.0446028074812768
-104,Freight Transportation Arrangement ,3.0312540798935306
-105,Metal Service Centers and Other Metal Merchant Wholesalers ,3.0241325207578407
-106,Architectural Services,2.9878048780487805
-107,Administration of Housing Programs ,2.9684523809523813
-108,Offices of Physicians (except Mental Health Specialists) ,2.9606294907263133
-109,Cut and Sew Apparel Manufacturing (except Contractors) ,2.8982122074227337
-110,Sawmills ,2.854258300686872
-111,Apparel Knitting Mills,2.805693815987934
-112,Facilities Support Services,2.796391436053306
-113,Motor Vehicle Supplies and New Parts Merchant Wholesalers ,2.7751593085796067
-114,Collection Agencies,2.6225603568988496
-115,Recyclable Material Merchant Wholesalers ,2.6169026472631733
-116,Bus and Other Motor Vehicle Transit Systems ,2.5617569249922187
-117,Passenger Car Rental ,2.5358032615413872
-118,Pharmacies and Drug Retailers ,2.5144275679772288
-119,Computer and Computer Peripheral Equipment and Software Merchant Wholesaler,2.5140510497128146
-120,Credit Unions ,2.4777390829434016
-121,Wine and Distilled Alcoholic Beverage Merchant Wholesalers ,2.465405874727909
-122,Travel Agencies,2.392243509608396
-123,Logging ,2.38510101010101
-124,Marketing Consulting Services ,2.3451906414001344
-125,Offices of Dentists ,2.3294597323066384
-126,Commercial and Industrial Machinery and Equipment (except Automotive and El,2.3257021489855996
-127,Mortgage and Nonmortgage Loan Brokers ,2.2885678721174005
-128,Beer and Ale Merchant Wholesalers ,2.275297619047619
-129,Industrial Supplies Merchant Wholesalers,2.263503261486103
-130,Roasted Nuts and Peanut Butter Manufacturing ,2.2267742673992674
-131,Motor Vehicle Seating and Interior Trim Manufacturing,2.205334352134852
-132,Mixed Mode Transit Systems ,2.1649634039209773
-133,Metal Can Manufacturing ,2.1136916835699795
-134,Other Farm Product Raw Material Merchant Wholesalers ,2.0981490872210955
-135,Nonwoven Fabric Mills,2.0948644267609784
-136,Translation and Interpretation Services,2.0588779956427015
-137,Land Subdivision ,2.039163314898609
-138,Industrial and Personal Service Paper Merchant Wholesalers ,2.029951768317302
-139,Floor Covering Retailers ,1.9738101543583535
-140,Sporting Goods Retailers ,1.9696611588364759
-141,"Motorcycle, ATV, and All Other Motor Vehicle Dealers ",1.9509521116138762
-142,Tire and Tube Merchant Wholesalers ,1.950344611528822
-143,Marine Cargo Handling,1.9489087301587302
-144,Sporting and Recreational Goods and Supplies Merchant Wholesalers ,1.9426388888888888
-145,Special Needs Transportation ,1.9224837662337662
-146,Automotive Parts and Accessories Retailers ,1.9163083867377464
-147,Site Preparation Contractors,1.909917300510501
-148,Hardware Merchant Wholesalers ,1.849655388471178
-149,Ready-Mix Concrete Manufacturing,1.8381547135733842
-150,Indoor and Outdoor Display Advertising,1.7916064628693495
-151,Packaging and Labeling Services,1.7893177711721164
-152,Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesaler,1.7695489500147887
-153,"Process, Physical Distribution, and Logistics Consulting Services ",1.7212902497433484
-154,Perishable Prepared Food Manufacturing ,1.6884256094782408
-155,Other Residential Care Facilities ,1.681242534749749
-156,Mineral Wool Manufacturing ,1.6522222222222225
-157,Other Building Equipment Contractors ,1.6485404940587867
-158,Electrical Contractors and Other Wiring Installation Contractors,1.6097110488191955
-159,All Other Miscellaneous Manufacturing ,1.5366379310344827
-160,Support Activities for Rail Transportation,1.52292663476874
-161,Cookie and Cracker Manufacturing ,1.5212513935340022
-162,National Security ,1.5163530465949822
-163,Kidney Dialysis Centers ,1.4987828359977342
-164,Paint and Coating Manufacturing,1.494047619047619
-165,Document Preparation Services,1.4555555555555555
-166,All Other Outpatient Care Centers ,1.4483288770053475
-167,Other Computer Related Services,1.4454448621553886
-168,Industrial Launderers ,1.435897435897436
-169,Painting and Wall Covering Contractors,1.4356740669240668
-170,Other Paperboard Container Manufacturing ,1.4318783068783068
-171,All Other Business Support Services ,1.4002164502164502
-172,Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing ,1.377069716775599
-173,Other Community Housing Services ,1.325587606837607
-174,Florists ,1.319551282051282
-175,Other General Government Support ,1.3089750763269634
-176,Animal (except Poultry) Slaughtering ,1.3082535576946979
-177,Automobile and Light Duty Motor Vehicle Manufacturing ,1.3080842026341735
-178,Fiber Optic Cable Manufacturing ,1.2784188034188033
-179,Administration of Conservation Programs ,1.2687525354969573
-180,Other Spectator Sports ,1.2651515151515151
-181,Sales Financing ,1.2438326864447853
-182,"Small Arms, Ordnance, and Ordnance Accessories Manufacturing ",1.2375730994152048
-183,Recreational Vehicle Dealers ,1.2266025641025642
-184,Wood Window and Door Manufacturing ,1.2156228464457999
-185,All Other Miscellaneous Ambulatory Health Care Services ,1.194921622495152
-186,Stationery and Office Supplies Merchant Wholesalers ,1.169561937678297
-187,Consumer Electronics and Appliances Rental,1.1691071795662453
-188,Curtain and Linen Mills,1.1679112554112554
-189,All Other Miscellaneous Fabricated Metal Product Manufacturing ,1.1594771241830066
-190,Finish Carpentry Contractors,1.1593134691436713
-191,"Colleges, Universities, and Professional Schools ",1.1560034194218902
-192,Commercial Banking ,1.1487798831644456
-193,Furniture Retailers ,1.148027570244194
-194,New Single-Family Housing Construction (except For-Sale Builders) ,1.146618458060352
-195,Oil and Gas Pipeline and Related Structures Construction ,1.1293214654282766
-196,Farm Supplies Merchant Wholesalers ,1.1224137931034484
-197,Metal Window and Door Manufacturing ,1.1221185064935066
-198,Air Traffic Control,1.1130172413793102
-199,Parking Lots and Garages ,1.1127895089282525
-200,Remediation Services ,1.1059598741148702
-201,"Other Foundation, Structure, and Building Exterior Contractors ",1.1007917459493743
-202,Educational Support Services,1.0889538661468485
-203,Periodical Publishers ,1.062900641025641
-204,Confectionery Merchant Wholesalers ,1.058116883116883
-205,Fabricated Structural Metal Manufacturing ,1.0551499079724886
-206,Fuel Dealers ,1.0475278620791562
-207,"Computing Infrastructure Providers, Data Processing, Web Hosting, and Relat",1.0363450372823135
-208,Commercial and Institutional Building Construction ,1.0236184178405214
-209,Poultry Hatcheries,1.0045093795093796
-210,Upholstered Household Furniture Manufacturing ,0.987019887019887
-211,Motor Vehicle Metal Stamping,0.9739320624760844
-212,Computer Facilities Management Services ,0.9715111845824109
-213,"Beer, Wine, and Liquor Retailers ",0.9695776037687803
-214,Appliance Repair and Maintenance ,0.9672101449275362
-215,"Instruments and Related Products Manufacturing for Measuring, Displaying, a",0.9613095238095237
-216,Artificial and Synthetic Fibers and Filaments Manufacturing,0.9588744588744589
-217,Coffee and Tea Manufacturing ,0.9267857142857143
-218,Spice and Extract Manufacturing ,0.9208578314529372
-219,Investment Banking and Securities Intermediation ,0.9179608922145139
-220,Meat Processed from Carcasses ,0.9139287266405911
-221,Local Messengers and Local Delivery,0.9088683923948375
-222,Meat and Meat Product Merchant Wholesalers ,0.905478258300839
-223,Residential Intellectual and Developmental Disability Facilities ,0.8931818181818182
-224,All Other Miscellaneous Textile Product Mills ,0.891465053763441
-225,Farm and Garden Machinery and Equipment Merchant Wholesalers ,0.8866818873668189
-226,Warehouse Clubs and Supercenters ,0.8823680644196885
-227,Pet Care (except Veterinary) Services ,0.8815545115261694
-228,Frozen Specialty Food Manufacturing ,0.8772581585081585
-229,Prefabricated Metal Building and Component Manufacturing ,0.8609360410830998
-230,Manufactured Home (Mobile Home) Manufacturing ,0.856246857717446
-231,Service Establishment Equipment and Supplies Merchant Wholesalers ,0.8561274509803921
-232,Telecommunications Resellers,0.8546600877192982
-233,Psychiatric and Substance Abuse Hospitals ,0.8438958916900094
-234,Electronics and Appliance Retailers ,0.8394300478019256
-235,Amusement and Theme Parks ,0.8341103749191985
-236,Soft Drink Manufacturing ,0.8283532111657113
-237,"General Freight Trucking, Local ",0.8196984680946793
-238,Dental Laboratories ,0.8170787545787547
-239,"Offices of Physical, Occupational and Speech Therapists, and Audiologists ",0.8153740790901045
-240,"Other Direct Insurance (except Life, Health, and Medical) Carriers ",0.8134031198686371
-241,All Other Home Furnishings Retailers ,0.8048076370532122
-242,Bottled Water Manufacturing ,0.7940647128245476
-243,Water and Sewer Line and Related Structures Construction ,0.7912088719153936
-244,Real Estate Credit ,0.7861199182695694
-245,Veterinary Services ,0.7779830068586374
-246,Other Gasoline Stations ,0.7653294796573098
-247,Gypsum Product Manufacturing,0.7518939393939393
-248,Other Professional Equipment and Supplies Merchant Wholesalers ,0.747033763338111
-249,"Independent Artists, Writers, and Performers ",0.7384834368530021
-250,Institutional Furniture Manufacturing ,0.7343073593073594
-251,Testing Laboratories and Services,0.7338631244881244
-252,Rubber Product Manufacturing for Mechanical Use ,0.7215073529411764
-253,Television Broadcasting Stations,0.7170962732919255
-254,"Agents and Managers for Artists, Athletes, Entertainers, and Other Public F",0.7161172161172161
-255,Office Supplies and Stationery Retailers ,0.7085053319573443
-256,Textile and Fabric Finishing Mills ,0.7081493068335173
-257,"Special Die and Tool, Die Set, Jig, and Fixture Manufacturing ",0.7006410256410256
-258,Other Motor Vehicle Parts Manufacturing,0.6892735887301104
-259,"International, Secondary Market, and All Other Nondepository Credit Interme",0.6809823594989834
-260,All Other Plastics Product Manufacturing ,0.6706231558358545
-261,Vocational Rehabilitation Services ,0.6682065951859322
-262,Support Activities for Forestry,0.6666666666666667
-263,Radio Broadcasting Stations ,0.6666666666666666
-264,Other Food Crops Grown Under Cover ,0.6651515151515152
-265,Mattress Manufacturing,0.6614079566665775
-266,Stationery Product Manufacturing,0.6599234099234099
-267,Polystyrene Foam Product Manufacturing,0.6534538169276454
-268,"Nursery, Garden Center, and Farm Supply Retailers ",0.6454344512195122
-269,Environmental Consulting Services,0.6450304677206851
-270,Cotton Ginning ,0.634375
-271,"Cafeterias, Grill Buffets, and Buffets ",0.6339984291071248
-272,Electronic Computer Manufacturing ,0.6332738095238095
-273,Residential Mental Health and Substance Abuse Facilities ,0.6296387298327247
-274,Courts ,0.6168686868686868
-275,Nursery and Tree Production ,0.6132700632700633
-276,"Photography Studios, Portrait ",0.6091269841269842
-277,Automobile Driving Schools ,0.6083333333333334
-278,Other Snack Food Manufacturing ,0.6052924727817849
-279,Directory and Mailing List Publishers ,0.5832880434782609
-280,Convention and Trade Show Organizers,0.5784074790457768
-281,Community Food Services ,0.5763888888888888
-282,Tour Operators,0.565805109922757
-283,"Cut Stock, Resawing Lumber, and Planing ",0.562878787878788
-284,Residential Property Managers ,0.5594554591647614
-285,"Administration of Human Resource Programs (except Education, Public Health,",0.5481575473605157
-286,Amusement Arcades,0.5461309523809523
-287,Plastics Bag and Pouch Manufacturing ,0.5449248120300751
-288,Clothing and Clothing Accessories Merchant Wholesalers,0.5443666458625891
-289,Continuing Care Retirement Communities ,0.535377051915453
-290,"Sawmill, Woodworking, and Paper Machinery Manufacturing ",0.5347222222222222
-291,Precision Turned Product Manufacturing ,0.5289627039627041
-292,Electronic and Precision Equipment Repair and Maintenance ,0.5110375816993464
-293,Photographic Equipment and Supplies Merchant Wholesalers ,0.5090034965034965
-294,"Promoters of Performing Arts, Sports, and Similar Events with Facilities ",0.5031660412757974
-295,Wood Preservation ,0.5020833333333334
-296,Claims Adjusting ,0.4996442980811443
-297,Refrigerated Warehousing and Storage,0.4989797073407458
-298,Investigation and Personal Background Check Services ,0.47256189613526567
-299,Automotive Oil Change and Lubrication Shops ,0.4723819411485524
-300,Regulation and Administration of Transportation Programs ,0.457485447950856
-301,Other Warehousing and Storage,0.4537536295005807
-302,Nail Salons ,0.4444444444444444
-303,Lessors of Miniwarehouses and Self-Storage Units ,0.4438667995136712
-304,Paper Bag and Coated and Treated Paper Manufacturing,0.4418527379053695
-305,Medical Laboratories ,0.43989323308920625
-306,Furniture Merchant Wholesalers ,0.439711137385556
-307,"General Freight Trucking, Long-Distance, Less Than Truckload ",0.4355217557592621
-308,"Tobacco, Electronic Cigarette, and Other Smoking Supplies Retailers ",0.43283085194375515
-309,Payroll Services ,0.42845392679151817
-310,Ammunition (except Small Arms) Manufacturing ,0.4248737373737374
-311,Offices of Certified Public Accountants ,0.4216564681152959
-312,Charter Bus Industry,0.4173076923076924
-313,"Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing ",0.41504506320016704
-314,In-Vitro Diagnostic Substance Manufacturing ,0.4097222222222222
-315,Hazardous Waste Treatment and Disposal ,0.4095238095238095
-316,Paperboard Mills ,0.40912208111742776
-317,Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations,0.40846936628186625
-318,"Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copp",0.4065058479532163
-319,All Other Transportation Equipment Manufacturing ,0.3989051821277655
-320,Book Publishers ,0.3920454545454546
-321,Religious Organizations ,0.39196428571428565
-322,Repossession Services ,0.3813492063492063
-323,"Cosmetics, Beauty Supplies, and Perfume Retailers ",0.369200976861915
-324,Dairy Product (except Dried or Canned) Merchant Wholesalers ,0.36704545454545456
-325,Plastics Pipe and Pipe Fitting Manufacturing ,0.35232860031247126
-326,Industrial Sand Mining ,0.3333333333333333
-327,Other Nonmetallic Mineral Mining and Quarrying ,0.33333333333333326
-328,Nonferrous Metal Die-Casting Foundries ,0.33333333333333326
-329,Breweries,0.3316290854808297
-330,Miscellaneous Intermediation ,0.3307498057498058
-331,Confectionery Manufacturing from Purchased Chocolate ,0.3270833333333334
-332,All Other Insurance Related Activities ,0.3177043217800599
-333,Heavy Duty Truck Manufacturing,0.3119047619047619
-334,Legislative Bodies ,0.3073122529644269
-335,Building Inspection Services,0.3064393939393939
-336,Natural Gas Distribution ,0.3036796536796537
-337,Plastics Bottle Manufacturing,0.3031746031746032
-338,Dairy Cattle and Milk Production,0.28869047619047616
-339,Other Miscellaneous Nondurable Goods Merchant Wholesalers ,0.2789852700490998
-340,Credit Bureaus,0.27690630967620883
-341,Current-Carrying Wiring Device Manufacturing ,0.2642857142857143
-342,Broadwoven Fabric Mills,0.26062316099201344
-343,Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing ,0.2583333333333333
-344,Graphic Design Services,0.2521198830409357
-345,"Copper Rolling, Drawing, Extruding, and Alloying",0.2512179487179488
-346,Glass and Glazing Contractors ,0.2471744264507422
-347,Bowling Centers,0.2455985222464886
-348,All Other Consumer Goods Rental ,0.23988795518207287
-349,Dog and Cat Food Manufacturing ,0.23506299734748015
-350,Fruit and Vegetable Canning ,0.23342427248677253
-351,"Pottery, Ceramics, and Plumbing Fixture Manufacturing ",0.22916666666666663
-352,Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,0.22916666666666663
-353,Carpet and Rug Mills,0.22595761707750403
-354,Fabricated Pipe and Pipe Fitting Manufacturing ,0.22123015873015872
-355,Automobile and Other Motor Vehicle Merchant Wholesalers ,0.2189880944775923
-356,Irradiation Apparatus Manufacturing ,0.21666666666666665
-357,Administration of Public Health Programs ,0.2152604426292264
-358,Septic Tank and Related Services ,0.2071581196581197
-359,Casinos (except Casino Hotels),0.20714285714285713
-360,Support Activities for Nonmetallic Minerals (except Fuels) Mining ,0.19615384615384618
-361,"Aluminum Sheet, Plate, and Foil Manufacturing ",0.19523809523809524
-362,Fossil Fuel Electric Power Generation ,0.19444444444444442
-363,Biological Product (except Diagnostic) Manufacturing ,0.18928571428571425
-364,Exam Preparation and Tutoring ,0.18326330532212884
-365,Theater Companies and Dinner Theaters ,0.1823096264367816
-366,"Specialized Freight (except Used Goods) Trucking, Long-Distance ",0.17917558132284941
-367,Offices of All Other Miscellaneous Health Practitioners ,0.17846978981045905
-368,HMO Medical Centers ,0.177249115826702
-369,Siding Contractors ,0.16566776135741654
-370,"Commercial, Industrial, and Institutional Electric Lighting Fixture Manufac",0.16244429590017823
-371,Glass Product Manufacturing Made of Purchased Glass ,0.15833333333333335
-372,Asphalt Shingle and Coating Materials Manufacturing ,0.15833333333333335
-373,Fluid Power Cylinder and Actuator Manufacturing ,0.15714285714285714
-374,Fish and Seafood Merchant Wholesalers ,0.15347222222222223
-375,Other Activities Related to Real Estate ,0.15332687338501297
-376,Radio and Television Broadcasting and Wireless Communications Equipment Man,0.1531385281385281
-377,"General Freight Trucking, Long-Distance, Truckload ",0.15265655569714795
-378,Other Chemical and Allied Products Merchant Wholesalers ,0.15223453500926318
-379,Offices of Other Holding Companies ,0.1510739579705097
-380,Musical Groups and Artists ,0.14916125541125538
-381,Roofing Contractors ,0.1490679824561403
-382,Office Supplies (except Paper) Manufacturing,0.13958333333333336
-383,Totalizing Fluid Meter and Counting Device Manufacturing ,0.13333333333333336
-384,Other Support Activities for Road Transportation ,0.13126198153754795
-385,Support Activities for Printing,0.13011363636363638
-386,"Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors ",0.12957875457875462
-387,Consumer Lending ,0.12881713415230048
-388,Coin-Operated Laundries and Drycleaners ,0.12415188977688979
-389,Plastics Packaging Film and Sheet (including Laminated) Manufacturing ,0.12341269841269842
-390,Offices of Optometrists,0.12191301520608239
-391,Water Supply and Irrigation Systems ,0.11992783224400869
-392,Civic and Social Organizations ,0.119166736378671
-393,Other Basic Inorganic Chemical Manufacturing ,0.11854163862341272
-394,Cut Stone and Stone Product Manufacturing ,0.11825396825396828
-395,Farm Product Warehousing and Storage,0.1166666666666667
-396,"Capacitor, Resistor, Coil, Transformer, and Other Inductor Manufacturing ",0.11607142857142858
-397,Recreational Goods Rental ,0.11111111111111109
-398,Drilling Oil and Gas Wells,0.10416666666666666
-399,Ice Manufacturing ,0.10297619047619047
-400,Other Social Advocacy Organizations ,0.10165130287506627
-401,Soybean and Other Oilseed Processing ,0.09583333333333335
-402,Solar Electric Power Generation ,0.09166666666666667
-403,"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers ",0.09062395530224676
-404,Coastal and Great Lakes Passenger Transportation ,0.0888888888888889
-405,All Other Basic Organic Chemical Manufacturing ,0.08809523809523812
-406,Media Representatives,0.08750000000000002
-407,Support Activities for Oil and Gas Operations ,0.08333333333333334
-408,Sports Teams and Clubs ,0.08238855738855738
-409,"Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment ",0.07613406473700593
-410,"All Other Professional, Scientific, and Technical Services",0.07187443738843743
-411,Switchgear and Switchboard Apparatus Manufacturing ,0.06859459984459984
-412,"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Servic",0.06723484848484851
-413,RV (Recreational Vehicle) Parks and Campgrounds ,0.06636904761904758
-414,Wood Kitchen Cabinet and Countertop Manufacturing,0.06224523449591016
-415,Other Building Material Dealers ,0.06156257698940626
-416,Book Retailers and News Dealers ,0.06041181041181043
-417,Administration of Education Programs ,0.05885477760898408
-418,All Other Rubber Product Manufacturing ,0.05743727598566312
-419,Aircraft Manufacturing ,0.0572041792135812
-420,Industrial Building Construction ,0.0554982889817624
-421,Other Services to Buildings and Dwellings ,0.054276695526695506
-422,"Photographic Film, Paper, Plate, Chemical, and Copy Toner Manufacturing ",0.053571428571428575
-423,Passenger Car Leasing ,0.05059523809523811
-424,Surgical Appliance and Supplies Manufacturing ,0.049854241213393546
-425,Surveying and Mapping (except Geophysical) Services,0.049084249084249076
-426,Other Miscellaneous Durable Goods Merchant Wholesalers ,0.04872557997557997
-427,Chicken Egg Production ,0.0473214285714286
-428,Political Organizations ,0.04204545454545458
-429,Nonferrous Forging ,0.04166666666666663
-430,New Multifamily Housing Construction (except For-Sale Builders) ,0.039973544973544994
-431,Other Gambling Industries ,0.03989576599870717
-432,"Paint, Varnish, and Supplies Merchant Wholesalers ",0.038068181818181834
-433,All Other Miscellaneous Waste Management Services ,0.03718944099378882
-434,Casino Hotels,0.03690476190476194
-435,All Other Amusement and Recreation Industries ,0.0354673104673105
-436,"Measuring, Dispensing, and Other Pumping Equipment Manufacturing ",0.03407477025898081
-437,"Trusts, Estates, and Agency Accounts ",0.029761904761904795
-438,Office Machinery and Equipment Rental and Leasing,0.02797619047619046
-439,Media Buying Agencies,0.027777777777777752
-440,Beef Cattle Ranching and Farming ,0.027777777777777752
-441,Flavoring Syrup and Concentrate Manufacturing,0.02592940685045947
-442,Guided Missile and Space Vehicle Manufacturing ,0.025000000000000022
-443,Computer Training ,0.0239010989010989
-444,"Automotive Body, Paint, and Interior Repair and Maintenance ",0.022652618883137188
-445,Offices of Lawyers,0.017418692584004025
-446,Legal Counsel and Prosecution ,0.014772727272727243
-447,Tobacco Product and Electronic Cigarette Merchant Wholesalers ,0.012445887445887427
-448,Rubber and Plastics Hoses and Belting Manufacturing,0.011408730158730146
-449,Hardwood Veneer and Plywood Manufacturing ,0.010120218943748371
-450,Conveyor and Conveying Equipment Manufacturing ,0.008333333333333331
-451,Cotton Farming,0.007142857142857145
-452,"Brick, Stone, and Related Construction Material Merchant Wholesalers ",0.004276390562134885
-453,Other Technical and Trade Schools ,0.0019206767476558917
-454,Oil and Gas Field Machinery and Equipment Manufacturing ,0.0
-455,Racetracks ,0.0
-456,Saw Blade and Handtool Manufacturing ,0.0
-457,Noncurrent-Carrying Wiring Device Manufacturing ,0.0
-458,Inland Water Passenger Transportation ,0.0
-459,Deep Sea Passenger Transportation ,0.0
-460,"Soil Preparation, Planting, and Cultivating ",0.0
-461,Industrial Process Furnace and Oven Manufacturing ,0.0
-462,Formal Wear and Costume Rental,0.0
-463,Direct Life Insurance Carriers ,-0.0006181046622223407
-464,Food Product Machinery Manufacturing ,-0.0013458763458763234
-465,Motor Vehicle Gasoline Engine and Engine Parts Manufacturing,-0.00324675324675322
-466,Printed Circuit Assembly (Electronic Assembly) Manufacturing ,-0.004807692307692291
-467,Language Schools ,-0.005272108843537376
-468,Motor Vehicle Electrical and Electronic Equipment Manufacturing,-0.0059808612440191145
-469,Other Animal Food Manufacturing ,-0.006860902255639123
-470,Public Relations Agencies,-0.0077485380116958935
-471,Sign Manufacturing,-0.008315720611916266
-472,All Other Miscellaneous Food Manufacturing ,-0.010766045548654263
-473,Plumbing Fixture Fitting and Trim Manufacturing ,-0.01190476190476189
-474,Title Abstract and Settlement Offices ,-0.012622549019607854
-475,Used Merchandise Retailers ,-0.013328074854714211
-476,Motion Picture Theaters (except Drive-Ins) ,-0.013761548410938657
-477,Petroleum Refineries,-0.014423076923076955
-478,Transportation Equipment and Supplies (except Motor Vehicle) Merchant Whole,-0.016025641025641052
-479,All Other Travel Arrangement and Reservation Services ,-0.019011837704629497
-480,Fluid Power Pump and Motor Manufacturing ,-0.01904761904761909
-481,Farm Labor Contractors and Crew Leaders ,-0.019642857142857184
-482,Urethane and Other Foam Product (except Polystyrene) Manufacturing,-0.020833333333333343
-483,Adhesive Manufacturing,-0.0216622458001768
-484,Breakfast Cereal Manufacturing,-0.02182539682539683
-485,Other Pressed and Blown Glass and Glassware Manufacturing ,-0.022321428571428603
-486,Pharmaceutical Preparation Manufacturing ,-0.023483881346784585
-487,Other Commercial Equipment Merchant Wholesalers ,-0.023966105269281668
-488,Reinsurance Carriers ,-0.02408008658008659
-489,Hardware Manufacturing,-0.027289377289377303
-490,Synthetic Dye and Pigment Manufacturing,-0.027347652347652324
-491,Other Engine Equipment Manufacturing ,-0.02926587301587305
-492,Office Administrative Services,-0.02935126276087377
-493,"Book, Periodical, and Newspaper Merchant Wholesalers ",-0.033245920745920726
-494,"Rope, Cordage, Twine, Tire Cord, and Tire Fabric Mills ",-0.033333333333333354
-495,All Other Miscellaneous Wood Product Manufacturing ,-0.03362470862470862
-496,Hardware Retailers ,-0.034433253570565064
-497,Ice Cream and Frozen Dessert Manufacturing,-0.0357142857142857
-498,Sports and Recreation Instruction ,-0.035730460662525915
-499,Other Building Finishing Contractors,-0.03636869107364493
-500,Materials Recovery Facilities ,-0.03663811369169215
-501,Other Vegetable (except Potato) and Melon Farming ,-0.037344042569452424
-502,Footwear Merchant Wholesalers ,-0.03749999999999998
-503,Forest Nurseries and Gathering of Forest Products ,-0.037500000000000006
-504,"Frozen Cakes, Pies, and Other Pastries Manufacturing ",-0.038475177304964525
-505,Outdoor Power Equipment Retailers ,-0.04038461538461535
-506,"Bolt, Nut, Screw, Rivet, and Washer Manufacturing ",-0.04166666666666666
-507,"Scenic and Sightseeing Transportation, Water",-0.04166666666666666
-508,Instrument Manufacturing for Measuring and Testing Electricity and Electric,-0.041666666666666685
-509,Seafood Product Preparation and Packaging,-0.0421626984126984
-510,Toilet Preparation Manufacturing,-0.046048415186346225
-511,Monetary Authorities-Central Bank,-0.04797979797979801
-512,All Other Personal Services ,-0.05045707487886428
-513,"Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing",-0.05261387163561079
-514,Other Services Related to Advertising ,-0.05406315613724047
-515,Custom Architectural Woodwork and Millwork Manufacturing ,-0.05492424242424243
-516,Fertilizer (Mixing Only) Manufacturing ,-0.05555555555555558
-517,Professional and Management Development Training ,-0.057216650962444465
-518,Fluid Milk Manufacturing ,-0.057291666666666685
-519,Barber Shops ,-0.05795454545454545
-520,Metal Heat Treating ,-0.058928571428571414
-521,Other Commercial and Industrial Machinery and Equipment Rental and Leasing ,-0.05902777777777776
-522,Machine Shops,-0.06027084757347914
-523,Polish and Other Sanitation Good Manufacturing ,-0.06388888888888886
-524,"Industrial Truck, Tractor, Trailer, and Stacker Machinery Manufacturing ",-0.06574675324675325
-525,Plastics Materials and Basic Forms and Shapes Merchant Wholesalers ,-0.0668498168498168
-526,Hazardous Waste Collection ,-0.07539682539682539
-527,Fruit and Vegetable Retailers ,-0.07666838665290676
-528,Electric Power Distribution ,-0.0771670418600243
-529,Heating Equipment (except Warm Air Furnaces) Manufacturing ,-0.07916666666666669
-530,Musical Instrument and Supplies Retailers ,-0.08035714285714285
-531,Executive Offices ,-0.08085317460317462
-532,Window Treatment Retailers ,-0.08191556395715183
-533,"Promoters of Performing Arts, Sports, and Similar Events without Facilities",-0.08267543859649126
-534,Landscape Architectural Services,-0.08333333333333331
-535,Plate Work Manufacturing ,-0.08333333333333331
-536,Securities and Commodity Exchanges,-0.08333333333333333
-537,Scheduled Freight Air Transportation ,-0.08333333333333333
-538,Electromedical and Electrotherapeutic Apparatus Manufacturing ,-0.08409863945578233
-539,Other Scientific and Technical Consulting Services,-0.08483162100456623
-540,Postal Service,-0.0867248062015504
-541,Poured Concrete Foundation and Structure Contractors ,-0.08882919162484484
-542,Health and Welfare Funds ,-0.08948412698412697
-543,Semiconductor and Related Device Manufacturing ,-0.09467299578059074
-544,Framing Contractors ,-0.09583333333333335
-545,Web Search Portals and All Other Information Services,-0.09613240598910802
-546,Wood Container and Pallet Manufacturing,-0.09793716855284018
-547,Industrial Valve Manufacturing ,-0.09962121212121211
-548,Pharmacy Benefit Management and Other Third Party Administration of Insuran,-0.10251316990210724
-549,Custom Compounding of Purchased Resins ,-0.10267857142857142
-550,Cemeteries and Crematories ,-0.10267857142857145
-551,Prefabricated Wood Building Manufacturing ,-0.10414332399626519
-552,Nonupholstered Wood Household Furniture Manufacturing ,-0.10416666666666666
-553,"Financial Transactions Processing, Reserve, and Clearinghouse Activities ",-0.10458886352408381
-554,"Flower, Nursery Stock, and Florists' Supplies Merchant Wholesalers ",-0.10474206349206353
-555,Beauty Salons ,-0.10947802197802198
-556,"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System ",-0.11057692307692307
-557,Armored Car Services ,-0.11781956781956782
-558,Sanitary Paper Product Manufacturing ,-0.11995717393274724
-559,Aircraft Engine and Engine Parts Manufacturing ,-0.12108717561098514
-560,Other Crushed and Broken Stone Mining and Quarrying ,-0.12291666666666665
-561,Pet and Pet Supplies Retailers ,-0.12359977770284614
-562,Fluid Power Valve and Hose Fitting Manufacturing ,-0.125
-563,Other Metal Container Manufacturing ,-0.12738095238095237
-564,Other Nonhazardous Waste Treatment and Disposal ,-0.12797619047619047
-565,Vending Machine Operators ,-0.1280410967578521
-566,Masonry Contractors ,-0.12863695090439276
-567,"Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing ",-0.131473968897904
-568,Other Grantmaking and Giving Services ,-0.13314668423364073
-569,Teleproduction and Other Postproduction Services ,-0.1332614942528736
-570,Credit Card Issuing ,-0.1357683982683983
-571,Drywall and Insulation Contractors ,-0.1359296746138851
-572,"Other Similar Organizations (except Business, Professional, Labor, and Poli",-0.13671514606802773
-573,Public Finance Activities ,-0.1375776015735448
-574,Lessors of Nonfinancial Intangible Assets (except Copyrighted Works),-0.13782051282051283
-575,Flight Training ,-0.13856456043956045
-576,Petroleum Bulk Stations and Terminals ,-0.13935237556561086
-577,Mechanical Power Transmission Equipment Manufacturing ,-0.1405780780780781
-578,Miscellaneous Financial Investment Activities ,-0.14375
-579,Corrugated and Solid Fiber Box Manufacturing ,-0.14402935087078308
-580,Ophthalmic Goods Merchant Wholesalers ,-0.14464285714285716
-581,Fish and Seafood Retailers ,-0.14583333333333337
-582,Recreational and Vacation Camps (except Campgrounds) ,-0.14615384615384613
-583,Plastics Plumbing Fixture Manufacturing ,-0.14708237986270026
-584,Business Associations ,-0.14900203962703965
-585,Other Concrete Product Manufacturing ,-0.1491729759985338
-586,"Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour ",-0.1493426402819192
-587,Other Leather and Allied Product Manufacturing ,-0.15
-588,Fats and Oils Refining and Blending ,-0.1503205128205128
-589,Administration of Urban Planning and Community and Rural Development ,-0.15159774436090226
-590,Human Rights Organizations ,-0.15224125150910195
-591,Industrial Design Services,-0.15251572327044027
-592,Flooring Contractors,-0.1526136770497673
-593,"Rooming and Boarding Houses, Dormitories, and Workers' Camps ",-0.15381944444444443
-594,Apiculture,-0.15610328638497656
-595,Power Boiler and Heat Exchanger Manufacturing,-0.15814950980392153
-596,Other Business Service Centers (including Copy Shops) ,-0.16127558479532164
-597,Private Mail Centers ,-0.16432748538011696
-598,All Other Industrial Machinery Manufacturing ,-0.16455662393162393
-599,Iron Foundries ,-0.16474632563661673
-600,All Other Specialty Food Retailers ,-0.16514939309056959
-601,Motor Vehicle Transmission and Power Train Parts Manufacturing,-0.16567153177060298
-602,All Other Health and Personal Care Retailers ,-0.1660255488447896
-603,Printing Ink Manufacturing,-0.16666666666666669
-604,Administration of Air and Water Resource and Solid Waste Management Program,-0.1693452380952381
-605,Plastics Material and Resin Manufacturing ,-0.1721893302775656
-606,Other Aircraft Parts and Auxiliary Equipment Manufacturing ,-0.1727328932410602
-607,Other Measuring and Controlling Device Manufacturing ,-0.17347297568816553
-608,All Other Transit and Ground Passenger Transportation ,-0.1740601032592419
-609,All Other Converted Paper Product Manufacturing ,-0.1789351851851852
-610,"Doll, Toy, and Game Manufacturing",-0.18154761904761907
-611,Toy and Hobby Goods and Supplies Merchant Wholesalers ,-0.18214285714285716
-612,"Roofing, Siding, and Insulation Material Merchant Wholesalers ",-0.18427614948418392
-613,Newspaper Publishers ,-0.18661551577152602
-614,Specialty (except Psychiatric and Substance Abuse) Hospitals ,-0.18722505950766824
-615,Lessors of Other Real Estate Property ,-0.18738553113553116
-616,General Line Grocery Merchant Wholesalers ,-0.18881820772274735
-617,Paint and Wallpaper Retailers ,-0.18988095238095237
-618,Pesticide and Other Agricultural Chemical Manufacturing,-0.19070512820512825
-619,Court Reporting and Stenotype Services ,-0.19106432549153313
-620,Asphalt Paving Mixture and Block Manufacturing ,-0.19166666666666668
-621,Home and Garden Equipment Repair and Maintenance ,-0.19191919191919193
-622,Offices of Chiropractors ,-0.19234182621674717
-623,Marinas,-0.19374999999999998
-624,Other Construction Material Merchant Wholesalers ,-0.19383012820512824
-625,Drugs and Druggists' Sundries Merchant Wholesalers ,-0.1959293936872122
-626,All Other Miscellaneous General Purpose Machinery Manufacturing ,-0.19805194805194806
-627,Grantmaking Foundations ,-0.19902655588139456
-628,Other Financial Vehicles ,-0.2
-629,Office Furniture (except Wood) Manufacturing ,-0.20288461538461539
-630,Fire Protection ,-0.20371621621621622
-631,Museums ,-0.204694976076555
-632,Reupholstery and Furniture Repair,-0.20478479853479853
-633,Cosmetology and Barber Schools ,-0.20600414078674947
-634,Apprenticeship Training ,-0.20625
-635,All Other Telecommunications ,-0.20677238839209974
-636,Synthetic Rubber Manufacturing ,-0.20833333333333337
-637,Voluntary Health Organizations ,-0.2110918062641439
-638,Used Household and Office Goods Moving,-0.21139049796569506
-639,Offices of Podiatrists ,-0.2125
-640,Solid Waste Landfill ,-0.2131944444444444
-641,Paper Mills ,-0.21358527385313103
-642,"Trust, Fiduciary, and Custody Activities ",-0.21540519877675843
-643,Unlaminated Plastics Profile Shape Manufacturing ,-0.216025641025641
-644,Cheese Manufacturing ,-0.21645021645021645
-645,Residential Remodelers ,-0.21645741629985327
-646,Interurban and Rural Bus Transportation,-0.21666666666666665
-647,Construction Sand and Gravel Mining ,-0.21685139573070608
-648,Surgical and Medical Instrument Manufacturing ,-0.21849259974259974
-649,All Other Miscellaneous Chemical Product and Preparation Manufacturing ,-0.2187609867572952
-650,Coal and Other Mineral and Ore Merchant Wholesalers ,-0.21945979128299573
-651,Motor Vehicle Brake System Manufacturing,-0.21957359988020367
-652,Nuclear Electric Power Generation ,-0.22084859584859584
-653,Zoos and Botanical Gardens ,-0.22197420634920634
-654,Industrial Mold Manufacturing ,-0.22270114942528738
-655,Metal Tank (Heavy Gauge) Manufacturing,-0.2248623553564763
-656,Administration of Veterans' Affairs ,-0.2262750180853629
-657,Convenience Retailers ,-0.22644107019107018
-658,Automotive Glass Replacement Shops ,-0.22972614281678894
-659,Manufactured (Mobile) Home Dealers ,-0.2302927927927928
-660,Distilleries ,-0.23076923076923075
-661,"Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers ",-0.2334280303030303
-662,Wireless Telecommunications Carriers (except Satellite),-0.23466457214927952
-663,New Housing For-Sale Builders ,-0.238049853372434
-664,Fine Arts Schools ,-0.23929110105580692
-665,Farm Machinery and Equipment Manufacturing ,-0.2409722222222222
-666,"Metal Crown, Closure, and Other Metal Stamping (except Automotive) ",-0.241010101010101
-667,Pulp Mills ,-0.2418831168831169
-668,Tile and Terrazzo Contractors,-0.24196428571428572
-669,Tire Manufacturing (except Retreading) ,-0.24295714417294967
-670,Travel Trailer and Camper Manufacturing ,-0.24365563454273137
-671,"Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers ",-0.2439415708812261
-672,Luggage and Leather Goods Retailers ,-0.24467418546365916
-673,Specialized Automotive Repair ,-0.2450414169164169
-674,Nature Parks and Other Similar Institutions,-0.2455357142857143
-675,Convention and Visitors Bureaus ,-0.2463888888888889
-676,Art Dealers ,-0.24649122807017543
-677,Boat Building ,-0.24748789320166653
-678,Floriculture Production ,-0.24791666666666665
-679,Motor Vehicle Steering and Suspension Components (except Spring) Manufactur,-0.24819862155388475
-680,Motor Vehicle Parts (Used) Merchant Wholesalers ,-0.2485599078341014
-681,Coastal and Great Lakes Freight Transportation ,-0.25
-682,Strawberry Farming ,-0.25
-683,Other Specialized Design Services,-0.25
-684,"Cyclic Crude, Intermediate, and Gum and Wood Chemical Manufacturing ",-0.25
-685,Other Metal Valve and Pipe Fitting Manufacturing ,-0.25
-686,Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts ,-0.25
-687,Printing and Writing Paper Merchant Wholesalers ,-0.25
-688,Food (Health) Supplement Retailers ,-0.25089285714285714
-689,Confectionery and Nut Retailers ,-0.25277777777777777
-690,Motor Vehicle Towing,-0.2531204906204906
-691,"Hobby, Toy, and Game Retailers ",-0.25561887710510184
-692,Fresh Fruit and Vegetable Merchant Wholesalers ,-0.25953232242422203
-693,"Showcase, Partition, Shelving, and Locker Manufacturing ",-0.2615384615384615
-694,"Household Appliances, Electric Housewares, and Consumer Electronics Merchan",-0.26179909731206835
-695,Packaged Frozen Food Merchant Wholesalers ,-0.26200225739844607
-696,Libraries and Archives ,-0.26245015337423316
-697,Cane Sugar Manufacturing ,-0.2638020833333333
-698,Meat Retailers ,-0.2643315018315018
-699,Textile Bag and Canvas Mills ,-0.26489898989898986
-700,Other Fabricated Wire Product Manufacturing ,-0.26515151515151514
-701,Other Performing Arts Companies ,-0.2670940170940171
-702,Other Insurance Funds ,-0.26721887550200807
-703,All Other Traveler Accommodation ,-0.26871493688639553
-704,"Power, Distribution, and Specialty Transformer Manufacturing ",-0.268762677484787
-705,Other Activities Related to Credit Intermediation ,-0.26942640692640696
-706,Poultry and Poultry Product Merchant Wholesalers ,-0.27083783528474625
-707,Refrigeration Equipment and Supplies Merchant Wholesalers ,-0.2709573412698413
-708,Rendering and Meat Byproduct Processing ,-0.27249999999999996
-709,Tortilla Manufacturing,-0.273015873015873
-710,Security Systems Services (except Locksmiths) ,-0.2733256499494646
-711,Advertising Agencies,-0.2768234140247008
-712,Family Planning Centers ,-0.2769028807387176
-713,General Rental Centers,-0.277354683960761
-714,"Fastener, Button, Needle, and Pin Manufacturing ",-0.2799433888060937
-715,All Other Miscellaneous Schools and Instruction ,-0.28012152777777777
-716,Retail Bakeries ,-0.28464912280701754
-717,Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Whole,-0.2849326599326599
-718,All Other Legal Services ,-0.28562726260094684
-719,Offices of Mental Health Practitioners (except Physicians) ,-0.28711484593837533
-720,Softwood Veneer and Plywood Manufacturing ,-0.28758503401360547
-721,Ball and Roller Bearing Manufacturing,-0.2892598254114752
-722,Cut and Sew Apparel Contractors ,-0.2899038461538461
-723,Child and Youth Services ,-0.2900903850062795
-724,Soap and Other Detergent Manufacturing ,-0.29084461637653125
-725,"Gift, Novelty, and Souvenir Retailers ",-0.29215297772237614
-726,Other Personal and Household Goods Repair and Maintenance ,-0.2931547619047619
-727,"Kaolin, Clay, and Ceramic and Refractory Minerals Mining ",-0.2935749299719888
-728,Marketing Research and Public Opinion Polling,-0.2954545454545454
-729,Ship Building and Repairing ,-0.2958333333333334
-730,Commercial Screen Printing ,-0.29606350946811477
-731,Locksmiths ,-0.296875
-732,Professional Organizations ,-0.29709776943124333
-733,Diet and Weight Reducing Centers ,-0.2974137931034483
-734,Office Equipment Merchant Wholesalers ,-0.30148712424335694
-735,Home Furnishing Merchant Wholesalers ,-0.30257922529653847
-736,Telephone Answering Services ,-0.30274690557656414
-737,Other Heavy and Civil Engineering Construction ,-0.30658677605948653
-738,Packing and Crating ,-0.3069350122618374
-739,"Construction, Mining, and Forestry Machinery and Equipment Rental and Leasi",-0.307033096926714
-740,Diagnostic Imaging Centers ,-0.3070687383522872
-741,Police Protection ,-0.30804059437495024
-742,All Other Support Activities for Transportation ,-0.3099984110258083
-743,Regulation of Agricultural Marketing and Commodities ,-0.31120043520309476
-744,Fabric Coating Mills,-0.3115942028985508
-745,Other Waste Collection ,-0.3134059153027303
-746,Jewelry Retailers ,-0.31362264303057896
-747,All Other Miscellaneous Nonmetallic Mineral Product Manufacturing ,-0.3161838161838162
-748,Footwear Manufacturing ,-0.3172519604500511
-749,School and Employee Bus Transportation,-0.3191426534976072
-750,"Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing ",-0.31935483870967746
-751,Mobile Food Services,-0.3199350459786892
-752,Ornamental and Architectural Metal Work Manufacturing ,-0.3204434018456014
-753,Cement Manufacturing,-0.32045454545454544
-754,Motor Vehicle Body Manufacturing ,-0.3206923867449278
-755,Tree Nut Farming ,-0.3211111111111111
-756,Photofinishing Laboratories (except One-Hour) ,-0.32152230971128615
-757,General Automotive Repair ,-0.3243207753250583
-758,Research and Development in the Social Sciences and Humanities ,-0.3264275885792914
-759,Berry (except Strawberry) Farming ,-0.3287326388888889
-760,Clay Building Material and Refractories Manufacturing ,-0.3303671608896013
-761,Machine Tool Manufacturing ,-0.3308712121212122
-762,Nonchocolate Confectionery Manufacturing,-0.33395061728395065
-763,"Scenic and Sightseeing Transportation, Land",-0.34022898776997135
-764,Computer Terminal and Other Computer Peripheral Equipment Manufacturing ,-0.34230088331142255
-765,Peanut Farming ,-0.3425387596899225
-766,Other Noncitrus Fruit Farming ,-0.34456002331002333
-767,Limousine Service,-0.345343660968661
-768,Crushed and Broken Granite Mining and Quarrying ,-0.34960357624831306
-769,Correctional Institutions ,-0.3510845703313147
-770,Flat Glass Manufacturing ,-0.35140251240449627
-771,All Other Publishers ,-0.35188442642008533
-772,Exterminating and Pest Control Services,-0.35196756568239945
-773,Parole Offices and Probation Offices ,-0.3532360312546071
-774,"Environment, Conservation and Wildlife Organizations ",-0.35700549450549446
-775,"Gasket, Packing, and Sealing Device Manufacturing ",-0.357322946661182
-776,Packaging Machinery Manufacturing ,-0.35855263157894735
-777,Glass Container Manufacturing ,-0.3621162280701754
-778,Nonscheduled Chartered Passenger Air Transportation ,-0.36230399717241824
-779,Commercial Photography ,-0.3638547407093401
-780,"Other Aluminum Rolling, Drawing, and Extruding ",-0.3684990553547255
-781,Home Health Equipment Rental ,-0.37366215915050544
-782,Direct Title Insurance Carriers ,-0.37777777777777777
-783,All Other Automotive Repair and Maintenance ,-0.3793859649122807
-784,Motion Picture and Video Distribution,-0.38000000000000006
-785,Commercial and Service Industry Machinery Manufacturing ,-0.38092058404558404
-786,Offices of Real Estate Appraisers ,-0.3819444444444444
-787,Broilers and Other Meat Type Chicken Production ,-0.3838286713286713
-788,Interior Design Services,-0.3839589737959303
-789,Labor Unions and Similar Labor Organizations ,-0.3840659340659341
-790,Wood Office Furniture Manufacturing ,-0.3890567765567765
-791,Boat Dealers ,-0.391304347826087
-792,Sporting and Athletic Goods Manufacturing,-0.3928571428571428
-793,Alumina Refining and Primary Aluminum Production ,-0.39285714285714285
-794,Carpet and Upholstery Cleaning Services,-0.3959575512207091
-795,Pension Funds ,-0.4
-796,"Offices of Physicians, Mental Health Specialists ",-0.40116593421738944
-797,Administration of General Economic Programs ,-0.40625
-798,Household Furniture (except Wood and Upholstered) Manufacturing ,-0.4091954022988506
-799,Direct Mail Advertising,-0.41040372670807457
-800,Iron and Steel Mills and Ferroalloy Manufacturing ,-0.4117647058823529
-801,"Sewing, Needlework, and Piece Goods Retailers ",-0.4187185929648241
-802,Temporary Shelters ,-0.42010555386597215
-803,Commodity Contracts Intermediation ,-0.425
-804,Funeral Homes and Funeral Services ,-0.4250669447363812
-805,Narrow Fabric Mills and Schiffli Machine Embroidery,-0.4285714285714286
-806,Taxi and Ridesharing Services ,-0.42984590429845904
-807,"Electroplating, Plating, Polishing, Anodizing, and Coloring ",-0.43083276372750057
-808,Hunting and Trapping,-0.4473684210526316
-809,Sound Recording Studios,-0.45
-810,Engineered Wood Member Manufacturing ,-0.45441607981220655
-811,Savings Institutions and Other Depository Credit Intermediation ,-0.45454545454545453
-812,Other Sound Recording Industries,-0.4583333333333333
-813,"Military Armored Vehicle, Tank, and Tank Component Manufacturing ",-0.47619047619047616
-814,Reconstituted Wood Product Manufacturing ,-0.47802197802197804
-815,Medicinal and Botanical Manufacturing ,-0.48856837606837605
-816,Concrete Block and Brick Manufacturing ,-0.49496221662468515
-817,Support Activities for Animal Production,-0.49747155499367884
-818,Elevator and Moving Stairway Manufacturing ,-0.4989106753812636
-819,Motor and Generator Manufacturing ,-0.5
-820,Relay and Industrial Control Manufacturing ,-0.5
-821,"Automatic Environmental Control Manufacturing for Residential, Commercial, ",-0.5175736961451247
-822,Advertising Material Distribution Services,-0.5206349206349207
-823,Ground or Treated Mineral and Earth Manufacturing ,-0.5238095238095238
-824,All Other Miscellaneous Crop Farming ,-0.5333333333333333
-825,"Frozen Fruit, Juice, and Vegetable Manufacturing ",-0.5333333333333334
-826,All Other Miscellaneous Electrical Equipment and Component Manufacturing ,-0.5714285714285714
-827,Cutting Tool and Machine Tool Accessory Manufacturing ,-0.5809523809523809
-828,Other Electronic Component Manufacturing ,-0.6137931034482759
-829,Wineries ,-0.6456521739130434
-830,Deep Sea Freight Transportation ,-0.6666666666666667
-831,Bed-and-Breakfast Inns ,-0.6944444444444444
-832,Port and Harbor Operations,-0.6982142857142857
-833,"Dry, Condensed, and Evaporated Dairy Product Manufacturing ",-0.8
-834,Spring Manufacturing ,-0.8125
-835,Line-Haul Railroads ,-0.8235294117647058
-836,Other Communication and Energy Wire Manufacturing ,-0.84
-837,Power-Driven Handtool Manufacturing ,-0.85
-838,Apple Orchards ,-0.8518518518518519
-839,Tire Retreading ,-0.875
-840,Steel Wire Drawing ,-0.8823529411764706
-841,Air and Gas Compressor Manufacturing ,-0.8974358974358975
-842,Research and Development in Nanotechnology ,-0.9272727272727272
-843,Potato Farming ,-0.9361702127659575
-844,American Indian and Alaska Native Tribal Governments ,-0.9552238805970149
-845,Inland Water Freight Transportation ,-0.9647058823529412
-846,Skiing Facilities,-0.9693877551020408
-847,Custom Roll Forming ,-0.9941520467836258
+industry_code,pct_change
+Temporary Help Services,124.7471459195073
+Hotels (except Casino Hotels) and Motels ,93.71394812269142
+Security Guards and Patrol Services ,88.55459400034334
+Elementary and Secondary Schools ,61.04219502674008
+Department Stores ,58.68672800509565
+Motion Picture and Video Production ,50.99811504916389
+Limited-Service Restaurants ,50.22498464416861
+General Warehousing and Storage ,42.155627351771514
+Scheduled Passenger Air Transportation ,41.79450051546406
+Child Care Services ,40.762275413630746
+All Other General Merchandise Retailers ,36.393569192439095
+Custom Computer Programming Services ,36.217692759478034
+Engineering Services,35.79423308683704
+Janitorial Services ,27.910923415250895
+Telemarketing Bureaus and Other Contact Centers ,27.60917298400631
+Tax Preparation Services ,27.142559131760034
+Supermarkets and Other Grocery Retailers (except Convenience Retailers) ,25.95287790952589
+Poultry Processing ,24.56040530683127
+New Car Dealers ,22.561018729296517
+Wired Telecommunications Carriers ,21.69500014402581
+Assisted Living Facilities for the Elderly ,20.25603442497094
+Gasoline Stations with Convenience Stores ,19.751384312041196
+Full-Service Restaurants ,19.576778245258932
+Landscaping Services,19.022220833919828
+Food Service Contractors,17.703538475413477
+Insurance Agencies and Brokerages ,17.30530391363495
+"Research and Development in the Physical, Engineering, and Life Sciences (except Nanotechnology and Biotechnology) ",15.163028747889452
+Administrative Management and General Management Consulting Services ,14.895506948629109
+Direct Property and Casualty Insurance Carriers ,14.788312454467707
+Human Resources Consulting Services ,14.579729981378026
+Couriers and Express Delivery Services,13.01406231662968
+Employment Placement Agencies ,12.536338261859266
+Services for the Elderly and Persons with Disabilities ,11.435055111509115
+Solid Waste Collection ,10.497731392035048
+Air-Conditioning and Warm Air Heating Equipment and Commercial and Industrial Refrigeration Equipment Manufacturing ,8.868630278896736
+Optical Goods Retailers ,8.480863854975953
+Lessors of Residential Buildings and Dwellings ,8.377819659703505
+Direct Health and Medical Insurance Carriers ,8.360870051986993
+Fitness and Recreational Sports Centers ,8.244919007724073
+Commercial Printing (except Screen and Books) ,8.11783494862476
+Professional Employer Organizations,7.99854875070176
+Nursing Care Facilities (Skilled Nursing Facilities) ,7.482613762040713
+Construction Machinery Manufacturing,7.229341541992144
+Caterers,7.217783891009806
+Ambulance Services ,7.1232141714541655
+All Other Support Services,7.030800411358449
+Computer Systems Design Services ,6.922042002015573
+Drinking Places (Alcoholic Beverages) ,6.895083319584227
+Home Centers ,6.83097373521583
+Other Management Consulting Services ,6.815402787621072
+"Highway, Street, and Bridge Construction ",6.756973782393303
+Shoe Retailers ,6.1414791695646125
+Other Individual and Family Services ,5.845335026630029
+"Lumber, Plywood, Millwork, and Wood Panel Merchant Wholesalers ",5.6929107508652965
+Nonresidential Property Managers ,5.5832469699012535
+Outpatient Mental Health and Substance Abuse Centers ,5.511140173124942
+Freestanding Ambulatory Surgical and Emergency Centers ,5.417857533497402
+Wholesale Trade Agents and Brokers ,5.359104723720119
+Other Personal Care Services ,5.309123167584538
+Other Accounting Services ,5.185168187088896
+Other Airport Operations ,5.178044317768899
+Commercial Bakeries ,5.145132037656491
+Truck Trailer Manufacturing ,5.1357637487750045
+Drycleaning and Laundry Services (except Coin-Operated) ,5.049975973551686
+Used Car Dealers ,5.037895092365822
+Blood and Organ Banks ,4.880178965853123
+"Fiber, Yarn, and Thread Mills ",4.664107117314916
+Postharvest Crop Activities (except Cotton Ginning) ,4.537631851716359
+Car Washes ,4.509496144077049
+Junior Colleges ,4.504415301408994
+Private Households,4.406787901357166
+Executive Search Services ,4.388502683075214
+Tire Dealers ,4.289976109712952
+"Executive and Legislative Offices, Combined ",4.157139516193225
+Offices of Real Estate Agents and Brokers,4.129677541580773
+Construction and Mining (except Oil Well) Machinery and Equipment Merchant Wholesalers ,4.106835478068355
+Other Support Activities for Air Transportation,4.080926629684329
+Power and Communication Line and Related Structures Construction ,4.047470718259915
+Golf Courses and Country Clubs,3.9695822237002214
+Home Health Care Services,3.96182146799597
+Portfolio Management and Investment Advice ,3.8844982993197283
+Folding Paperboard Box Manufacturing ,3.8655237315875617
+Clothing and Clothing Accessories Retailers ,3.851515202650685
+Lessors of Nonresidential Buildings (except Miniwarehouses) ,3.8448816375539994
+Battery Manufacturing ,3.7764125077795163
+Research and Development in Biotechnology (except Nanobiotechnology),3.758608321377331
+All Other Miscellaneous Retailers ,3.7231828131218374
+Other Grocery and Related Products Merchant Wholesalers ,3.704370142912601
+Major Household Appliance Manufacturing ,3.629033084467867
+Sheet Metal Work Manufacturing ,3.584461929425858
+Other Electronic Parts and Equipment Merchant Wholesalers ,3.4683922573596924
+Emergency and Other Relief Services ,3.4585603199823916
+Software Publishers,3.4038346916866584
+Snack and Nonalcoholic Beverage Bars ,3.3969345790854972
+Industrial Machinery and Equipment Merchant Wholesalers ,3.2846649060551454
+"Corporate, Subsidiary, and Regional Managing Offices ",3.2503254035655567
+All Other Specialty Trade Contractors,3.2409941746443294
+"Media Streaming Distribution Services, Social Networks, and Other Media Networks and Content Providers",3.22994931425164
+General Medical and Surgical Hospitals ,3.112802688994844
+Structural Steel and Precast Concrete Contractors ,3.086783719523347
+"Plumbing, Heating, and Air-Conditioning Contractors ",3.0827714385295755
+Other Millwork (including Flooring) ,3.071886446886447
+"Specialized Freight (except Used Goods) Trucking, Local ",3.052537114449753
+Linen Supply ,3.0446028074812768
+Freight Transportation Arrangement ,3.0312540798935306
+Metal Service Centers and Other Metal Merchant Wholesalers ,3.0241325207578407
+Architectural Services,2.9878048780487805
+Administration of Housing Programs ,2.9684523809523813
+Offices of Physicians (except Mental Health Specialists) ,2.9606294907263133
+Cut and Sew Apparel Manufacturing (except Contractors) ,2.8982122074227337
+Sawmills ,2.854258300686872
+Apparel Knitting Mills,2.805693815987934
+Facilities Support Services,2.796391436053306
+Motor Vehicle Supplies and New Parts Merchant Wholesalers ,2.7751593085796067
+Collection Agencies,2.6225603568988496
+Recyclable Material Merchant Wholesalers ,2.6169026472631733
+Bus and Other Motor Vehicle Transit Systems ,2.5617569249922187
+Passenger Car Rental ,2.5358032615413872
+Pharmacies and Drug Retailers ,2.5144275679772288
+Computer and Computer Peripheral Equipment and Software Merchant Wholesalers ,2.5140510497128146
+Credit Unions ,2.4777390829434016
+Wine and Distilled Alcoholic Beverage Merchant Wholesalers ,2.465405874727909
+Travel Agencies,2.392243509608396
+Logging ,2.38510101010101
+Marketing Consulting Services ,2.3451906414001344
+Offices of Dentists ,2.3294597323066384
+Commercial and Industrial Machinery and Equipment (except Automotive and Electronic) Repair and Maintenance ,2.3257021489855996
+Mortgage and Nonmortgage Loan Brokers ,2.2885678721174005
+Beer and Ale Merchant Wholesalers ,2.275297619047619
+Industrial Supplies Merchant Wholesalers,2.263503261486103
+Roasted Nuts and Peanut Butter Manufacturing ,2.2267742673992674
+Motor Vehicle Seating and Interior Trim Manufacturing,2.205334352134852
+Mixed Mode Transit Systems ,2.1649634039209773
+Metal Can Manufacturing ,2.1136916835699795
+Other Farm Product Raw Material Merchant Wholesalers ,2.0981490872210955
+Nonwoven Fabric Mills,2.0948644267609784
+Translation and Interpretation Services,2.0588779956427015
+Land Subdivision ,2.039163314898609
+Industrial and Personal Service Paper Merchant Wholesalers ,2.029951768317302
+Floor Covering Retailers ,1.9738101543583535
+Sporting Goods Retailers ,1.9696611588364759
+"Motorcycle, ATV, and All Other Motor Vehicle Dealers ",1.9509521116138762
+Tire and Tube Merchant Wholesalers ,1.950344611528822
+Marine Cargo Handling,1.9489087301587302
+Sporting and Recreational Goods and Supplies Merchant Wholesalers ,1.9426388888888888
+Special Needs Transportation ,1.9224837662337662
+Automotive Parts and Accessories Retailers ,1.9163083867377464
+Site Preparation Contractors,1.909917300510501
+Hardware Merchant Wholesalers ,1.849655388471178
+Ready-Mix Concrete Manufacturing,1.8381547135733842
+Indoor and Outdoor Display Advertising,1.7916064628693495
+Packaging and Labeling Services,1.7893177711721164
+Plumbing and Heating Equipment and Supplies (Hydronics) Merchant Wholesalers ,1.7695489500147887
+"Process, Physical Distribution, and Logistics Consulting Services ",1.7212902497433484
+Perishable Prepared Food Manufacturing ,1.6884256094782408
+Other Residential Care Facilities ,1.681242534749749
+Mineral Wool Manufacturing ,1.6522222222222225
+Other Building Equipment Contractors ,1.6485404940587867
+Electrical Contractors and Other Wiring Installation Contractors,1.6097110488191955
+All Other Miscellaneous Manufacturing ,1.5366379310344827
+Support Activities for Rail Transportation,1.52292663476874
+Cookie and Cracker Manufacturing ,1.5212513935340022
+National Security ,1.5163530465949822
+Kidney Dialysis Centers ,1.4987828359977342
+Paint and Coating Manufacturing,1.494047619047619
+Document Preparation Services,1.4555555555555555
+All Other Outpatient Care Centers ,1.4483288770053475
+Other Computer Related Services,1.4454448621553886
+Industrial Launderers ,1.435897435897436
+Painting and Wall Covering Contractors,1.4356740669240668
+Other Paperboard Container Manufacturing ,1.4318783068783068
+All Other Business Support Services ,1.4002164502164502
+Unlaminated Plastics Film and Sheet (except Packaging) Manufacturing ,1.377069716775599
+Other Community Housing Services ,1.325587606837607
+Florists ,1.319551282051282
+Other General Government Support ,1.3089750763269634
+Animal (except Poultry) Slaughtering ,1.3082535576946979
+Automobile and Light Duty Motor Vehicle Manufacturing ,1.3080842026341735
+Fiber Optic Cable Manufacturing ,1.2784188034188033
+Administration of Conservation Programs ,1.2687525354969573
+Other Spectator Sports ,1.2651515151515151
+Sales Financing ,1.2438326864447853
+"Small Arms, Ordnance, and Ordnance Accessories Manufacturing ",1.2375730994152048
+Recreational Vehicle Dealers ,1.2266025641025642
+Wood Window and Door Manufacturing ,1.2156228464457999
+All Other Miscellaneous Ambulatory Health Care Services ,1.194921622495152
+Stationery and Office Supplies Merchant Wholesalers ,1.169561937678297
+Consumer Electronics and Appliances Rental,1.1691071795662453
+Curtain and Linen Mills,1.1679112554112554
+All Other Miscellaneous Fabricated Metal Product Manufacturing ,1.1594771241830066
+Finish Carpentry Contractors,1.1593134691436713
+"Colleges, Universities, and Professional Schools ",1.1560034194218902
+Commercial Banking ,1.1487798831644456
+Furniture Retailers ,1.148027570244194
+New Single-Family Housing Construction (except For-Sale Builders) ,1.146618458060352
+Oil and Gas Pipeline and Related Structures Construction ,1.1293214654282766
+Farm Supplies Merchant Wholesalers ,1.1224137931034484
+Metal Window and Door Manufacturing ,1.1221185064935066
+Air Traffic Control,1.1130172413793102
+Parking Lots and Garages ,1.1127895089282525
+Remediation Services ,1.1059598741148702
+"Other Foundation, Structure, and Building Exterior Contractors ",1.1007917459493743
+Educational Support Services,1.0889538661468485
+Periodical Publishers ,1.062900641025641
+Confectionery Merchant Wholesalers ,1.058116883116883
+Fabricated Structural Metal Manufacturing ,1.0551499079724886
+Fuel Dealers ,1.0475278620791562
+"Computing Infrastructure Providers, Data Processing, Web Hosting, and Related Services",1.0363450372823135
+Commercial and Institutional Building Construction ,1.0236184178405214
+Poultry Hatcheries,1.0045093795093796
+Upholstered Household Furniture Manufacturing ,0.987019887019887
+Motor Vehicle Metal Stamping,0.9739320624760844
+Computer Facilities Management Services ,0.9715111845824109
+"Beer, Wine, and Liquor Retailers ",0.9695776037687803
+Appliance Repair and Maintenance ,0.9672101449275362
+"Instruments and Related Products Manufacturing for Measuring, Displaying, and Controlling Industrial Process Variables ",0.9613095238095237
+Artificial and Synthetic Fibers and Filaments Manufacturing,0.9588744588744589
+Coffee and Tea Manufacturing ,0.9267857142857143
+Spice and Extract Manufacturing ,0.9208578314529372
+Investment Banking and Securities Intermediation ,0.9179608922145139
+Meat Processed from Carcasses ,0.9139287266405911
+Local Messengers and Local Delivery,0.9088683923948375
+Meat and Meat Product Merchant Wholesalers ,0.905478258300839
+Residential Intellectual and Developmental Disability Facilities ,0.8931818181818182
+All Other Miscellaneous Textile Product Mills ,0.891465053763441
+Farm and Garden Machinery and Equipment Merchant Wholesalers ,0.8866818873668189
+Warehouse Clubs and Supercenters ,0.8823680644196885
+Pet Care (except Veterinary) Services ,0.8815545115261694
+Frozen Specialty Food Manufacturing ,0.8772581585081585
+Prefabricated Metal Building and Component Manufacturing ,0.8609360410830998
+Manufactured Home (Mobile Home) Manufacturing ,0.856246857717446
+Service Establishment Equipment and Supplies Merchant Wholesalers ,0.8561274509803921
+Telecommunications Resellers,0.8546600877192982
+Psychiatric and Substance Abuse Hospitals ,0.8438958916900094
+Electronics and Appliance Retailers ,0.8394300478019256
+Amusement and Theme Parks ,0.8341103749191985
+Soft Drink Manufacturing ,0.8283532111657113
+"General Freight Trucking, Local ",0.8196984680946793
+Dental Laboratories ,0.8170787545787547
+"Offices of Physical, Occupational and Speech Therapists, and Audiologists ",0.8153740790901045
+"Other Direct Insurance (except Life, Health, and Medical) Carriers ",0.8134031198686371
+All Other Home Furnishings Retailers ,0.8048076370532122
+Bottled Water Manufacturing ,0.7940647128245476
+Water and Sewer Line and Related Structures Construction ,0.7912088719153936
+Real Estate Credit ,0.7861199182695694
+Veterinary Services ,0.7779830068586374
+Other Gasoline Stations ,0.7653294796573098
+Gypsum Product Manufacturing,0.7518939393939393
+Other Professional Equipment and Supplies Merchant Wholesalers ,0.747033763338111
+"Independent Artists, Writers, and Performers ",0.7384834368530021
+Institutional Furniture Manufacturing ,0.7343073593073594
+Testing Laboratories and Services,0.7338631244881244
+Rubber Product Manufacturing for Mechanical Use ,0.7215073529411764
+Television Broadcasting Stations,0.7170962732919255
+"Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures",0.7161172161172161
+Office Supplies and Stationery Retailers ,0.7085053319573443
+Textile and Fabric Finishing Mills ,0.7081493068335173
+"Special Die and Tool, Die Set, Jig, and Fixture Manufacturing ",0.7006410256410256
+Other Motor Vehicle Parts Manufacturing,0.6892735887301104
+"International, Secondary Market, and All Other Nondepository Credit Intermediation ",0.6809823594989834
+All Other Plastics Product Manufacturing ,0.6706231558358545
+Vocational Rehabilitation Services ,0.6682065951859322
+Support Activities for Forestry,0.6666666666666667
+Radio Broadcasting Stations ,0.6666666666666666
+Other Food Crops Grown Under Cover ,0.6651515151515152
+Mattress Manufacturing,0.6614079566665775
+Stationery Product Manufacturing,0.6599234099234099
+Polystyrene Foam Product Manufacturing,0.6534538169276454
+"Nursery, Garden Center, and Farm Supply Retailers ",0.6454344512195122
+Environmental Consulting Services,0.6450304677206851
+Cotton Ginning ,0.634375
+"Cafeterias, Grill Buffets, and Buffets ",0.6339984291071248
+Electronic Computer Manufacturing ,0.6332738095238095
+Residential Mental Health and Substance Abuse Facilities ,0.6296387298327247
+Courts ,0.6168686868686868
+Nursery and Tree Production ,0.6132700632700633
+"Photography Studios, Portrait ",0.6091269841269842
+Automobile Driving Schools ,0.6083333333333334
+Other Snack Food Manufacturing ,0.6052924727817849
+Directory and Mailing List Publishers ,0.5832880434782609
+Convention and Trade Show Organizers,0.5784074790457768
+Community Food Services ,0.5763888888888888
+Tour Operators,0.565805109922757
+"Cut Stock, Resawing Lumber, and Planing ",0.562878787878788
+Residential Property Managers ,0.5594554591647614
+"Administration of Human Resource Programs (except Education, Public Health, and Veterans' Affairs Programs) ",0.5481575473605157
+Amusement Arcades,0.5461309523809523
+Plastics Bag and Pouch Manufacturing ,0.5449248120300751
+Clothing and Clothing Accessories Merchant Wholesalers,0.5443666458625891
+Continuing Care Retirement Communities ,0.535377051915453
+"Sawmill, Woodworking, and Paper Machinery Manufacturing ",0.5347222222222222
+Precision Turned Product Manufacturing ,0.5289627039627041
+Electronic and Precision Equipment Repair and Maintenance ,0.5110375816993464
+Photographic Equipment and Supplies Merchant Wholesalers ,0.5090034965034965
+"Promoters of Performing Arts, Sports, and Similar Events with Facilities ",0.5031660412757974
+Wood Preservation ,0.5020833333333334
+Claims Adjusting ,0.4996442980811443
+Refrigerated Warehousing and Storage,0.4989797073407458
+Investigation and Personal Background Check Services ,0.47256189613526567
+Automotive Oil Change and Lubrication Shops ,0.4723819411485524
+Regulation and Administration of Transportation Programs ,0.457485447950856
+Other Warehousing and Storage,0.4537536295005807
+Nail Salons ,0.4444444444444444
+Lessors of Miniwarehouses and Self-Storage Units ,0.4438667995136712
+Paper Bag and Coated and Treated Paper Manufacturing,0.4418527379053695
+Medical Laboratories ,0.43989323308920625
+Furniture Merchant Wholesalers ,0.439711137385556
+"General Freight Trucking, Long-Distance, Less Than Truckload ",0.4355217557592621
+"Tobacco, Electronic Cigarette, and Other Smoking Supplies Retailers ",0.43283085194375515
+Payroll Services ,0.42845392679151817
+Ammunition (except Small Arms) Manufacturing ,0.4248737373737374
+Offices of Certified Public Accountants ,0.4216564681152959
+Charter Bus Industry,0.4173076923076924
+"Truck, Utility Trailer, and RV (Recreational Vehicle) Rental and Leasing ",0.41504506320016704
+In-Vitro Diagnostic Substance Manufacturing ,0.4097222222222222
+Hazardous Waste Treatment and Disposal ,0.4095238095238095
+Paperboard Mills ,0.40912208111742776
+Petroleum and Petroleum Products Merchant Wholesalers (except Bulk Stations and Terminals) ,0.40846936628186625
+"Secondary Smelting, Refining, and Alloying of Nonferrous Metal (except Copper and Aluminum) ",0.4065058479532163
+All Other Transportation Equipment Manufacturing ,0.3989051821277655
+Book Publishers ,0.3920454545454546
+Religious Organizations ,0.39196428571428565
+Repossession Services ,0.3813492063492063
+"Cosmetics, Beauty Supplies, and Perfume Retailers ",0.369200976861915
+Dairy Product (except Dried or Canned) Merchant Wholesalers ,0.36704545454545456
+Plastics Pipe and Pipe Fitting Manufacturing ,0.35232860031247126
+Industrial Sand Mining ,0.3333333333333333
+Other Nonmetallic Mineral Mining and Quarrying ,0.33333333333333326
+Nonferrous Metal Die-Casting Foundries ,0.33333333333333326
+Breweries,0.3316290854808297
+Miscellaneous Intermediation ,0.3307498057498058
+Confectionery Manufacturing from Purchased Chocolate ,0.3270833333333334
+All Other Insurance Related Activities ,0.3177043217800599
+Heavy Duty Truck Manufacturing,0.3119047619047619
+Legislative Bodies ,0.3073122529644269
+Building Inspection Services,0.3064393939393939
+Natural Gas Distribution ,0.3036796536796537
+Plastics Bottle Manufacturing,0.3031746031746032
+Dairy Cattle and Milk Production,0.28869047619047616
+Other Miscellaneous Nondurable Goods Merchant Wholesalers ,0.2789852700490998
+Credit Bureaus,0.27690630967620883
+Current-Carrying Wiring Device Manufacturing ,0.2642857142857143
+Broadwoven Fabric Mills,0.26062316099201344
+Lawn and Garden Tractor and Home Lawn and Garden Equipment Manufacturing ,0.2583333333333333
+Graphic Design Services,0.2521198830409357
+"Copper Rolling, Drawing, Extruding, and Alloying",0.2512179487179488
+Glass and Glazing Contractors ,0.2471744264507422
+Bowling Centers,0.2455985222464886
+All Other Consumer Goods Rental ,0.23988795518207287
+Dog and Cat Food Manufacturing ,0.23506299734748015
+Fruit and Vegetable Canning ,0.23342427248677253
+"Pottery, Ceramics, and Plumbing Fixture Manufacturing ",0.22916666666666663
+Iron and Steel Pipe and Tube Manufacturing from Purchased Steel,0.22916666666666663
+Carpet and Rug Mills,0.22595761707750403
+Fabricated Pipe and Pipe Fitting Manufacturing ,0.22123015873015872
+Automobile and Other Motor Vehicle Merchant Wholesalers ,0.2189880944775923
+Irradiation Apparatus Manufacturing ,0.21666666666666665
+Administration of Public Health Programs ,0.2152604426292264
+Septic Tank and Related Services ,0.2071581196581197
+Casinos (except Casino Hotels),0.20714285714285713
+Support Activities for Nonmetallic Minerals (except Fuels) Mining ,0.19615384615384618
+"Aluminum Sheet, Plate, and Foil Manufacturing ",0.19523809523809524
+Fossil Fuel Electric Power Generation ,0.19444444444444442
+Biological Product (except Diagnostic) Manufacturing ,0.18928571428571425
+Exam Preparation and Tutoring ,0.18326330532212884
+Theater Companies and Dinner Theaters ,0.1823096264367816
+"Specialized Freight (except Used Goods) Trucking, Long-Distance ",0.17917558132284941
+Offices of All Other Miscellaneous Health Practitioners ,0.17846978981045905
+HMO Medical Centers ,0.177249115826702
+Siding Contractors ,0.16566776135741654
+"Commercial, Industrial, and Institutional Electric Lighting Fixture Manufacturing ",0.16244429590017823
+Glass Product Manufacturing Made of Purchased Glass ,0.15833333333333335
+Asphalt Shingle and Coating Materials Manufacturing ,0.15833333333333335
+Fluid Power Cylinder and Actuator Manufacturing ,0.15714285714285714
+Fish and Seafood Merchant Wholesalers ,0.15347222222222223
+Other Activities Related to Real Estate ,0.15332687338501297
+Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing,0.1531385281385281
+"General Freight Trucking, Long-Distance, Truckload ",0.15265655569714795
+Other Chemical and Allied Products Merchant Wholesalers ,0.15223453500926318
+Offices of Other Holding Companies ,0.1510739579705097
+Musical Groups and Artists ,0.14916125541125538
+Roofing Contractors ,0.1490679824561403
+Office Supplies (except Paper) Manufacturing,0.13958333333333336
+Totalizing Fluid Meter and Counting Device Manufacturing ,0.13333333333333336
+Other Support Activities for Road Transportation ,0.13126198153754795
+Support Activities for Printing,0.13011363636363638
+"Regulation, Licensing, and Inspection of Miscellaneous Commercial Sectors ",0.12957875457875462
+Consumer Lending ,0.12881713415230048
+Coin-Operated Laundries and Drycleaners ,0.12415188977688979
+Plastics Packaging Film and Sheet (including Laminated) Manufacturing ,0.12341269841269842
+Offices of Optometrists,0.12191301520608239
+Water Supply and Irrigation Systems ,0.11992783224400869
+Civic and Social Organizations ,0.119166736378671
+Other Basic Inorganic Chemical Manufacturing ,0.11854163862341272
+Cut Stone and Stone Product Manufacturing ,0.11825396825396828
+Farm Product Warehousing and Storage,0.1166666666666667
+"Capacitor, Resistor, Coil, Transformer, and Other Inductor Manufacturing ",0.11607142857142858
+Recreational Goods Rental ,0.11111111111111109
+Drilling Oil and Gas Wells,0.10416666666666666
+Ice Manufacturing ,0.10297619047619047
+Other Social Advocacy Organizations ,0.10165130287506627
+Soybean and Other Oilseed Processing ,0.09583333333333335
+Solar Electric Power Generation ,0.09166666666666667
+"Medical, Dental, and Hospital Equipment and Supplies Merchant Wholesalers ",0.09062395530224676
+Coastal and Great Lakes Passenger Transportation ,0.0888888888888889
+All Other Basic Organic Chemical Manufacturing ,0.08809523809523812
+Media Representatives,0.08750000000000002
+Support Activities for Oil and Gas Operations ,0.08333333333333334
+Sports Teams and Clubs ,0.08238855738855738
+"Electrical Apparatus and Equipment, Wiring Supplies, and Related Equipment Merchant Wholesalers ",0.07613406473700593
+"All Other Professional, Scientific, and Technical Services",0.07187443738843743
+Switchgear and Switchboard Apparatus Manufacturing ,0.06859459984459984
+"Metal Coating, Engraving (except Jewelry and Silverware), and Allied Services to Manufacturers ",0.06723484848484851
+RV (Recreational Vehicle) Parks and Campgrounds ,0.06636904761904758
+Wood Kitchen Cabinet and Countertop Manufacturing,0.06224523449591016
+Other Building Material Dealers ,0.06156257698940626
+Book Retailers and News Dealers ,0.06041181041181043
+Administration of Education Programs ,0.05885477760898408
+All Other Rubber Product Manufacturing ,0.05743727598566312
+Aircraft Manufacturing ,0.0572041792135812
+Industrial Building Construction ,0.0554982889817624
+Other Services to Buildings and Dwellings ,0.054276695526695506
+"Photographic Film, Paper, Plate, Chemical, and Copy Toner Manufacturing ",0.053571428571428575
+Passenger Car Leasing ,0.05059523809523811
+Surgical Appliance and Supplies Manufacturing ,0.049854241213393546
+Surveying and Mapping (except Geophysical) Services,0.049084249084249076
+Other Miscellaneous Durable Goods Merchant Wholesalers ,0.04872557997557997
+Chicken Egg Production ,0.0473214285714286
+Political Organizations ,0.04204545454545458
+Nonferrous Forging ,0.04166666666666663
+New Multifamily Housing Construction (except For-Sale Builders) ,0.039973544973544994
+Other Gambling Industries ,0.03989576599870717
+"Paint, Varnish, and Supplies Merchant Wholesalers ",0.038068181818181834
+All Other Miscellaneous Waste Management Services ,0.03718944099378882
+Casino Hotels,0.03690476190476194
+All Other Amusement and Recreation Industries ,0.0354673104673105
+"Measuring, Dispensing, and Other Pumping Equipment Manufacturing ",0.03407477025898081
+"Trusts, Estates, and Agency Accounts ",0.029761904761904795
+Office Machinery and Equipment Rental and Leasing,0.02797619047619046
+Media Buying Agencies,0.027777777777777752
+Beef Cattle Ranching and Farming ,0.027777777777777752
+Flavoring Syrup and Concentrate Manufacturing,0.02592940685045947
+Guided Missile and Space Vehicle Manufacturing ,0.025000000000000022
+Computer Training ,0.0239010989010989
+"Automotive Body, Paint, and Interior Repair and Maintenance ",0.022652618883137188
+Offices of Lawyers,0.017418692584004025
+Legal Counsel and Prosecution ,0.014772727272727243
+Tobacco Product and Electronic Cigarette Merchant Wholesalers ,0.012445887445887427
+Rubber and Plastics Hoses and Belting Manufacturing,0.011408730158730146
+Hardwood Veneer and Plywood Manufacturing ,0.010120218943748371
+Conveyor and Conveying Equipment Manufacturing ,0.008333333333333331
+Cotton Farming,0.007142857142857145
+"Brick, Stone, and Related Construction Material Merchant Wholesalers ",0.004276390562134885
+Other Technical and Trade Schools ,0.0019206767476558917
+Oil and Gas Field Machinery and Equipment Manufacturing ,0.0
+Racetracks ,0.0
+Saw Blade and Handtool Manufacturing ,0.0
+Noncurrent-Carrying Wiring Device Manufacturing ,0.0
+Inland Water Passenger Transportation ,0.0
+Deep Sea Passenger Transportation ,0.0
+"Soil Preparation, Planting, and Cultivating ",0.0
+Industrial Process Furnace and Oven Manufacturing ,0.0
+Formal Wear and Costume Rental,0.0
+Direct Life Insurance Carriers ,-0.0006181046622223407
+Food Product Machinery Manufacturing ,-0.0013458763458763234
+Motor Vehicle Gasoline Engine and Engine Parts Manufacturing,-0.00324675324675322
+Printed Circuit Assembly (Electronic Assembly) Manufacturing ,-0.004807692307692291
+Language Schools ,-0.005272108843537376
+Motor Vehicle Electrical and Electronic Equipment Manufacturing,-0.0059808612440191145
+Other Animal Food Manufacturing ,-0.006860902255639123
+Public Relations Agencies,-0.0077485380116958935
+Sign Manufacturing,-0.008315720611916266
+All Other Miscellaneous Food Manufacturing ,-0.010766045548654263
+Plumbing Fixture Fitting and Trim Manufacturing ,-0.01190476190476189
+Title Abstract and Settlement Offices ,-0.012622549019607854
+Used Merchandise Retailers ,-0.013328074854714211
+Motion Picture Theaters (except Drive-Ins) ,-0.013761548410938657
+Petroleum Refineries,-0.014423076923076955
+Transportation Equipment and Supplies (except Motor Vehicle) Merchant Wholesalers ,-0.016025641025641052
+All Other Travel Arrangement and Reservation Services ,-0.019011837704629497
+Fluid Power Pump and Motor Manufacturing ,-0.01904761904761909
+Farm Labor Contractors and Crew Leaders ,-0.019642857142857184
+Urethane and Other Foam Product (except Polystyrene) Manufacturing,-0.020833333333333343
+Adhesive Manufacturing,-0.0216622458001768
+Breakfast Cereal Manufacturing,-0.02182539682539683
+Other Pressed and Blown Glass and Glassware Manufacturing ,-0.022321428571428603
+Pharmaceutical Preparation Manufacturing ,-0.023483881346784585
+Other Commercial Equipment Merchant Wholesalers ,-0.023966105269281668
+Reinsurance Carriers ,-0.02408008658008659
+Hardware Manufacturing,-0.027289377289377303
+Synthetic Dye and Pigment Manufacturing,-0.027347652347652324
+Other Engine Equipment Manufacturing ,-0.02926587301587305
+Office Administrative Services,-0.02935126276087377
+"Book, Periodical, and Newspaper Merchant Wholesalers ",-0.033245920745920726
+"Rope, Cordage, Twine, Tire Cord, and Tire Fabric Mills ",-0.033333333333333354
+All Other Miscellaneous Wood Product Manufacturing ,-0.03362470862470862
+Hardware Retailers ,-0.034433253570565064
+Ice Cream and Frozen Dessert Manufacturing,-0.0357142857142857
+Sports and Recreation Instruction ,-0.035730460662525915
+Other Building Finishing Contractors,-0.03636869107364493
+Materials Recovery Facilities ,-0.03663811369169215
+Other Vegetable (except Potato) and Melon Farming ,-0.037344042569452424
+Footwear Merchant Wholesalers ,-0.03749999999999998
+Forest Nurseries and Gathering of Forest Products ,-0.037500000000000006
+"Frozen Cakes, Pies, and Other Pastries Manufacturing ",-0.038475177304964525
+Outdoor Power Equipment Retailers ,-0.04038461538461535
+"Bolt, Nut, Screw, Rivet, and Washer Manufacturing ",-0.04166666666666666
+"Scenic and Sightseeing Transportation, Water",-0.04166666666666666
+Instrument Manufacturing for Measuring and Testing Electricity and Electrical Signals ,-0.041666666666666685
+Seafood Product Preparation and Packaging,-0.0421626984126984
+Toilet Preparation Manufacturing,-0.046048415186346225
+Monetary Authorities-Central Bank,-0.04797979797979801
+All Other Personal Services ,-0.05045707487886428
+"Commercial Air, Rail, and Water Transportation Equipment Rental and Leasing ",-0.05261387163561079
+Other Services Related to Advertising ,-0.05406315613724047
+Custom Architectural Woodwork and Millwork Manufacturing ,-0.05492424242424243
+Fertilizer (Mixing Only) Manufacturing ,-0.05555555555555558
+Professional and Management Development Training ,-0.057216650962444465
+Fluid Milk Manufacturing ,-0.057291666666666685
+Barber Shops ,-0.05795454545454545
+Metal Heat Treating ,-0.058928571428571414
+Other Commercial and Industrial Machinery and Equipment Rental and Leasing ,-0.05902777777777776
+Machine Shops,-0.06027084757347914
+Polish and Other Sanitation Good Manufacturing ,-0.06388888888888886
+"Industrial Truck, Tractor, Trailer, and Stacker Machinery Manufacturing ",-0.06574675324675325
+Plastics Materials and Basic Forms and Shapes Merchant Wholesalers ,-0.0668498168498168
+Hazardous Waste Collection ,-0.07539682539682539
+Fruit and Vegetable Retailers ,-0.07666838665290676
+Electric Power Distribution ,-0.0771670418600243
+Heating Equipment (except Warm Air Furnaces) Manufacturing ,-0.07916666666666669
+Musical Instrument and Supplies Retailers ,-0.08035714285714285
+Executive Offices ,-0.08085317460317462
+Window Treatment Retailers ,-0.08191556395715183
+"Promoters of Performing Arts, Sports, and Similar Events without Facilities ",-0.08267543859649126
+Landscape Architectural Services,-0.08333333333333331
+Plate Work Manufacturing ,-0.08333333333333331
+Securities and Commodity Exchanges,-0.08333333333333333
+Scheduled Freight Air Transportation ,-0.08333333333333333
+Electromedical and Electrotherapeutic Apparatus Manufacturing ,-0.08409863945578233
+Other Scientific and Technical Consulting Services,-0.08483162100456623
+Postal Service,-0.0867248062015504
+Poured Concrete Foundation and Structure Contractors ,-0.08882919162484484
+Health and Welfare Funds ,-0.08948412698412697
+Semiconductor and Related Device Manufacturing ,-0.09467299578059074
+Framing Contractors ,-0.09583333333333335
+Web Search Portals and All Other Information Services,-0.09613240598910802
+Wood Container and Pallet Manufacturing,-0.09793716855284018
+Industrial Valve Manufacturing ,-0.09962121212121211
+Pharmacy Benefit Management and Other Third Party Administration of Insurance and Pension Funds ,-0.10251316990210724
+Custom Compounding of Purchased Resins ,-0.10267857142857142
+Cemeteries and Crematories ,-0.10267857142857145
+Prefabricated Wood Building Manufacturing ,-0.10414332399626519
+Nonupholstered Wood Household Furniture Manufacturing ,-0.10416666666666666
+"Financial Transactions Processing, Reserve, and Clearinghouse Activities ",-0.10458886352408381
+"Flower, Nursery Stock, and Florists' Supplies Merchant Wholesalers ",-0.10474206349206353
+Beauty Salons ,-0.10947802197802198
+"Search, Detection, Navigation, Guidance, Aeronautical, and Nautical System and Instrument Manufacturing ",-0.11057692307692307
+Armored Car Services ,-0.11781956781956782
+Sanitary Paper Product Manufacturing ,-0.11995717393274724
+Aircraft Engine and Engine Parts Manufacturing ,-0.12108717561098514
+Other Crushed and Broken Stone Mining and Quarrying ,-0.12291666666666665
+Pet and Pet Supplies Retailers ,-0.12359977770284614
+Fluid Power Valve and Hose Fitting Manufacturing ,-0.125
+Other Metal Container Manufacturing ,-0.12738095238095237
+Other Nonhazardous Waste Treatment and Disposal ,-0.12797619047619047
+Vending Machine Operators ,-0.1280410967578521
+Masonry Contractors ,-0.12863695090439276
+"Mayonnaise, Dressing, and Other Prepared Sauce Manufacturing ",-0.131473968897904
+Other Grantmaking and Giving Services ,-0.13314668423364073
+Teleproduction and Other Postproduction Services ,-0.1332614942528736
+Credit Card Issuing ,-0.1357683982683983
+Drywall and Insulation Contractors ,-0.1359296746138851
+"Other Similar Organizations (except Business, Professional, Labor, and Political Organizations) ",-0.13671514606802773
+Public Finance Activities ,-0.1375776015735448
+Lessors of Nonfinancial Intangible Assets (except Copyrighted Works),-0.13782051282051283
+Flight Training ,-0.13856456043956045
+Petroleum Bulk Stations and Terminals ,-0.13935237556561086
+Mechanical Power Transmission Equipment Manufacturing ,-0.1405780780780781
+Miscellaneous Financial Investment Activities ,-0.14375
+Corrugated and Solid Fiber Box Manufacturing ,-0.14402935087078308
+Ophthalmic Goods Merchant Wholesalers ,-0.14464285714285716
+Fish and Seafood Retailers ,-0.14583333333333337
+Recreational and Vacation Camps (except Campgrounds) ,-0.14615384615384613
+Plastics Plumbing Fixture Manufacturing ,-0.14708237986270026
+Business Associations ,-0.14900203962703965
+Other Concrete Product Manufacturing ,-0.1491729759985338
+"Dry Pasta, Dough, and Flour Mixes Manufacturing from Purchased Flour ",-0.1493426402819192
+Other Leather and Allied Product Manufacturing ,-0.15
+Fats and Oils Refining and Blending ,-0.1503205128205128
+Administration of Urban Planning and Community and Rural Development ,-0.15159774436090226
+Human Rights Organizations ,-0.15224125150910195
+Industrial Design Services,-0.15251572327044027
+Flooring Contractors,-0.1526136770497673
+"Rooming and Boarding Houses, Dormitories, and Workers' Camps ",-0.15381944444444443
+Apiculture,-0.15610328638497656
+Power Boiler and Heat Exchanger Manufacturing,-0.15814950980392153
+Other Business Service Centers (including Copy Shops) ,-0.16127558479532164
+Private Mail Centers ,-0.16432748538011696
+All Other Industrial Machinery Manufacturing ,-0.16455662393162393
+Iron Foundries ,-0.16474632563661673
+All Other Specialty Food Retailers ,-0.16514939309056959
+Motor Vehicle Transmission and Power Train Parts Manufacturing,-0.16567153177060298
+All Other Health and Personal Care Retailers ,-0.1660255488447896
+Printing Ink Manufacturing,-0.16666666666666669
+Administration of Air and Water Resource and Solid Waste Management Programs ,-0.1693452380952381
+Plastics Material and Resin Manufacturing ,-0.1721893302775656
+Other Aircraft Parts and Auxiliary Equipment Manufacturing ,-0.1727328932410602
+Other Measuring and Controlling Device Manufacturing ,-0.17347297568816553
+All Other Transit and Ground Passenger Transportation ,-0.1740601032592419
+All Other Converted Paper Product Manufacturing ,-0.1789351851851852
+"Doll, Toy, and Game Manufacturing",-0.18154761904761907
+Toy and Hobby Goods and Supplies Merchant Wholesalers ,-0.18214285714285716
+"Roofing, Siding, and Insulation Material Merchant Wholesalers ",-0.18427614948418392
+Newspaper Publishers ,-0.18661551577152602
+Specialty (except Psychiatric and Substance Abuse) Hospitals ,-0.18722505950766824
+Lessors of Other Real Estate Property ,-0.18738553113553116
+General Line Grocery Merchant Wholesalers ,-0.18881820772274735
+Paint and Wallpaper Retailers ,-0.18988095238095237
+Pesticide and Other Agricultural Chemical Manufacturing,-0.19070512820512825
+Court Reporting and Stenotype Services ,-0.19106432549153313
+Asphalt Paving Mixture and Block Manufacturing ,-0.19166666666666668
+Home and Garden Equipment Repair and Maintenance ,-0.19191919191919193
+Offices of Chiropractors ,-0.19234182621674717
+Marinas,-0.19374999999999998
+Other Construction Material Merchant Wholesalers ,-0.19383012820512824
+Drugs and Druggists' Sundries Merchant Wholesalers ,-0.1959293936872122
+All Other Miscellaneous General Purpose Machinery Manufacturing ,-0.19805194805194806
+Grantmaking Foundations ,-0.19902655588139456
+Other Financial Vehicles ,-0.2
+Office Furniture (except Wood) Manufacturing ,-0.20288461538461539
+Fire Protection ,-0.20371621621621622
+Museums ,-0.204694976076555
+Reupholstery and Furniture Repair,-0.20478479853479853
+Cosmetology and Barber Schools ,-0.20600414078674947
+Apprenticeship Training ,-0.20625
+All Other Telecommunications ,-0.20677238839209974
+Synthetic Rubber Manufacturing ,-0.20833333333333337
+Voluntary Health Organizations ,-0.2110918062641439
+Used Household and Office Goods Moving,-0.21139049796569506
+Offices of Podiatrists ,-0.2125
+Solid Waste Landfill ,-0.2131944444444444
+Paper Mills ,-0.21358527385313103
+"Trust, Fiduciary, and Custody Activities ",-0.21540519877675843
+Unlaminated Plastics Profile Shape Manufacturing ,-0.216025641025641
+Cheese Manufacturing ,-0.21645021645021645
+Residential Remodelers ,-0.21645741629985327
+Interurban and Rural Bus Transportation,-0.21666666666666665
+Construction Sand and Gravel Mining ,-0.21685139573070608
+Surgical and Medical Instrument Manufacturing ,-0.21849259974259974
+All Other Miscellaneous Chemical Product and Preparation Manufacturing ,-0.2187609867572952
+Coal and Other Mineral and Ore Merchant Wholesalers ,-0.21945979128299573
+Motor Vehicle Brake System Manufacturing,-0.21957359988020367
+Nuclear Electric Power Generation ,-0.22084859584859584
+Zoos and Botanical Gardens ,-0.22197420634920634
+Industrial Mold Manufacturing ,-0.22270114942528738
+Metal Tank (Heavy Gauge) Manufacturing,-0.2248623553564763
+Administration of Veterans' Affairs ,-0.2262750180853629
+Convenience Retailers ,-0.22644107019107018
+Automotive Glass Replacement Shops ,-0.22972614281678894
+Manufactured (Mobile) Home Dealers ,-0.2302927927927928
+Distilleries ,-0.23076923076923075
+"Piece Goods, Notions, and Other Dry Goods Merchant Wholesalers ",-0.2334280303030303
+Wireless Telecommunications Carriers (except Satellite),-0.23466457214927952
+New Housing For-Sale Builders ,-0.238049853372434
+Fine Arts Schools ,-0.23929110105580692
+Farm Machinery and Equipment Manufacturing ,-0.2409722222222222
+"Metal Crown, Closure, and Other Metal Stamping (except Automotive) ",-0.241010101010101
+Pulp Mills ,-0.2418831168831169
+Tile and Terrazzo Contractors,-0.24196428571428572
+Tire Manufacturing (except Retreading) ,-0.24295714417294967
+Travel Trailer and Camper Manufacturing ,-0.24365563454273137
+"Jewelry, Watch, Precious Stone, and Precious Metal Merchant Wholesalers ",-0.2439415708812261
+Luggage and Leather Goods Retailers ,-0.24467418546365916
+Specialized Automotive Repair ,-0.2450414169164169
+Nature Parks and Other Similar Institutions,-0.2455357142857143
+Convention and Visitors Bureaus ,-0.2463888888888889
+Art Dealers ,-0.24649122807017543
+Boat Building ,-0.24748789320166653
+Floriculture Production ,-0.24791666666666665
+Motor Vehicle Steering and Suspension Components (except Spring) Manufacturing,-0.24819862155388475
+Motor Vehicle Parts (Used) Merchant Wholesalers ,-0.2485599078341014
+Coastal and Great Lakes Freight Transportation ,-0.25
+Strawberry Farming ,-0.25
+Other Specialized Design Services,-0.25
+"Cyclic Crude, Intermediate, and Gum and Wood Chemical Manufacturing ",-0.25
+Other Metal Valve and Pipe Fitting Manufacturing ,-0.25
+Guided Missile and Space Vehicle Propulsion Unit and Propulsion Unit Parts Manufacturing ,-0.25
+Printing and Writing Paper Merchant Wholesalers ,-0.25
+Food (Health) Supplement Retailers ,-0.25089285714285714
+Confectionery and Nut Retailers ,-0.25277777777777777
+Motor Vehicle Towing,-0.2531204906204906
+"Hobby, Toy, and Game Retailers ",-0.25561887710510184
+Fresh Fruit and Vegetable Merchant Wholesalers ,-0.25953232242422203
+"Showcase, Partition, Shelving, and Locker Manufacturing ",-0.2615384615384615
+"Household Appliances, Electric Housewares, and Consumer Electronics Merchant Wholesalers ",-0.26179909731206835
+Packaged Frozen Food Merchant Wholesalers ,-0.26200225739844607
+Libraries and Archives ,-0.26245015337423316
+Cane Sugar Manufacturing ,-0.2638020833333333
+Meat Retailers ,-0.2643315018315018
+Textile Bag and Canvas Mills ,-0.26489898989898986
+Other Fabricated Wire Product Manufacturing ,-0.26515151515151514
+Other Performing Arts Companies ,-0.2670940170940171
+Other Insurance Funds ,-0.26721887550200807
+All Other Traveler Accommodation ,-0.26871493688639553
+"Power, Distribution, and Specialty Transformer Manufacturing ",-0.268762677484787
+Other Activities Related to Credit Intermediation ,-0.26942640692640696
+Poultry and Poultry Product Merchant Wholesalers ,-0.27083783528474625
+Refrigeration Equipment and Supplies Merchant Wholesalers ,-0.2709573412698413
+Rendering and Meat Byproduct Processing ,-0.27249999999999996
+Tortilla Manufacturing,-0.273015873015873
+Security Systems Services (except Locksmiths) ,-0.2733256499494646
+Advertising Agencies,-0.2768234140247008
+Family Planning Centers ,-0.2769028807387176
+General Rental Centers,-0.277354683960761
+"Fastener, Button, Needle, and Pin Manufacturing ",-0.2799433888060937
+All Other Miscellaneous Schools and Instruction ,-0.28012152777777777
+Retail Bakeries ,-0.28464912280701754
+Warm Air Heating and Air-Conditioning Equipment and Supplies Merchant Wholesalers ,-0.2849326599326599
+All Other Legal Services ,-0.28562726260094684
+Offices of Mental Health Practitioners (except Physicians) ,-0.28711484593837533
+Softwood Veneer and Plywood Manufacturing ,-0.28758503401360547
+Ball and Roller Bearing Manufacturing,-0.2892598254114752
+Cut and Sew Apparel Contractors ,-0.2899038461538461
+Child and Youth Services ,-0.2900903850062795
+Soap and Other Detergent Manufacturing ,-0.29084461637653125
+"Gift, Novelty, and Souvenir Retailers ",-0.29215297772237614
+Other Personal and Household Goods Repair and Maintenance ,-0.2931547619047619
+"Kaolin, Clay, and Ceramic and Refractory Minerals Mining ",-0.2935749299719888
+Marketing Research and Public Opinion Polling,-0.2954545454545454
+Ship Building and Repairing ,-0.2958333333333334
+Commercial Screen Printing ,-0.29606350946811477
+Locksmiths ,-0.296875
+Professional Organizations ,-0.29709776943124333
+Diet and Weight Reducing Centers ,-0.2974137931034483
+Office Equipment Merchant Wholesalers ,-0.30148712424335694
+Home Furnishing Merchant Wholesalers ,-0.30257922529653847
+Telephone Answering Services ,-0.30274690557656414
+Other Heavy and Civil Engineering Construction ,-0.30658677605948653
+Packing and Crating ,-0.3069350122618374
+"Construction, Mining, and Forestry Machinery and Equipment Rental and Leasing ",-0.307033096926714
+Diagnostic Imaging Centers ,-0.3070687383522872
+Police Protection ,-0.30804059437495024
+All Other Support Activities for Transportation ,-0.3099984110258083
+Regulation of Agricultural Marketing and Commodities ,-0.31120043520309476
+Fabric Coating Mills,-0.3115942028985508
+Other Waste Collection ,-0.3134059153027303
+Jewelry Retailers ,-0.31362264303057896
+All Other Miscellaneous Nonmetallic Mineral Product Manufacturing ,-0.3161838161838162
+Footwear Manufacturing ,-0.3172519604500511
+School and Employee Bus Transportation,-0.3191426534976072
+"Speed Changer, Industrial High-Speed Drive, and Gear Manufacturing ",-0.31935483870967746
+Mobile Food Services,-0.3199350459786892
+Ornamental and Architectural Metal Work Manufacturing ,-0.3204434018456014
+Cement Manufacturing,-0.32045454545454544
+Motor Vehicle Body Manufacturing ,-0.3206923867449278
+Tree Nut Farming ,-0.3211111111111111
+Photofinishing Laboratories (except One-Hour) ,-0.32152230971128615
+General Automotive Repair ,-0.3243207753250583
+Research and Development in the Social Sciences and Humanities ,-0.3264275885792914
+Berry (except Strawberry) Farming ,-0.3287326388888889
+Clay Building Material and Refractories Manufacturing ,-0.3303671608896013
+Machine Tool Manufacturing ,-0.3308712121212122
+Nonchocolate Confectionery Manufacturing,-0.33395061728395065
+"Scenic and Sightseeing Transportation, Land",-0.34022898776997135
+Computer Terminal and Other Computer Peripheral Equipment Manufacturing ,-0.34230088331142255
+Peanut Farming ,-0.3425387596899225
+Other Noncitrus Fruit Farming ,-0.34456002331002333
+Limousine Service,-0.345343660968661
+Crushed and Broken Granite Mining and Quarrying ,-0.34960357624831306
+Correctional Institutions ,-0.3510845703313147
+Flat Glass Manufacturing ,-0.35140251240449627
+All Other Publishers ,-0.35188442642008533
+Exterminating and Pest Control Services,-0.35196756568239945
+Parole Offices and Probation Offices ,-0.3532360312546071
+"Environment, Conservation and Wildlife Organizations ",-0.35700549450549446
+"Gasket, Packing, and Sealing Device Manufacturing ",-0.357322946661182
+Packaging Machinery Manufacturing ,-0.35855263157894735
+Glass Container Manufacturing ,-0.3621162280701754
+Nonscheduled Chartered Passenger Air Transportation ,-0.36230399717241824
+Commercial Photography ,-0.3638547407093401
+"Other Aluminum Rolling, Drawing, and Extruding ",-0.3684990553547255
+Home Health Equipment Rental ,-0.37366215915050544
+Direct Title Insurance Carriers ,-0.37777777777777777
+All Other Automotive Repair and Maintenance ,-0.3793859649122807
+Motion Picture and Video Distribution,-0.38000000000000006
+Commercial and Service Industry Machinery Manufacturing ,-0.38092058404558404
+Offices of Real Estate Appraisers ,-0.3819444444444444
+Broilers and Other Meat Type Chicken Production ,-0.3838286713286713
+Interior Design Services,-0.3839589737959303
+Labor Unions and Similar Labor Organizations ,-0.3840659340659341
+Wood Office Furniture Manufacturing ,-0.3890567765567765
+Boat Dealers ,-0.391304347826087
+Sporting and Athletic Goods Manufacturing,-0.3928571428571428
+Alumina Refining and Primary Aluminum Production ,-0.39285714285714285
+Carpet and Upholstery Cleaning Services,-0.3959575512207091
+Pension Funds ,-0.4
+"Offices of Physicians, Mental Health Specialists ",-0.40116593421738944
+Administration of General Economic Programs ,-0.40625
+Household Furniture (except Wood and Upholstered) Manufacturing ,-0.4091954022988506
+Direct Mail Advertising,-0.41040372670807457
+Iron and Steel Mills and Ferroalloy Manufacturing ,-0.4117647058823529
+"Sewing, Needlework, and Piece Goods Retailers ",-0.4187185929648241
+Temporary Shelters ,-0.42010555386597215
+Commodity Contracts Intermediation ,-0.425
+Funeral Homes and Funeral Services ,-0.4250669447363812
+Narrow Fabric Mills and Schiffli Machine Embroidery,-0.4285714285714286
+Taxi and Ridesharing Services ,-0.42984590429845904
+"Electroplating, Plating, Polishing, Anodizing, and Coloring ",-0.43083276372750057
+Hunting and Trapping,-0.4473684210526316
+Sound Recording Studios,-0.45
+Engineered Wood Member Manufacturing ,-0.45441607981220655
+Savings Institutions and Other Depository Credit Intermediation ,-0.45454545454545453
+Other Sound Recording Industries,-0.4583333333333333
+"Military Armored Vehicle, Tank, and Tank Component Manufacturing ",-0.47619047619047616
+Reconstituted Wood Product Manufacturing ,-0.47802197802197804
+Medicinal and Botanical Manufacturing ,-0.48856837606837605
+Concrete Block and Brick Manufacturing ,-0.49496221662468515
+Support Activities for Animal Production,-0.49747155499367884
+Elevator and Moving Stairway Manufacturing ,-0.4989106753812636
+Motor and Generator Manufacturing ,-0.5
+Relay and Industrial Control Manufacturing ,-0.5
+"Automatic Environmental Control Manufacturing for Residential, Commercial, and Appliance Use ",-0.5175736961451247
+Advertising Material Distribution Services,-0.5206349206349207
+Ground or Treated Mineral and Earth Manufacturing ,-0.5238095238095238
+All Other Miscellaneous Crop Farming ,-0.5333333333333333
+"Frozen Fruit, Juice, and Vegetable Manufacturing ",-0.5333333333333334
+All Other Miscellaneous Electrical Equipment and Component Manufacturing ,-0.5714285714285714
+Cutting Tool and Machine Tool Accessory Manufacturing ,-0.5809523809523809
+Other Electronic Component Manufacturing ,-0.6137931034482759
+Wineries ,-0.6456521739130434
+Deep Sea Freight Transportation ,-0.6666666666666667
+Bed-and-Breakfast Inns ,-0.6944444444444444
+Port and Harbor Operations,-0.6982142857142857
+"Dry, Condensed, and Evaporated Dairy Product Manufacturing ",-0.8
+Spring Manufacturing ,-0.8125
+Line-Haul Railroads ,-0.8235294117647058
+Other Communication and Energy Wire Manufacturing ,-0.84
+Power-Driven Handtool Manufacturing ,-0.85
+Apple Orchards ,-0.8518518518518519
+Tire Retreading ,-0.875
+Steel Wire Drawing ,-0.8823529411764706
+Air and Gas Compressor Manufacturing ,-0.8974358974358975
+Research and Development in Nanotechnology ,-0.9272727272727272
+Potato Farming ,-0.9361702127659575
+American Indian and Alaska Native Tribal Governments ,-0.9552238805970149
+Inland Water Freight Transportation ,-0.9647058823529412
+Skiing Facilities,-0.9693877551020408
+Custom Roll Forming ,-0.9941520467836258
