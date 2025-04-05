@@ -30,6 +30,7 @@ df_wage_change = pd.read_csv('dashboard_data/wage_change_by_industry.csv', index
 df_wages_after = pd.read_csv('dashboard_data/wages_after_program_by_industry.csv', index_col=0)
 wage_growth_data = pd.read_csv('dashboard_data/wage_growth_data.csv', index_col=0)
 employment_pie = pd.read_csv('dashboard_data/employment_pie_chart.csv', index_col=0)
+length_of_program_engagment = pd.read_csv('dashboard_data/length_of_program_engagement_bins.csv', index_col=0)
 cat_meta_data = json.loads(open('dashboard_data/category_charts_meta.json').read())
 
 
@@ -82,11 +83,26 @@ st.markdown("""
 st.title("📊 Data for Hope Workforce Development Dashboard")
 st.markdown("#### Visual insights on employment outcomes and wage trends across industries and programs")
 
-st.header("📚 Participant Characteristics")
-
+st.header("Participant Education Characteristics at Program Entry")
+st.markdown(
+        """
+        > 
+        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+            <h3>Key Insights</h3>
+            <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 cols = st.columns(2)  # create 2 columns
 
-education_status = ["Type of Recognized Credential at Program Entry","School Status at Program Entry","Highest Education Level at Entry","Type of Work Experience at Program Entry"]
+education_status = ["Type of Recognized Credential at Program Entry","School Status at Program Entry"]
 
 for i, key in enumerate(education_status):
     try:
@@ -118,43 +134,126 @@ for i, key in enumerate(education_status):
             st.plotly_chart(fig, use_container_width=True)
 
     except Exception as e:
-        st.warning(f"⚠️ Could not load `{title}`: {e}")
+        st.warning(f"⚠️ Could not load {meta["title"]}: {e}")
+
+# --- Participant Characteristics at Program Entry ---
+st.header("Participant Employment Characteristics at Program Entry")
+st.markdown(
+        """
+        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+            <h3>Key Insights</h3>
+            <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+work_characteristics = ["Work Status at Program Entry","Type of Work Experience at Program Entry"]
+
+cols = st.columns(2)  
+
+for i, key in enumerate(work_characteristics):
+    try:
+        meta = cat_meta_data[key]
+        df = pd.read_csv(meta["file"], index_col=0).reset_index()
+        df = df.iloc[:, 1:]  # drop original index column
+        df.columns = ['category', 'count']
+
+        fig = px.bar(
+            df.sort_values('count', ascending=True),
+            x='count',
+            y='category',
+            orientation='h',
+            title=meta["title"],
+            labels={
+                'category': meta["y"],
+                'count': meta["x"]
+            },
+            color_discrete_sequence=[meta["color"]]
+        )
+        fig.update_layout(
+            height=500,
+            showlegend=False,
+            margin=dict(l=50, r=30, t=50, b=30)
+        )
+
+        # Plot into the appropriate column
+        with cols[i % 2]:
+            st.plotly_chart(fig, use_container_width=True)
+
+    except Exception as e:
+        st.warning(f"⚠️ Could not load {meta["title"]}: {e}")
 
 
 # --- Employment Status by Quarter ---
-st.header("📅 Employment Status by Quarter")
+st.header("Employment Status by Quarter")
 st.markdown("""
-> This bar chart shows the **distribution of employment status** across different quarters.  
-There’s a visible decline in employment (~15%) over the 4-quarter span post-program exit.
+> This bar chart shows the **distribution of unemployment status** across different quarters.  
+There’s a visible decline in unemployment (~19%) per quarter over the 4-quarter span post-program exit.
 """)
 quarterly_employment["employment_status"] = quarterly_employment["employment_status"].map({
     0: "Unemployed",
     1: "Employed"
 })
+quarterly_employment = quarterly_employment.loc[quarterly_employment.employment_status == 'Unemployed']
 # Plot with string labels now
 fig = px.bar(
     quarterly_employment,
     x="quarter",
     y="count",
-    color="employment_status",
     barmode="stack",
-    color_discrete_map={"Unemployed": "#FF6B6B", "Employed": "#4ECDC4"},
-    labels={"quarter": "Quarter", "count": "Count", "employment_status": "Employment Status"},
+    color_discrete_map={"Unemployed": "#FF6B6B"},
+    labels={"quarter": "Quarter", "count": "Unemployment Count", "employment_status": "Employment Status"},
     title=""
 )
 fig.update_layout(showlegend=True, height=400)
 st.plotly_chart(fig, use_container_width=True)
 
-# --- Employment Status Pie ---
-st.header("🥧 Employment Status Distribution after Program")
-col3, col4 = st.columns([1, 1])  # Equal width; adjust if needed (e.g., [1.5, 1])
+# --- Program Engagement Length Pie ---
+st.header("Time of Program Engagement")
+st.markdown("""
+> This bar chart shows the **distribution of employment status** across different lengths of program engagement.  
+There’s a visible increase in unemployment as the length of program engagement increases.
+""")
+# Create grouped bar chart
+fig = px.bar(
+    length_of_program_engagment,
+    x='length_of_program_engagement_bins',
+    y='count',
+    color='employment_status_label',
+    barmode='group',
+    labels={
+        'length_of_program_engagement_bins': 'Length of Engagement (days)',
+        'count': 'Number of People',
+        'employment_status_label': 'Employment Status'
+    },
+    title='Employment Outcomes by Program Engagement Length'
+)
 
+fig.update_layout(margin=dict(l=50, r=30, t=50, b=30))
+
+# Display in Streamlit
+st.plotly_chart(fig, use_container_width=True)
+
+
+# --- Employment Status Pie ---
+st.header("Employment Status Distribution after Program")
+col3, col4 = st.columns([1, 1])  # Equal width; adjust if needed (e.g., [1.5, 1])
+employment_pie["employment_status_after_program"] = employment_pie["employment_status_after_program"].map({
+    0: "Unemployed",
+    1: "Employed"
+})
 with col3:
     fig = px.pie(
         employment_pie,
         names="employment_status_after_program",
         values="count",
-        title="Employment Status After Program Exit",
+        title="",
         color_discrete_map={"Not Employed": "#FF6B6B", "Employed": "#1B998B"}
     )
     fig.update_traces(textinfo='percent+label')
@@ -232,7 +331,11 @@ with col2:
     st.plotly_chart(fig2, use_container_width=True)
 
 # --- Industry Counts ---
-st.header("🏷️ Top 20 Industry Code Counts")
+st.header("Top 20 Industry Code Counts")
+st.markdown("""
+> This bar chart shows the **count of industry employment**.
+This includes transitional workers who worked in multiple industries.
+""")
 fig = px.bar(
     industry_counts.head(20),
     x='industry_code',
@@ -249,8 +352,22 @@ fig.update_layout(showlegend=False)
 st.plotly_chart(fig, use_container_width=True)
 
 # --- Industries by Wage Change ---
-st.header("🏭 Industries by Wage")
-
+st.header("Industries by Wage")
+st.markdown(
+        """
+        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+            <h3>Key Insights</h3>
+            <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 col1, col2 = st.columns(2)
 with col1:
     st.subheader("Top 20 Industries by Wage Change")
@@ -285,8 +402,22 @@ with col2:
     st.plotly_chart(fig, use_container_width=True)
 
 
-st.header("🏭 Training Program Characteristics")
-
+st.header("Training Program Characteristics")
+st.markdown(
+        """
+        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+            <h3>Key Insights</h3>
+            <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 side_by_side_keys = [
     "Occupational Skills Training Code",
     "Eligible Training Provider CIP Code"
@@ -328,19 +459,33 @@ for i, key in enumerate(side_by_side_keys):
 
 
 # --- Retained vs Dropped Employment ---
-st.header("🔄 Retention by Industry")
-
+st.header("Retention by Industry")
+st.markdown(
+        """
+        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+            <h3>Key Insights</h3>
+            <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 col1, col2 = st.columns(2)
 
 with col1:
-    st.subheader("20 Most Retained")
+    st.subheader("20 Industries with Most Retained Employment")
     fig = px.bar(
         retained_industry_codes.sort_values(by="count_of_retained_employment", ascending=True),
         x="count_of_retained_employment",
         y="industry_code",
         text="count_of_retained_employment",
         orientation="h",
-        title="Industries with Most Retained Employment",
+        title="",
         color_discrete_sequence=["#06d6a0"],
         labels={
             "industry_code": "Industry Name",
@@ -351,14 +496,14 @@ with col1:
     st.plotly_chart(fig, use_container_width=True)
 
 with col2:
-    st.subheader("20 Least Retained")
+    st.subheader("20 Industries with Least Retained Employment")
     fig = px.bar(
         dropped_industry_codes.sort_values(by="count_of_dropped_employment", ascending=True),
         x="count_of_dropped_employment",
         y="industry_code",
         text="count_of_dropped_employment",
         orientation="h",
-        title="Industries with Most Dropped Employment",
+        title="",
         color_discrete_sequence=["#ef476f"],
         labels={
             "industry_code": "Industry Name",

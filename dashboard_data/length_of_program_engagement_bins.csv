@@ -1,0 +1,21 @@
+,length_of_program_engagement_bins,employment_status_after_program,count,employment_status_label
+0,0-10,1.0,97876,Employed
+1,0-10,0.0,81801,Not Employed
+2,10-20,1.0,2923,Employed
+3,10-20,0.0,1626,Not Employed
+4,20-30,1.0,1459,Employed
+5,20-30,0.0,642,Not Employed
+6,30-40,1.0,684,Employed
+7,30-40,0.0,408,Not Employed
+8,40-50,0.0,498,Not Employed
+9,40-50,1.0,431,Employed
+10,50-60,0.0,271,Not Employed
+11,50-60,1.0,112,Employed
+12,60-70,0.0,149,Not Employed
+13,60-70,1.0,32,Employed
+14,70-80,0.0,56,Not Employed
+15,70-80,1.0,18,Employed
+16,80-90,0.0,23,Not Employed
+17,80-90,1.0,1,Employed
+18,90+,0.0,17,Not Employed
+19,90+,1.0,0,Employed

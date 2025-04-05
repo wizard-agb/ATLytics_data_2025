@@ -1,10 +1,10 @@
 ,highest_educational_level_completed_at_program_entry_wioa,count
 1,Attained secondary school diploma,77742
-2,Attained a Bachelor's degree,41464
-3,Completed one or more years of postsecondary education,35614
+2,Bachelor's degree,41464
+3,One or more years of postsecondary education,35614
 4,Attained a secondary school equivalency,27039
-5,Attained an Associate's degree,25907
+5,Associate's degree,25907
 6,No educational level completed,17391
-7,Attained a degree beyond a Bachelor's degree,16119
-8,Attained a postsecondary technical or vocational certificate (non-degree),8948
-9,Received a certificate of attendance/completion from an Individualized Education Program (IEP),128
+7,Degree beyond a Bachelor's degree,16119
+8,Postsecondary technical or vocational certificate (non-degree),8948
+9,Individualized Education Program (IEP) Certificate,128
