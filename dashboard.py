@@ -23,16 +23,15 @@ def load_lottiefile(filepath: str):
 
 # Load data
 retained_industry_codes = pd.read_csv('dashboard_data/retained_industry_codes.csv', index_col=0)
-retained_industry_codes.loc[retained_industry_codes.industry_code.str.len() > 50, 'industry_code'] = retained_industry_codes.industry_code.str.slice(0, 50) +'...'
 dropped_industry_codes = pd.read_csv('dashboard_data/dropped_industry_codes.csv', index_col=0)
-dropped_industry_codes.loc[dropped_industry_codes.industry_code.str.len() > 50, 'industry_code'] = dropped_industry_codes.industry_code.str.slice(0, 50) +'...'
 industry_counts = pd.read_csv('dashboard_data/industry_counts.csv', index_col=0)
-industry_counts = industry_counts.sort_values(by='count', ascending=False)
 quarterly_employment = pd.read_csv('dashboard_data/quarterly_employment.csv', index_col=0)
-employment_pct_change = pd.read_csv('dashboard_data/employment_pct_change.csv', index_col=0)
-wage_change = pd.read_csv('dashboard_data/wage_change.csv', index_col=0)
+df_wage_change = pd.read_csv('dashboard_data/wage_change_by_industry.csv', index_col=0)
+df_wages_after = pd.read_csv('dashboard_data/wages_after_program_by_industry.csv', index_col=0)
 wage_growth_data = pd.read_csv('dashboard_data/wage_growth_data.csv', index_col=0)
 employment_pie = pd.read_csv('dashboard_data/employment_pie_chart.csv', index_col=0)
+cat_meta_data = json.loads(open('dashboard_data/category_charts_meta.json').read())
+
 
 st.markdown("""
     <style>
@@ -82,6 +81,45 @@ st.markdown("""
 # Title
 st.title("📊 Data for Hope Workforce Development Dashboard")
 st.markdown("#### Visual insights on employment outcomes and wage trends across industries and programs")
+
+st.header("📚 Participant Characteristics")
+
+cols = st.columns(2)  # create 2 columns
+
+education_status = ["Type of Recognized Credential at Program Entry","School Status at Program Entry","Highest Education Level at Entry","Type of Work Experience at Program Entry"]
+
+for i, key in enumerate(education_status):
+    try:
+        meta = cat_meta_data[key]
+        df = pd.read_csv(meta["file"], index_col=0).reset_index()
+        df = df.iloc[:, 1:]  # drop original index column
+        df.columns = ['category', 'count']
+
+        fig = px.bar(
+            df.sort_values('count', ascending=True),
+            x='count',
+            y='category',
+            orientation='h',
+            title=meta["title"],
+            labels={
+                'category': meta["y"],
+                'count': meta["x"]
+            },
+            color_discrete_sequence=[meta["color"]]
+        )
+        fig.update_layout(
+            height=500,
+            showlegend=False,
+            margin=dict(l=50, r=30, t=50, b=30)
+        )
+
+        # Plot into the appropriate column
+        with cols[i % 2]:
+            st.plotly_chart(fig, use_container_width=True)
+
+    except Exception as e:
+        st.warning(f"⚠️ Could not load `{title}`: {e}")
+
 
 # --- Employment Status by Quarter ---
 st.header("📅 Employment Status by Quarter")
@@ -178,50 +216,6 @@ with col2:
     fig2.update_layout(height=450)
     st.plotly_chart(fig2, use_container_width=True)
 
-
-
-# --- Industries by Wage Change ---
-st.header("🏭 Industries by Wage")
-wage_change.loc[wage_change.industry_code.str.len() > 50, 'industry_code'] = wage_change.industry_code.str.slice(0, 50) +'...'
-df_top = wage_change.groupby("industry_code")["wage_change"].mean().astype(int).nlargest(20).reset_index().sort_values(by="wage_change", ascending=True)
-df_wage_change = wage_change.groupby("industry_code")["total_wages_after"].mean().astype(int).nlargest(20).reset_index().sort_values(by="total_wages_after", ascending=True)
-
-col1, col2 = st.columns(2)
-with col1:
-    st.subheader("Top 20 Industries by Wage Change")
-    fig = px.bar(df_top, 
-        x="wage_change", 
-        y="industry_code", 
-        orientation="h", 
-        text="wage_change", 
-        color_discrete_sequence=["#06d6a0"],
-        labels={
-            "industry_code": "Industry Name",
-            "wage_change": "Wage After Program"
-        })
-
-    fig.update_layout(height=600, showlegend=False)
-    st.plotly_chart(fig, use_container_width=True)
-
-with col2:
-    st.subheader("Top 20 Industries by Total Wages")
-    fig = px.bar(df_wage_change, 
-        x="total_wages_after", 
-        y="industry_code", 
-        orientation="h", 
-        text="total_wages_after", 
-        color_discrete_sequence=["#3a86ff"],
-        labels={
-            "industry_code": "Industry Name",
-            "total_wages_after": "Total Wages After Program"
-        })
-
-    fig.update_layout(height=600, showlegend=False)
-    st.plotly_chart(fig, use_container_width=True)
-
-
-
-
 # --- Industry Counts ---
 st.header("🏷️ Top 20 Industry Code Counts")
 fig = px.bar(
@@ -239,6 +233,85 @@ fig = px.bar(
 fig.update_layout(showlegend=False)
 st.plotly_chart(fig, use_container_width=True)
 
+# --- Industries by Wage Change ---
+st.header("🏭 Industries by Wage")
+
+col1, col2 = st.columns(2)
+with col1:
+    st.subheader("Top 20 Industries by Wage Change")
+    fig = px.bar(df_wage_change, 
+        x="wage_change", 
+        y="industry_code", 
+        orientation="h", 
+        text="wage_change", 
+        color_discrete_sequence=["#06d6a0"],
+        labels={
+            "industry_code": "Industry Name",
+            "wage_change": "Wage After Program"
+        })
+
+    fig.update_layout(height=600, showlegend=False)
+    st.plotly_chart(fig, use_container_width=True)
+
+with col2:
+    st.subheader("Top 20 Industries by Total Wages")
+    fig = px.bar(df_wages_after, 
+        x="total_wages_after", 
+        y="industry_code", 
+        orientation="h", 
+        text="total_wages_after", 
+        color_discrete_sequence=["#3a86ff"],
+        labels={
+            "industry_code": "Industry Name",
+            "total_wages_after": "Total Wages After Program"
+        })
+
+    fig.update_layout(height=600, showlegend=False)
+    st.plotly_chart(fig, use_container_width=True)
+
+
+st.header("🏭 Training Program Characteristics")
+
+side_by_side_keys = [
+    "Occupational Skills Training Code",
+    "Eligible Training Provider CIP Code"
+]
+
+col1, col2 = st.columns(2)
+
+for i, key in enumerate(side_by_side_keys):
+    try:
+        meta = cat_meta_data[key]
+        df = pd.read_csv(meta["file"], index_col=0).reset_index()
+        df = df.iloc[:, 1:]  # drop original index column
+        df.columns = ['category', 'count']
+
+        fig = px.bar(
+            df.sort_values('count', ascending=True),
+            x='count',
+            y='category',
+            orientation='h',
+            title=meta["title"],
+            labels={
+                'category': meta["y"],
+                'count': meta["x"]
+            },
+            color_discrete_sequence=[meta["color"]]
+        )
+        fig.update_layout(
+            height=500,
+            showlegend=False,
+            margin=dict(l=50, r=30, t=50, b=30)
+        )
+
+        with [col1, col2][i]:
+            st.plotly_chart(fig, use_container_width=True)
+
+    except Exception as e:
+        st.warning(f"⚠️ Could not load `{key}`: {e}")
+
+
+
 # --- Retained vs Dropped Employment ---
 st.header("🔄 Retention by Industry")
 
@@ -247,7 +320,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.subheader("20 Most Retained")
     fig = px.bar(
-        retained_industry_codes.head(20).sort_values(by="count_of_retained_employment", ascending=True),
+        retained_industry_codes.sort_values(by="count_of_retained_employment", ascending=True),
         x="count_of_retained_employment",
         y="industry_code",
         text="count_of_retained_employment",
@@ -265,7 +338,7 @@ with col1:
 with col2:
     st.subheader("20 Least Retained")
     fig = px.bar(
-        dropped_industry_codes.head(20).sort_values(by="count_of_dropped_employment", ascending=True),
+        dropped_industry_codes.sort_values(by="count_of_dropped_employment", ascending=True),
         x="count_of_dropped_employment",
         y="industry_code",
         text="count_of_dropped_employment",
@@ -287,11 +360,6 @@ with st.expander("📂 Click to Expand Data Tables"):
     st.write("**Quarterly Employment**")
     st.dataframe(quarterly_employment.head())
 
-    st.write("**Wage Change by Industry**")
-    st.dataframe(wage_change.head())
-
-    st.write("**Employment % Change**")
-    st.dataframe(employment_pct_change.head())
 
     st.write("**Wage Change by Program**")
     st.dataframe(wage_growth_data.head())

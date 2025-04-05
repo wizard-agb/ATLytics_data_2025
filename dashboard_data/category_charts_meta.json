@@ -1,0 +1,44 @@
+{
+    "School Status at Program Entry": {
+        "file": "dashboard_data/school_status_at_program_entry_wioa.csv",
+        "x": "Count",
+        "y": "School Status",
+        "title": "📘 School Status at Time of Program Entry",
+        "color": "#6a4c93"
+    },
+    "Highest Education Level at Entry": {
+        "file": "dashboard_data/highest_educational_level_completed_at_program_entry_wioa.csv",
+        "x": "Count",
+        "y": "Education Level",
+        "title": "🎓 Highest Education Level at Program Entry",
+        "color": "#1982c4"
+    },
+    "Type of Work Experience at Program Entry": {
+        "file": "dashboard_data/type_of_work_experience.csv",
+        "x": "Count",
+        "y": "Work Experience Type",
+        "title": "💼 Type of Work Experience",
+        "color": "#8ac926"
+    },
+    "Type of Recognized Credential at Program Entry": {
+        "file": "dashboard_data/type_of_recognized_credential_wioa.csv",
+        "x": "Count",
+        "y": "Credential Type",
+        "title": "📄 Types of Recognized Credential",
+        "color": "#6a4c93"
+    },
+    "Occupational Skills Training Code": {
+        "file": "dashboard_data/occupational_skills_training_code_hash_1.csv",
+        "x": "Count",
+        "y": "Training Program Code",
+        "title": "🛠️ Enrolled Training Program",
+        "color": "#ff595e"
+    },
+    "Eligible Training Provider CIP Code": {
+        "file": "dashboard_data/eligible_training_provider_cip_code_wioa.csv",
+        "x": "Count",
+        "y": "CIP Code",
+        "title": "🏫 CIP Codes of Eligible Training Providers",
+        "color": "#ffca3a"
+    }
+}
