@@ -81,7 +81,9 @@ st.markdown("""
 
 # Title
 st.title("Data for Hope Workforce Development Dashboard")
-st.markdown("\n\n\n\n\n")
+st.markdown("A dashboard to give organizations that provide or support workforce development a better understanding of the value of their programs")
+
+st.markdown("""<hr style='margin:2em 0; border:1px solid #DDD;'>""", unsafe_allow_html=True)
 
 st.header("Participant Education Characteristics at Program Entry")
 st.markdown("""
@@ -129,6 +131,7 @@ for i, key in enumerate(education_status):
     except Exception as e:
         st.warning(f"⚠️ Could not load {meta["title"]}: {e}")
 
+st.markdown("""<br><hr style='margin:2em 0; border:1px solid #DDD;'><br>""", unsafe_allow_html=True)
 # --- Participant Characteristics at Program Entry ---
 st.header("Participant Employment Characteristics at Program Entry")
 st.markdown("""
@@ -178,6 +181,7 @@ for i, key in enumerate(work_characteristics):
 
 
 # --- Employment Status by Quarter ---
+st.markdown("""<br><hr style='margin:2em 0; border:1px solid #DDD;'><br>""", unsafe_allow_html=True)
 st.header("Employment Status by Quarter")
 st.markdown("""
     <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
@@ -207,6 +211,7 @@ fig.update_layout(showlegend=True, height=400)
 st.plotly_chart(fig, use_container_width=True)
 
 # --- Program Engagement Length Pie ---
+st.markdown("""<br><hr style='margin:2em 0; border:1px solid #DDD;'><br>""", unsafe_allow_html=True)
 st.header("Length of Program Engagement")
 st.markdown("""
     <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
@@ -239,6 +244,7 @@ st.plotly_chart(fig, use_container_width=True)
 
 
 # --- Employment Status Pie ---
+st.markdown("""<br><hr style='margin:2em 0; border:1px solid #DDD;'><br>""", unsafe_allow_html=True)
 st.header("Employment Status Distribution after Program")
 col3, col4 = st.columns([1, 1])  # Equal width; adjust if needed (e.g., [1.5, 1])
 employment_pie["employment_status_after_program"] = employment_pie["employment_status_after_program"].map({
@@ -273,7 +279,8 @@ with col4:
 
 
 # --- Wage Growth Analysis ---
-st.header("📈 Wage Growth Analysis by Program")
+st.markdown("""<br><hr style='margin:2em 0; border:1px solid #DDD;'><br>""", unsafe_allow_html=True)
+st.header("Wage Growth Analysis by Program")
 st.markdown("""
         <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
             <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
@@ -326,7 +333,7 @@ with col2:
     st.plotly_chart(fig2, use_container_width=True)
 
 
-
+st.markdown("""<br><hr style='margin:2em 0; border:1px solid #DDD;'><br>""", unsafe_allow_html=True)
 st.header("Training Program Characteristics")
 st.markdown("""
     <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
@@ -378,6 +385,7 @@ for i, key in enumerate(side_by_side_keys):
 
 
 # --- Industry Counts ---
+st.markdown("""<br><hr style='margin:2em 0; border:1px solid #DDD;'><br>""", unsafe_allow_html=True)
 st.header("Top 20 Industry Code Counts")
 
 st.markdown("""
@@ -410,6 +418,7 @@ fig.update_layout(showlegend=False)
 st.plotly_chart(fig, use_container_width=True)
 
 # --- Industries by Wage Change ---
+st.markdown("""<br><hr style='margin:2em 0; border:1px solid #DDD;'><br>""", unsafe_allow_html=True)
 st.header("Industries by Wage")
 st.markdown("""
     <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
@@ -457,6 +466,7 @@ with col2:
 
 
 # --- Retained vs Dropped Employment ---
+st.markdown("""<br><hr style='margin:2em 0; border:1px solid #DDD;'><br>""", unsafe_allow_html=True)
 st.header("Retention by Industry")
 st.markdown(
         """
