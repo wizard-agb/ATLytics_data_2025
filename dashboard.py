@@ -7,7 +7,7 @@ import json
 
 # Set page configuration
 st.set_page_config(
-    page_title="Data for Hope Workforce Development Dashboard",
+    page_title="ATLytics x Data for Hope - Workforce Development Dashboard",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -178,7 +178,22 @@ with col4:
 
 # --- Wage Growth Analysis ---
 st.header("📈 Wage Growth Analysis by Program")
-
+st.markdown(
+        """
+        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
+            <h3>Key Insights</h3>
+            <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+                <li>The chart shows wage growth of program participants that have provided wage data a quarter prior to program start and a quarter after program completion.</li>
+                <li>Every program participant that provided wage data increased their wages <b>except for incumbent training program participants.</b> </li>
+                <li>Although the Vocational Rehabilitation program seems to provide the best wage growth, there were only 2 samples, so the results could be skewed.</li>
+                <li>A regression analysis was performed to see how each day spent in the program impacted a participants wage growth.</li>
+                <li>Aside from Vocational Rehabilitation, participants in the Dislocated program could expect to see their wages increase by almost $6 for every day spent in the program.</li>
+                <li>Adult education seemed to provide the least return on investment for the participants</li>
+            </ul>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
 col1, col2 = st.columns(2)
 with col1:
     fig1 = px.bar(
