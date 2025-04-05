@@ -80,26 +80,19 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title
-st.title("📊 Data for Hope Workforce Development Dashboard")
-st.markdown("#### Visual insights on employment outcomes and wage trends across industries and programs")
+st.title("Data for Hope Workforce Development Dashboard")
+st.markdown("\n\n\n\n\n")
 
 st.header("Participant Education Characteristics at Program Entry")
-st.markdown(
-        """
-        > 
-        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
-            <h3>Key Insights</h3>
-            <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+st.markdown("""
+    <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
+        <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
+        <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+            <li>This bar chart shows the <b>participant education statuses</b> at program entry.</li>  
+            <li>The majority of program participants have <b>no formal credentials</b> and have at most a <b>high school diploma</b>.</li>
+        </ul>
+    </div>
+""", unsafe_allow_html=True)
 cols = st.columns(2)  # create 2 columns
 
 education_status = ["Type of Recognized Credential at Program Entry","School Status at Program Entry"]
@@ -138,21 +131,15 @@ for i, key in enumerate(education_status):
 
 # --- Participant Characteristics at Program Entry ---
 st.header("Participant Employment Characteristics at Program Entry")
-st.markdown(
-        """
-        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
-            <h3>Key Insights</h3>
-            <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+st.markdown("""
+    <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
+        <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
+        <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+            <li>This bar chart shows the <b>participant employment statuses</b> at program entry.</li>  
+            <li>The majority of program participants are <b>unemployed</b> and have <b>no prior work experience</b>.</li>
+        </ul>
+    </div>
+""", unsafe_allow_html=True)
 work_characteristics = ["Work Status at Program Entry","Type of Work Experience at Program Entry"]
 
 cols = st.columns(2)  
@@ -193,9 +180,14 @@ for i, key in enumerate(work_characteristics):
 # --- Employment Status by Quarter ---
 st.header("Employment Status by Quarter")
 st.markdown("""
-> This bar chart shows the **distribution of unemployment status** across different quarters.  
-There’s a visible decline in unemployment (~19%) per quarter over the 4-quarter span post-program exit.
-""")
+    <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
+        <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
+        <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+            <li>This bar chart shows the <b>distribution of unemployment status</b> across different quarters.</li>  
+            <li>There’s a visible decline in unemployment (~19%) per quarter over the 4-quarter span post-program exit.</li>
+        </ul>
+    </div>
+""", unsafe_allow_html=True)
 quarterly_employment["employment_status"] = quarterly_employment["employment_status"].map({
     0: "Unemployed",
     1: "Employed"
@@ -215,11 +207,16 @@ fig.update_layout(showlegend=True, height=400)
 st.plotly_chart(fig, use_container_width=True)
 
 # --- Program Engagement Length Pie ---
-st.header("Time of Program Engagement")
+st.header("Length of Program Engagement")
 st.markdown("""
-> This bar chart shows the **distribution of employment status** across different lengths of program engagement.  
-There’s a visible increase in unemployment as the length of program engagement increases.
-""")
+    <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
+        <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
+        <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+            <li>The chart shows the <b>distribution of program engagement lengths</b> across different employment outcomes.  
+            <li>There’s a visible increase in unemployment as the length of program engagement increases.</li>
+        </ul>
+    </div>
+""", unsafe_allow_html=True)
 # Create grouped bar chart
 fig = px.bar(
     length_of_program_engagment,
@@ -260,10 +257,9 @@ with col3:
     st.plotly_chart(fig, use_container_width=True)
 
 with col4:
-    st.markdown(
-        """
-        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
-            <h3 style="text-align: left;">Key Insights</h3>
+    st.markdown("""
+        <div style=" padding-left: 1em; margin: 1em 0; ">
+            <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
             <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
                 <li>Majority of individuals are <b>unemployed</b> by the fourth quarter.</li>
                 <li>Roughly <b>>35% become employed</b> after program completion.</li>
@@ -271,16 +267,16 @@ with col4:
                 <li>Pie chart shows a clear visual split between employment outcomes.</li>
             </ul>
         </div>
-        """,
-        unsafe_allow_html=True
-    )
+    """, 
+    unsafe_allow_html=True)
+
+
 
 # --- Wage Growth Analysis ---
 st.header("📈 Wage Growth Analysis by Program")
-st.markdown(
-        """
-        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
-            <h3>Key Insights</h3>
+st.markdown("""
+        <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
+            <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
             <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
                 <li>The chart shows wage growth of program participants that have provided wage data a quarter prior to program start and a quarter after program completion.</li>
                 <li>Every program participant that provided wage data increased their wages <b>except for incumbent training program participants.</b> </li>
@@ -290,9 +286,8 @@ st.markdown(
                 <li>Adult education seemed to provide the least return on investment for the participants</li>
             </ul>
         </div>
-        """,
-        unsafe_allow_html=True
-    )
+    """, 
+    unsafe_allow_html=True)
 col1, col2 = st.columns(2)
 with col1:
     fig1 = px.bar(
@@ -330,94 +325,19 @@ with col2:
     fig2.update_layout(height=450)
     st.plotly_chart(fig2, use_container_width=True)
 
-# --- Industry Counts ---
-st.header("Top 20 Industry Code Counts")
-st.markdown("""
-> This bar chart shows the **count of industry employment**.
-This includes transitional workers who worked in multiple industries.
-""")
-fig = px.bar(
-    industry_counts.head(20),
-    x='industry_code',
-    y='count',
-    text='count',
-    title='Industry Representation in Dataset',
-    color_discrete_sequence=["#3a86ff"],
-    labels={
-        "industry_code": "Industry Name",
-        "count": "Count of Employed"
-    }
-)
-fig.update_layout(showlegend=False)
-st.plotly_chart(fig, use_container_width=True)
-
-# --- Industries by Wage Change ---
-st.header("Industries by Wage")
-st.markdown(
-        """
-        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
-            <h3>Key Insights</h3>
-            <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-col1, col2 = st.columns(2)
-with col1:
-    st.subheader("Top 20 Industries by Wage Change")
-    fig = px.bar(df_wage_change, 
-        x="wage_change", 
-        y="industry_code", 
-        orientation="h", 
-        text="wage_change", 
-        color_discrete_sequence=["#06d6a0"],
-        labels={
-            "industry_code": "Industry Name",
-            "wage_change": "Wage After Program"
-        })
-
-    fig.update_layout(height=600, showlegend=False)
-    st.plotly_chart(fig, use_container_width=True)
-
-with col2:
-    st.subheader("Top 20 Industries by Total Wages")
-    fig = px.bar(df_wages_after, 
-        x="total_wages_after", 
-        y="industry_code", 
-        orientation="h", 
-        text="total_wages_after", 
-        color_discrete_sequence=["#3a86ff"],
-        labels={
-            "industry_code": "Industry Name",
-            "total_wages_after": "Total Wages After Program"
-        })
-
-    fig.update_layout(height=600, showlegend=False)
-    st.plotly_chart(fig, use_container_width=True)
 
 
 st.header("Training Program Characteristics")
-st.markdown(
-        """
-        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
-            <h3>Key Insights</h3>
-            <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+st.markdown("""
+    <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
+        <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
+        <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+            <li>These bar charts show the <b>skills training selected by participants</b> and the <b>training provider offered by the program</b>.</li>
+            <li>Nursing and truck driving are the most popular skill sets trained</li>
+            <li>Welding is also a notably popular skill set</li>
+        </ul>
+    </div>
+""", unsafe_allow_html=True)
 side_by_side_keys = [
     "Occupational Skills Training Code",
     "Eligible Training Provider CIP Code"
@@ -457,19 +377,96 @@ for i, key in enumerate(side_by_side_keys):
         st.warning(f"⚠️ Could not load `{key}`: {e}")
 
 
+# --- Industry Counts ---
+st.header("Top 20 Industry Code Counts")
+
+st.markdown("""
+    <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
+        <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
+        <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+            <li>This bar chart shows the <b>count of industry employment</b>.</li>
+            <li>This includes transitional workers who worked in multiple industries.</li>
+            <li>Temporary help services is the most common industry</li>
+            <li>Medical industries rank high in the 6th and 9th position</li>
+            <li>Construction ranks high in the 10th position</li>
+            <li>Restaurants rank highly as they usually have low skills requirements and are more easily accessible</li>
+        </ul>
+    </div>
+""", unsafe_allow_html=True)
+
+fig = px.bar(
+    industry_counts.head(20),
+    x='industry_code',
+    y='count',
+    text='count',
+    title='',
+    color_discrete_sequence=["#3a86ff"],
+    labels={
+        "industry_code": "Industry Name",
+        "count": "Count of Employed"
+    }
+)
+fig.update_layout(showlegend=False)
+st.plotly_chart(fig, use_container_width=True)
+
+# --- Industries by Wage Change ---
+st.header("Industries by Wage")
+st.markdown("""
+    <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
+        <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
+        <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+            <li>These bar charts show the <b>wage changes</b> before and after the program and the <b>total wages</b> after the program by industry.</li>
+            <li>Manufacturing industries have the highest wage changes, which may indicate the success of welding programs.</li>
+            <li>Manufacturing industries also have the highest total wages, which may indicate the success of welding and apprenticeship programs.</li>
+            <li>Motor vehicles and transportation industries have some of the highest total wages after the program indicating the success of Trucking programs.</li>
+        </ul>
+    </div>
+""", unsafe_allow_html=True)
+col1, col2 = st.columns(2)
+with col1:
+    st.subheader("Top 20 Industries by Wage Change")
+    fig = px.bar(df_wage_change, 
+        x="wage_change", 
+        y="industry_code", 
+        orientation="h", 
+        text="wage_change", 
+        color_discrete_sequence=["#06d6a0"],
+        labels={
+            "industry_code": "Industry Name",
+            "wage_change": "Wage After Program"
+        })
+
+    fig.update_layout(height=600, showlegend=False)
+    st.plotly_chart(fig, use_container_width=True)
+
+with col2:
+    st.subheader("Top 20 Industries by Total Wages")
+    fig = px.bar(df_wages_after, 
+        x="total_wages_after", 
+        y="industry_code", 
+        orientation="h", 
+        text="total_wages_after", 
+        color_discrete_sequence=["#3a86ff"],
+        labels={
+            "industry_code": "Industry Name",
+            "total_wages_after": "Total Wages After Program"
+        })
+
+    fig.update_layout(height=600, showlegend=False)
+    st.plotly_chart(fig, use_container_width=True)
+
 
 # --- Retained vs Dropped Employment ---
 st.header("Retention by Industry")
 st.markdown(
         """
-        <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
-            <h3>Key Insights</h3>
+        <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
+            <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
             <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>This bar chart shows the industries that <b>retained</b> and <b>dropped</b> the most employees.</li>
+                <li><b>Temporary help services</b> is the most common industry with the most retained and dropped employment because workers should be in this industry temporarily.</li>
+                <li><b>Medical industries</b> rank highly as the most retained employment.</li>
+                <li><b>Restaurants</b> have the highest turnover which may reflect the highly accessible nature of the industry.</li>
             </ul>
         </div>
         """,
@@ -515,11 +512,19 @@ with col2:
 
 
 # --- Data Tables ---
-st.header("📄 Data Preview")
-with st.expander("📂 Click to Expand Data Tables"):
-    st.write("**Quarterly Employment**")
-    st.dataframe(quarterly_employment.head())
+st.header("📄 Further Investigations")
+with st.expander("📂 Click to Expand Investigations"):
+    st.write("**Areas for Improvement**")
+    st.markdown(
+        """
+        <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
+            <li>Understand the level of engagement with each training program.</li>
+            <li>Create pipelines to track each individual at each step of the program.</li>
+            <li>Understand higher level economic impact of the training programs.</li>
+            <li>Understand program sourcing metrics.</li>
+        </ul>
+        """,
+        unsafe_allow_html=True
+    )
 
 
-    st.write("**Wage Change by Program**")
-    st.dataframe(wage_growth_data.head())

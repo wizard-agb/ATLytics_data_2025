@@ -38,14 +38,14 @@
         "file": "dashboard_data/occupational_skills_training_code_hash_1.csv",
         "x": "Count",
         "y": "Training Program Code",
-        "title": "Enrolled Training Program",
-        "color": "#ff595e"
+        "title": "Enrolled Training Program Skills Code",
+        "color": "#00b894"
     },
     "Eligible Training Provider CIP Code": {
         "file": "dashboard_data/eligible_training_provider_cip_code_wioa.csv",
         "x": "Count",
         "y": "CIP Code",
-        "title": "CIP Codes of Eligible Training Providers",
-        "color": "#ffca3a"
+        "title": "Training Provider CIP Code",
+        "color": "#2d9cdb"
     }
 }
