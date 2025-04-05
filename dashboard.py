@@ -1,12 +1,13 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import numpy as np
 from streamlit_lottie import st_lottie
 import json
 
 # Set page configuration
 st.set_page_config(
-    page_title="Employment & Industry Dashboard",
+    page_title="Data for Hope Workforce Development Dashboard",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -31,33 +32,55 @@ quarterly_employment = pd.read_csv('dashboard_data/quarterly_employment.csv', in
 employment_pct_change = pd.read_csv('dashboard_data/employment_pct_change.csv', index_col=0)
 wage_change = pd.read_csv('dashboard_data/wage_change.csv', index_col=0)
 wage_growth_data = pd.read_csv('dashboard_data/wage_growth_data.csv', index_col=0)
+employment_pie = pd.read_csv('dashboard_data/employment_pie_chart.csv', index_col=0)
 
-# Inject custom CSS
 st.markdown("""
     <style>
+        /* Set background to light */
         .main {
-            background-color: #f5f7fa;
+            background-color: #f5f7fa !important;
         }
-        .block-container {
-            padding-top: 2rem;
-            padding-bottom: 2rem;
+        
+        /* Set text color to dark for better contrast */
+        .css-18e3th9, h1, h2, h3, .stText {
+            color: #003366 !important;
         }
+        
+        /* Change sidebar background color */
+        .css-1d391kg {
+            background-color: #ffffff !important;
+        }
+        
+        /* Set input text color to dark */
+        .stTextInput input, .stTextArea textarea {
+            color: #333333 !important;
+        }
+
+        /* Ensure headers are light but readable */
         h1, h2, h3 {
             color: #003366;
         }
-        .css-18e3th9 {
-            padding-top: 0px !important;
-        }
+
         .st-emotion-cache-1v0mbdj {
             display: flex;
             justify-content: center;
             padding-bottom: 20px;
         }
+
+        .stSelectbox, .stMultiSelect {
+            background-color: white !important;
+            color: black !important;
+        }
+
+        .block-container {
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+        }
     </style>
 """, unsafe_allow_html=True)
 
 # Title
-st.title("📊 Employment & Industry Dashboard")
+st.title("📊 Data for Hope Workforce Development Dashboard")
 st.markdown("#### Visual insights on employment outcomes and wage trends across industries and programs")
 
 # --- Employment Status by Quarter ---
@@ -66,31 +89,34 @@ st.markdown("""
 > This bar chart shows the **distribution of employment status** across different quarters.  
 There’s a visible decline in employment (~15%) over the 4-quarter span post-program exit.
 """)
+quarterly_employment["employment_status"] = quarterly_employment["employment_status"].map({
+    0: "Unemployed",
+    1: "Employed"
+})
+# Plot with string labels now
 fig = px.bar(
     quarterly_employment,
     x="quarter",
     y="count",
     color="employment_status",
     barmode="stack",
-    color_discrete_map={0: "#FF6B6B", 1: "#4ECDC4"},
-    labels={"quarter": "Quarter", "count": "Count"},
+    color_discrete_map={"Unemployed": "#FF6B6B", "Employed": "#4ECDC4"},
+    labels={"quarter": "Quarter", "count": "Count", "employment_status": "Employment Status"},
     title=""
 )
-fig.update_layout(showlegend=False, height=400)
+fig.update_layout(showlegend=True, height=400)
 st.plotly_chart(fig, use_container_width=True)
 
 # --- Employment Status Pie ---
-st.header("🥧 Employment Status Distribution (Q4)")
-pie_chart = quarterly_employment.groupby("employment_status")["count"].sum().reset_index()
-pie_chart["employment_status"] = pie_chart["employment_status"].map({0: "Not Employed", 1: "Employed"})
+st.header("🥧 Employment Status Distribution after Program")
 col3, col4 = st.columns([1, 1])  # Equal width; adjust if needed (e.g., [1.5, 1])
 
 with col3:
     fig = px.pie(
-        pie_chart,
-        names="employment_status",
+        employment_pie,
+        names="employment_status_after_program",
         values="count",
-        title="Employment Status at 4th Quarter After Program Exit",
+        title="Employment Status After Program Exit",
         color_discrete_map={"Not Employed": "#FF6B6B", "Employed": "#1B998B"}
     )
     fig.update_traces(textinfo='percent+label')
@@ -102,8 +128,8 @@ with col4:
         <div style="display: flex; flex-direction: column; justify-content: center; height: 100%;">
             <h3 style="text-align: left;">Key Insights</h3>
             <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
-                <li>Majority of individuals are <b>employed</b> by the fourth quarter.</li>
-                <li>Roughly <b>15-20% remain unemployed</b> after program completion.</li>
+                <li>Majority of individuals are <b>unemployed</b> by the fourth quarter.</li>
+                <li>Roughly <b>>35% become employed</b> after program completion.</li>
                 <li>Continued support post-program could potentially reduce unemployment.</li>
                 <li>Pie chart shows a clear visual split between employment outcomes.</li>
             </ul>
@@ -152,30 +178,17 @@ with col2:
     fig2.update_layout(height=450)
     st.plotly_chart(fig2, use_container_width=True)
 
-fig3 = px.scatter(
-    wage_growth_data,
-    x="days_in_program",
-    y="wage_growth_percent",
-    text="program",
-    title="Days in Program vs. Wage Growth",
-    labels={"days_in_program": "Days in Program", "wage_growth_percent": "Wage Growth (%)"},
-    color_continuous_scale="Viridis", 
-    size="participant_count",  # Set marker size based on participant_count
-    size_max=20
-)
-fig3.update_traces(textposition='top center')
-st.plotly_chart(fig3, use_container_width=True)
+
 
 # --- Industries by Wage Change ---
-st.header("🏭 Industries by Wage Change")
+st.header("🏭 Industries by Wage")
+wage_change.loc[wage_change.industry_code.str.len() > 50, 'industry_code'] = wage_change.industry_code.str.slice(0, 50) +'...'
+df_top = wage_change.groupby("industry_code")["wage_change"].mean().astype(int).nlargest(20).reset_index().sort_values(by="wage_change", ascending=True)
+df_wage_change = wage_change.groupby("industry_code")["total_wages_after"].mean().astype(int).nlargest(20).reset_index().sort_values(by="total_wages_after", ascending=True)
 
 col1, col2 = st.columns(2)
-wage_change.industry_code = wage_change.industry_code.astype(str).str.slice(0, 75)
-df_top = wage_change.groupby("industry_code")["wage_change"].mean().nlargest(20).reset_index()
-df_bottom = wage_change.groupby("industry_code")["wage_change"].mean().nsmallest(20).reset_index()
-
 with col1:
-    st.subheader("Top 20 Industries")
+    st.subheader("Top 20 Industries by Wage Change")
     fig = px.bar(df_top, 
         x="wage_change", 
         y="industry_code", 
@@ -184,26 +197,30 @@ with col1:
         color_discrete_sequence=["#06d6a0"],
         labels={
             "industry_code": "Industry Name",
-            "wage_change": "Wage Growth (%)"
+            "wage_change": "Wage After Program"
         })
-    
+
     fig.update_layout(height=600, showlegend=False)
     st.plotly_chart(fig, use_container_width=True)
 
 with col2:
-    st.subheader("Bottom 20 Industries")
-    fig = px.bar(df_bottom, 
-                 x="wage_change", 
-                 y="industry_code", 
-                 orientation="h", 
-                 text="wage_change", 
-                 color_discrete_sequence=["#ff595e"],
-                 labels={
-                    "industry_code": "Industry Name",
-                    "wage_change": "Wage Growth (%)"
-                })
+    st.subheader("Top 20 Industries by Total Wages")
+    fig = px.bar(df_wage_change, 
+        x="total_wages_after", 
+        y="industry_code", 
+        orientation="h", 
+        text="total_wages_after", 
+        color_discrete_sequence=["#3a86ff"],
+        labels={
+            "industry_code": "Industry Name",
+            "total_wages_after": "Total Wages After Program"
+        })
+
     fig.update_layout(height=600, showlegend=False)
     st.plotly_chart(fig, use_container_width=True)
+
+
+
 
 # --- Industry Counts ---
 st.header("🏷️ Top 20 Industry Code Counts")
@@ -226,13 +243,15 @@ st.plotly_chart(fig, use_container_width=True)
 st.header("🔄 Retention by Industry")
 
 col1, col2 = st.columns(2)
+
 with col1:
     st.subheader("20 Most Retained")
     fig = px.bar(
-        retained_industry_codes.head(20),
-        x="industry_code",
-        y="count_of_retained_employment",
+        retained_industry_codes.head(20).sort_values(by="count_of_retained_employment", ascending=True),
+        x="count_of_retained_employment",
+        y="industry_code",
         text="count_of_retained_employment",
+        orientation="h",
         title="Industries with Most Retained Employment",
         color_discrete_sequence=["#06d6a0"],
         labels={
@@ -240,16 +259,17 @@ with col1:
             "count_of_retained_employment": "Count of Employees"
         }
     )
-    fig.update_layout(height=600, showlegend=False, xaxis=dict(tickangle=45))
+    fig.update_layout(height=600, showlegend=False)
     st.plotly_chart(fig, use_container_width=True)
 
 with col2:
     st.subheader("20 Least Retained")
     fig = px.bar(
-        dropped_industry_codes.head(20),
-        x="industry_code",
-        y="count_of_dropped_employment",
+        dropped_industry_codes.head(20).sort_values(by="count_of_dropped_employment", ascending=True),
+        x="count_of_dropped_employment",
+        y="industry_code",
         text="count_of_dropped_employment",
+        orientation="h",
         title="Industries with Most Dropped Employment",
         color_discrete_sequence=["#ef476f"],
         labels={
@@ -257,8 +277,9 @@ with col2:
             "count_of_dropped_employment": "Count of Employees"
         }
     )
-    fig.update_layout(height=600, showlegend=False, xaxis=dict(tickangle=45))
+    fig.update_layout(height=600, showlegend=False)
     st.plotly_chart(fig, use_container_width=True)
+
 
 # --- Data Tables ---
 st.header("📄 Data Preview")
