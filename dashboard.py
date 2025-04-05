@@ -58,7 +58,7 @@ st.markdown("""
 
         /* Ensure headers are light but readable */
         h1, h2, h3 {
-            color: #003366;
+            color: black !important;
         }
 
         .st-emotion-cache-1v0mbdj {
@@ -79,11 +79,21 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# Title
-st.title("Data for Hope Workforce Development Dashboard")
-st.markdown("A dashboard to give organizations that provide or support workforce development a better understanding of the value of their programs")
-
-st.markdown("""<hr style='margin:2em 0; border:1px solid #DDD;'>""", unsafe_allow_html=True)
+st.markdown(
+    """
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div>
+            <h1 style="margin-bottom: 0;">Data for Hope Workforce Development Dashboard</h1>
+            <p style="margin-top: 0;">A dashboard to give organizations that provide or support workforce development a better understanding of the value of their programs</p>
+        </div>
+        <div>
+            <img src="https://atlytics.org/wp-content/uploads/2021/06/ATLytiCS-logo-2a.jpg" alt="Logo" style="height: 100px;">
+        </div>
+    </div>
+    <hr style='margin:1em 0; border:1px solid #DDD;'>
+    """,
+    unsafe_allow_html=True
+)
 
 st.header("Participant Education Characteristics at Program Entry")
 st.markdown("""
@@ -257,7 +267,7 @@ with col3:
         names="employment_status_after_program",
         values="count",
         title="",
-        color_discrete_map={"Not Employed": "#FF6B6B", "Employed": "#1B998B"}
+        color_discrete_map={"Not Employed": "#83c9ff", "Employed": "#0068c9"}
     )
     fig.update_traces(textinfo='percent+label')
     st.plotly_chart(fig, use_container_width=True)
@@ -303,7 +313,7 @@ with col1:
         y="wage_growth_percent",
         title="Wage Growth Percentage",
         text="wage_growth_percent",
-        color_discrete_sequence=["#118ab2"],
+        color_discrete_sequence=["#0068c9"],
         labels={
             "program": "Program Name",
             "wage_growth_percent": "Wage Growth (%)"
@@ -321,7 +331,7 @@ with col2:
         y="dollar_wage_growth_for_each_day_spent_in_program",
         title="Dollar Wage Growth per Day in Program",
         text="dollar_wage_growth_for_each_day_spent_in_program",
-        color_discrete_sequence=["#ef476f"],
+        color_discrete_sequence=["#83c9ff"],
         labels={
             "program": "Program Name",
             "dollar_wage_growth_for_each_day_spent_in_program": "$ Wage Growth per Day"
@@ -408,7 +418,7 @@ fig = px.bar(
     y='count',
     text='count',
     title='',
-    color_discrete_sequence=["#3a86ff"],
+    color_discrete_sequence=["#0068c9"],
     labels={
         "industry_code": "Industry Name",
         "count": "Count of Employed"
@@ -439,7 +449,7 @@ with col1:
         y="industry_code", 
         orientation="h", 
         text="wage_change", 
-        color_discrete_sequence=["#06d6a0"],
+        color_discrete_sequence=["#0068c9"],
         labels={
             "industry_code": "Industry Name",
             "wage_change": "Wage After Program"
@@ -455,7 +465,7 @@ with col2:
         y="industry_code", 
         orientation="h", 
         text="total_wages_after", 
-        color_discrete_sequence=["#3a86ff"],
+        color_discrete_sequence=["#83c9ff"],
         labels={
             "industry_code": "Industry Name",
             "total_wages_after": "Total Wages After Program"
@@ -493,7 +503,7 @@ with col1:
         text="count_of_retained_employment",
         orientation="h",
         title="",
-        color_discrete_sequence=["#06d6a0"],
+        color_discrete_sequence=["#0068c9"],
         labels={
             "industry_code": "Industry Name",
             "count_of_retained_employment": "Count of Employees"
@@ -511,7 +521,7 @@ with col2:
         text="count_of_dropped_employment",
         orientation="h",
         title="",
-        color_discrete_sequence=["#ef476f"],
+        color_discrete_sequence=["#83c9ff"],
         labels={
             "industry_code": "Industry Name",
             "count_of_dropped_employment": "Count of Employees"
