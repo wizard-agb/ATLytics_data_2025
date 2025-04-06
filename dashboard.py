@@ -278,7 +278,7 @@ with col4:
             <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
             <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
                 <li>Majority of individuals are <b>unemployed</b> by the fourth quarter.</li>
-                <li>Roughly <b>>35% become employed</b> after program completion.</li>
+                <li>Roughly <b>>~40% become employed</b> after program completion.</li>
                 <li>Continued support post-program could potentially reduce unemployment.</li>
                 <li>Pie chart shows a clear visual split between employment outcomes.</li>
             </ul>
