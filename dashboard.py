@@ -192,7 +192,7 @@ for i, key in enumerate(work_characteristics):
 
 # --- Employment Status by Quarter ---
 st.markdown("""<br><hr style='margin:2em 0; border:1px solid #DDD;'><br>""", unsafe_allow_html=True)
-st.header("Employment Status by Quarter")
+st.header("Unemployment Status by Quarter")
 st.markdown("""
     <div style="border-left: 4px solid #D3D3D3; padding-left: 1em; margin: 1em 0; ">
         <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
