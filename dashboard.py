@@ -228,7 +228,7 @@ st.markdown("""
         <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
         <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
             <li>The chart shows the <b>distribution of program engagement lengths</b> across different employment outcomes.  
-            <li>There’s a visible increase in unemployment as the length of program engagement increases.</li>
+            <li>There’s a visible increase in unemployment at 40-50 days of program engagement.</li>
         </ul>
     </div>
 """, unsafe_allow_html=True)
