@@ -435,8 +435,8 @@ st.markdown("""
         <h4 style="text-align: left; text-size: 16px; font-style: italic;">Key Insights</h4>
         <ul style="list-style-position: inside; padding-left: 0; text-align: left;">
             <li>These bar charts show the <b>wage changes</b> before and after the program and the <b>total wages</b> after the program by industry.</li>
-            <li>Manufacturing industries have the highest wage changes, which may indicate the success of welding programs.</li>
-            <li>Manufacturing industries also have the highest total wages, which may indicate the success of welding and apprenticeship programs.</li>
+            <li>Most significant wage changes occur in manufacturing, administrative work, media, and graphic design industries.</li>
+            <li>Manufacturing industries have the high total wages and wage changes, which may indicate the success of welding and apprenticeship programs.</li>
             <li>Motor vehicles and transportation industries have some of the highest total wages after the program indicating the success of Trucking programs.</li>
         </ul>
     </div>
